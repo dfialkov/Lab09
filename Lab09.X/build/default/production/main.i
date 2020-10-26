@@ -9508,24 +9508,24 @@ void hexDumpBuffer(uint8_t sdCardBuffer[]);
 
 
 void myTMR0ISR(void);
+# 36 "main.c"
+uint8_t firstBuffer[512];
+uint8_t secondBuffer[512];
+const uint8_t sin[26] = {128, 159, 187, 213, 233, 248, 255, 255, 248, 233, 213, 187, 159, 128, 97, 69, 43, 23, 8, 1, 1, 8, 23, 43, 69, 97};
 
 
 
 
-
-
-
-uint8_t sdCardBuffer[512];
-
-
-
-
-
+typedef enum {RED_FIRST, RED_SECOND} myBufferStates_t;
+myBufferStates_t bufState = RED_FIRST;
 void main(void) {
 
     uint8_t status;
     uint16_t i;
     uint32_t sdCardAddress = 0x00000000;
+    uint16_t bufIdx = 0;
+    uint8_t waveIdx = 0;
+    uint32_t localAddress;
     char cmd, letter;
 
     letter = '0';
@@ -9572,13 +9572,19 @@ void main(void) {
                     printf("o: k\r\n");
                     printf("Z: Reset processor\r\n");
                     printf("z: Clear the terminal\r\n");
-                    printf("----------------SPI TEST-------------------------\r\n");
-                    printf("t: send a Test character over SPI\r\n");
-                    printf("--------------SD CARD TESTS----------------------\r\n");
+                    printf("-------------------------------------------------\r\n");
                     printf("i: Initialize SD card\r\n");
+                    printf("-------------------------------------------------\r\n");
+
+
+
                     printf("a/A decrease/increase read address\r\n");
                     printf("r: read a block of %d bytes from SD card\r\n", 512);
-                    printf("w: write a block of %d bytes to SD card\r\n", 512);
+                    printf("1: write a perfect 26 value sine wave to the SD card\r\n", 512);
+                    printf("-------------------------------------------------\r\n");
+                    printf("+/-: Increase/Decrease the sample rate by 10 us\r\n", 512);
+                    printf("W: Write microphone => SD card at 1600 us\r\n", 512);
+                    printf("s: spool memory to a csv file\r\n", 512);
                     printf("-------------------------------------------------\r\n");
                     break;
 
@@ -9603,27 +9609,7 @@ void main(void) {
                 case 'z':
                     for (i = 0; i < 40; i++) printf("\n");
                     break;
-
-
-
-
-                case 't':
-                    printf("    Connect oscilloscope channel 1 to PIC header pin RB1 (vertical scale 2v/div)\r\n");
-                    printf("    Connect oscilloscope channel 2 to PIC header pin RB3 (vertical scale 2v/div)\r\n");
-                    printf("    Trigger on channel 1\r\n");
-                    printf("    Set the horizontal scale to 500ns/div\r\n");
-                    printf("    Hit any key when ready\r\n");
-                    while (!(EUSART1_is_rx_ready()));
-                    (void) EUSART1_Read();
-
-                    printf("sent: %02x  received: %02x\r\n", letter, SPI2_ExchangeByte(letter));
-                    letter += 1;
-                    break;
-
-
-
-
-
+# 158 "main.c"
                 case 'i':
                     SPI2_Close();
                     SPI2_Open(SPI2_DEFAULT);
@@ -9660,32 +9646,10 @@ void main(void) {
                     printf("%04x", sdCardAddress & 0X0000FFFF);
                     printf("\r\n");
                     break;
-
-
-
-
-                case 'w':
-                    for (i = 0; i < 512; i++) sdCardBuffer[i] = 255 - i;
-                    do { LATCbits.LATC4 = 1; } while(0);
-                    SDCARD_WriteBlock(sdCardAddress, sdCardBuffer);
-                    while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-                    do { LATCbits.LATC4 = 0; } while(0);
-
-                    printf("Write block of decremented 8-bit values:\r\n");
-                    printf("    Address:    ");
-                    printf("%04x", sdCardAddress >> 16);
-                    printf(":");
-                    printf("%04x", sdCardAddress & 0X0000FFFF);
-                    printf("\r\n");
-                    printf("    Status:     %02x\r\n", status);
-                    break;
-
-
-
-
+# 217 "main.c"
                 case 'r':
                     do { LATCbits.LATC5 = 1; } while(0);
-                    SDCARD_ReadBlock(sdCardAddress, sdCardBuffer);
+                    SDCARD_ReadBlock(sdCardAddress, firstBuffer);
                     do { LATCbits.LATC5 = 0; } while(0);
                     printf("Read block: \r\n");
                     printf("    Address:    ");
@@ -9693,9 +9657,62 @@ void main(void) {
                     printf(":");
                     printf("%04x", sdCardAddress & 0X0000FFFF);
                     printf("\r\n");
-                    hexDumpBuffer(sdCardBuffer);
+                    hexDumpBuffer(firstBuffer);
                     break;
 
+
+                case '1':
+                    waveIdx = 0;
+                    localAddress = sdCardAddress;
+                    printf("Writing sine wave to memory, starting with the current address. Press any key to stop.\r\n");
+                    while (!(EUSART1_is_rx_ready())){
+
+
+                    for(bufIdx = 0;bufIdx < 512;waveIdx = (waveIdx + 1) % 26, bufIdx++){
+                        firstBuffer[bufIdx] = sin[waveIdx];
+                    }
+
+                    SDCARD_WriteBlock(localAddress, firstBuffer);
+                    while ((status = SDCARD_PollWriteComplete()) == 0xFF);
+                    localAddress += 512;
+
+                    }
+
+                    (void) EUSART1_Read();
+                    printf("Write stopped\r\n");
+                    break;
+                case '+':
+                    printf("+/-: Increase the sample rate by 10 us\r\n", 512);
+                    break;
+                case '-':
+                    printf("+/-: Decrease the sample rate by 10 us\r\n", 512);
+                    break;
+                case 'W':
+                    printf("W: Write microphone => SD card at 1600 us\r\n");
+                    break;
+                case 's':
+
+                    printf("\r\nYou may terminate spooling at anytime with a keypress.\r\nTo spool terminal contents into a file follow these instructions:\r\n\r\nRight mouse click on the upper left of the PuTTY window\r\nSelect:     Change settings...\r\nSelect:     Logging\r\nSelect:     Session logging: All session output\r\nLog file name:  Browse and provide a .csv extension to your file name\r\nSelect:     Apply\r\nPress any key to start");
+
+
+
+                    localAddress = sdCardAddress;
+                    while(!(EUSART1_is_rx_ready())){
+                    SDCARD_ReadBlock(localAddress, firstBuffer);
+                    for(int i = 0;i<512;i++){
+                        printf("%d\r\n", firstBuffer[i]);
+                        if((EUSART1_is_rx_ready())){
+
+                            break;
+                        }
+                    }
+                    localAddress += 512;
+
+                    }
+                    (void) EUSART1_Read();
+
+                    printf("Spooled 512 out of the 512 blocks. \r\nTo close the file follow these instructions: \r\n \r\nRight mouse click on the upper left of the PuTTY window \r\nSelect:     Change settings... \r\nSelect:     Logging \r\nSelect:     Session  logging: None \r\nSelect:     Apply");
+                    break;
 
 
 
@@ -9707,7 +9724,7 @@ void main(void) {
         }
     }
 }
-# 242 "main.c"
+# 310 "main.c"
 void myTMR0ISR(void) {
 
     uint16_t bigOleWasteOfTime;

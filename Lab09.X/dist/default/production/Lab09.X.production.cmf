@@ -12,68 +12,69 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/production\Lab09.X.production.o
-cinit CODE 0 202C 202C 36 1
+cinit CODE 0 21D2 21D2 36 1
 idloc IDLOC 5 200000 200000 8 1
-text0 CODE 0 42 42 648 1
-text1 CODE 0 1116 1116 1EC 1
-text2 CODE 0 2236 2236 A 1
-text3 CODE 0 21C6 21C6 1A 1
-text4 CODE 0 2062 2062 36 1
-text5 CODE 0 2240 2240 A 1
-text6 CODE 0 2224 2224 12 1
-text7 CODE 0 2104 2104 2E 1
-text8 CODE 0 21AA 21AA 1C 1
-text9 CODE 0 227C 227C 4 1
-text10 CODE 0 1E58 1E58 40 1
-text11 CODE 0 224A 224A A 1
-text12 CODE 0 2254 2254 A 1
-text13 CODE 0 225E 225E A 1
-text14 CODE 0 1A96 1A96 AC 1
-text15 CODE 0 2280 2280 4 1
-text16 CODE 0 1C72 1C72 8E 1
-text17 CODE 0 1B42 1B42 9A 1
-text18 CODE 0 1F14 1F14 38 1
-text19 CODE 0 1624 1624 178 1
-text20 CODE 0 215C 215C 28 1
-text21 CODE 0 1D00 1D00 64 1
-text22 CODE 0 68A 68A 4DA 1
-text23 CODE 0 E42 E42 2D4 1
-text24 CODE 0 1D64 1D64 5E 1
-text25 CODE 0 1F4C 1F4C 38 1
-text26 CODE 0 1F84 1F84 38 1
-text27 CODE 0 1ED8 1ED8 3C 1
-text28 CODE 0 B64 B64 2DE 1
-text29 CODE 0 19D4 19D4 C2 1
-text30 CODE 0 2098 2098 36 1
-text31 CODE 0 1E14 1E14 44 1
-text32 CODE 0 1E98 1E98 40 1
-text33 CODE 0 179C 179C 164 1
-text34 CODE 0 149C 149C 188 1
-text35 CODE 0 1900 1900 D4 1
-text36 CODE 0 1BDC 1BDC 96 1
-text37 CODE 0 2268 2268 A 1
-text38 CODE 0 21FA 21FA 16 1
-text39 CODE 0 1302 1302 19A 1
-text40 CODE 0 1DC2 1DC2 52 1
-text41 CODE 0 1FBC 1FBC 38 1
-text42 CODE 0 2184 2184 26 1
-text43 CODE 0 21E0 21E0 1A 1
-text44 CODE 0 2210 2210 14 1
-text45 CODE 0 2132 2132 2A 1
-text47 CODE 0 1FF4 1FF4 38 1
-text48 CODE 0 2284 2284 2 1
-text49 CODE 0 20CE 20CE 36 1
-text50 CODE 0 2272 2272 A 1
+text0 CODE 0 42 42 73E 1
+text1 CODE 0 120C 120C 1EC 1
+text2 CODE 0 1B8C 1B8C B0 1
+text3 CODE 0 23DC 23DC A 1
+text4 CODE 0 236C 236C 1A 1
+text5 CODE 0 2208 2208 36 1
+text6 CODE 0 23E6 23E6 A 1
+text7 CODE 0 23CA 23CA 12 1
+text8 CODE 0 22AA 22AA 2E 1
+text9 CODE 0 2350 2350 1C 1
+text10 CODE 0 2422 2422 4 1
+text11 CODE 0 1FFE 1FFE 40 1
+text12 CODE 0 23F0 23F0 A 1
+text13 CODE 0 23FA 23FA A 1
+text14 CODE 0 2404 2404 A 1
+text15 CODE 0 1C3C 1C3C AC 1
+text16 CODE 0 2426 2426 4 1
+text17 CODE 0 1E18 1E18 8E 1
+text18 CODE 0 1CE8 1CE8 9A 1
+text19 CODE 0 20BA 20BA 38 1
+text20 CODE 0 171A 171A 178 1
+text21 CODE 0 2302 2302 28 1
+text22 CODE 0 1EA6 1EA6 64 1
+text23 CODE 0 780 780 4DA 1
+text24 CODE 0 F38 F38 2D4 1
+text25 CODE 0 1F0A 1F0A 5E 1
+text26 CODE 0 20F2 20F2 38 1
+text27 CODE 0 212A 212A 38 1
+text28 CODE 0 207E 207E 3C 1
+text29 CODE 0 C5A C5A 2DE 1
+text30 CODE 0 1ACA 1ACA C2 1
+text31 CODE 0 223E 223E 36 1
+text32 CODE 0 1FBA 1FBA 44 1
+text33 CODE 0 203E 203E 40 1
+text34 CODE 0 1892 1892 164 1
+text35 CODE 0 1592 1592 188 1
+text36 CODE 0 19F6 19F6 D4 1
+text37 CODE 0 1D82 1D82 96 1
+text38 CODE 0 240E 240E A 1
+text39 CODE 0 23A0 23A0 16 1
+text40 CODE 0 13F8 13F8 19A 1
+text41 CODE 0 1F68 1F68 52 1
+text42 CODE 0 2162 2162 38 1
+text43 CODE 0 232A 232A 26 1
+text44 CODE 0 2386 2386 1A 1
+text45 CODE 0 23B6 23B6 14 1
+text46 CODE 0 22D8 22D8 2A 1
+text48 CODE 0 219A 219A 38 1
+text49 CODE 0 242A 242A 2 1
+text50 CODE 0 2274 2274 36 1
+text51 CODE 0 2418 2418 A 1
 cstackCOMRAM COMRAM 1 1 1 52 1
-cstackBANK0 BANK0 1 60 60 3E 1
+cstackBANK0 BANK0 1 60 60 47 1
 temp COMRAM 1 59 59 1 1
-bssBANK0 BANK0 1 9E 9E 2D 1
+bssBANK0 BANK0 1 A7 A7 2E 1
 intcode CODE 0 8 8 36 1
-bssBIGRAM BIGRAM 1 CB CB 200 1
+bssBIGRAM BIGRAM 1 D5 D5 400 1
 bssCOMRAM COMRAM 1 53 53 6 1
-mediumconst MEDIUMCONST 0 FB94 FB94 46C 1
+mediumconst MEDIUMCONST 0 F996 F996 66A 1
 config CONFIG 4 300000 300000 E 1
-$C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
+$C:\Users\fialk\AppData\Local\Temp\snpgxd.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 3E 3E 4 1
 reset_vec CODE 0 0 0 4 1
@@ -84,22 +85,20 @@ config CONFIG 4 300000 300000 E 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 2CB-F37 1
+RAM 4D5-F37 1
 SFR F38-FFF 1
-BANK2 2CB-2FF 1
-BANK3 300-3FF 1
-BANK4 400-4FF 1
+BANK4 4D5-4FF 1
 BANK5 500-5FF 1
 BANK6 600-6FF 1
 BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 4-7 1
-CONST 2286-FB93 1
-STACK 2CB-F37 1
-SMALLCONST 2286-FB93 1
+CONST 242C-F995 1
+STACK 4D5-F37 1
+SMALLCONST 242C-F995 1
 CODE 4-7 1
-CODE 2286-FB93 1
+CODE 242C-F995 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
@@ -107,10 +106,10 @@ BANK13 D00-DFF 1
 BANK14 E00-EFF 1
 BANK15 F00-F37 1
 BIGRAM 5A-5F 1
-BIGRAM 2CB-F37 1
+BIGRAM 4D5-F37 1
 COMRAM 5A-5F 1
 EEDATA F00000-F003FF 1
-MEDIUMCONST 2286-FB93 1
+MEDIUMCONST 242C-F995 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -125,645 +124,680 @@ MEDIUMCONST 2286-FB93 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Lab09.X.production.o
-8 intcode CODE >15377:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
+8 intcode CODE >16282:C:\Users\fialk\AppData\Local\Temp\snpgx.s
 8 intcode CODE >58:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
 12 intcode CODE >61:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
 2E intcode CODE >63:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
 32 intcode CODE >69:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
-2272 text50 CODE >122:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2272 text50 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2276 text50 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-227A text50 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-20CE text49 CODE >242:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-20CE text49 CODE >245:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-20D0 text49 CODE >247:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-20F2 text49 CODE >248:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-20FE text49 CODE >251:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2100 text49 CODE >252:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2102 text49 CODE >254:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2284 text48 CODE >160:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2284 text48 CODE >163:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-1FF4 text47 CODE >136:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-1FF4 text47 CODE >140:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-1FF6 text47 CODE >144:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-1FFA text47 CODE >145:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-1FFE text47 CODE >147:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2012 text47 CODE >149:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-202A text47 CODE >153:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2132 text45 CODE >113:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2132 text45 CODE >115:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2132 text45 CODE >117:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2140 text45 CODE >119:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2146 text45 CODE >121:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2154 text45 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2156 text45 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2158 text45 CODE >129:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-215A text45 CODE >130:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2210 text44 CODE >99:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2210 text44 CODE >101:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2222 text44 CODE >102:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-21E0 text43 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-21E2 text43 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-21E6 text43 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-21F4 text43 CODE >96:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-21F6 text43 CODE >97:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-21F8 text43 CODE >98:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2184 text42 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
-2184 text42 CODE >37:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
-2190 text42 CODE >38:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
-2198 text42 CODE >39:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
-21A0 text42 CODE >52:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
-21A8 text42 CODE >53:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
-1FBC text41 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isdigit.c
-1FBC text41 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isdigit.c
-1FF2 text41 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isdigit.c
-1DC2 text40 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isspace.c
-1DC2 text40 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isspace.c
-1E12 text40 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isspace.c
-1302 text39 CODE >4:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-1302 text39 CODE >6:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-1312 text39 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-1394 text39 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-139C text39 CODE >10:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-13A0 text39 CODE >11:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-13DA text39 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-1412 text39 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-1464 text39 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-149A text39 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
-21FA text38 CODE >132:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-21FC text38 CODE >134:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-21FC text38 CODE >136:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-220A text38 CODE >138:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-220E text38 CODE >139:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2268 text37 CODE >146:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-226A text37 CODE >148:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2270 text37 CODE >149:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1BDC text36 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1BDC text36 CODE >12:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1C00 text36 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1C06 text36 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1C0A text36 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1C5E text36 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1C70 text36 CODE >24:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
-1900 text35 CODE >259:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1900 text35 CODE >264:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-192A text35 CODE >267:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1938 text35 CODE >268:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-194A text35 CODE >271:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1964 text35 CODE >272:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-196C text35 CODE >273:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1970 text35 CODE >274:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1984 text35 CODE >275:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1988 text35 CODE >273:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19A6 text35 CODE >278:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19B4 text35 CODE >279:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19C6 text35 CODE >282:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19D2 text35 CODE >283:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-149C text34 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-149C text34 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-14A0 text34 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-14AE text34 CODE >17:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-14CE text34 CODE >18:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-14D2 text34 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-14E0 text34 CODE >21:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1500 text34 CODE >22:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1504 text34 CODE >24:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1510 text34 CODE >25:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-152E text34 CODE >26:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1532 text34 CODE >27:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1536 text34 CODE >28:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1548 text34 CODE >29:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-154A text34 CODE >27:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1558 text34 CODE >32:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-156A text34 CODE >33:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1598 text34 CODE >34:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-15B8 text34 CODE >35:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-15BA text34 CODE >37:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-15CC text34 CODE >38:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-15D2 text34 CODE >40:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-15E2 text34 CODE >41:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1602 text34 CODE >42:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-1622 text34 CODE >43:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
-179C text33 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-179C text33 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-17A0 text33 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-17AE text33 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-17CE text33 CODE >17:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-17D2 text33 CODE >19:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-17E0 text33 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1800 text33 CODE >21:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-181E text33 CODE >22:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1822 text33 CODE >23:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1826 text33 CODE >24:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1838 text33 CODE >25:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-183A text33 CODE >23:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1848 text33 CODE >28:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1876 text33 CODE >29:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1896 text33 CODE >30:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-18A8 text33 CODE >31:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-18AE text33 CODE >33:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-18BE text33 CODE >34:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-18DE text33 CODE >35:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-18FE text33 CODE >36:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
-1E98 text32 CODE >1:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
-1E98 text32 CODE >3:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
-1ED6 text32 CODE >4:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
-1E14 text31 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-1E14 text31 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-1E1C text31 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-1E20 text31 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-1E32 text31 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-1E36 text31 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-1E56 text31 CODE >19:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
-2098 text30 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-2098 text30 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-20A0 text30 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-20A4 text30 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-20A8 text30 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-20C0 text30 CODE >11:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-20CC text30 CODE >12:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
-19D4 text29 CODE >72:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19D4 text29 CODE >77:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19E2 text29 CODE >78:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-19F6 text29 CODE >82:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A18 text29 CODE >83:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A20 text29 CODE >84:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A24 text29 CODE >85:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A38 text29 CODE >86:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A3C text29 CODE >84:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A5A text29 CODE >90:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A68 text29 CODE >91:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A7C text29 CODE >94:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1A94 text29 CODE >95:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B64 text28 CODE >287:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B64 text28 CODE >293:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B84 text28 CODE >294:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B9A text28 CODE >295:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-BAC text28 CODE >296:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-BCC text28 CODE >300:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-BDC text28 CODE >301:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-BDE text28 CODE >303:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C0C text28 CODE >304:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C14 text28 CODE >305:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C34 text28 CODE >306:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C3A text28 CODE >310:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C42 text28 CODE >311:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C46 text28 CODE >312:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C4A text28 CODE >313:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-C50 text28 CODE >314:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-CD2 text28 CODE >315:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-CD8 text28 CODE >316:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-CDE text28 CODE >317:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-D42 text28 CODE >312:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-DBC text28 CODE >321:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-DDC text28 CODE >322:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-DE2 text28 CODE >323:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E18 text28 CODE >327:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E40 text28 CODE >328:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1ED8 text27 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isalpha.c
-1ED8 text27 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isalpha.c
-1F12 text27 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isalpha.c
-1F84 text26 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isupper.c
-1F84 text26 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isupper.c
-1FBA text26 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isupper.c
-1F4C text25 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\islower.c
-1F4C text25 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\islower.c
-1F82 text25 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\islower.c
-1D64 text24 CODE >4:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
-1D64 text24 CODE >6:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
-1DB8 text24 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
-1DC0 text24 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
-E42 text23 CODE >645:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E42 text23 CODE >651:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E52 text23 CODE >652:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E54 text23 CODE >654:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E82 text23 CODE >655:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E8A text23 CODE >656:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-E98 text23 CODE >657:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-EA0 text23 CODE >661:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-EC0 text23 CODE >662:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-EC8 text23 CODE >663:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-ECC text23 CODE >664:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-ED0 text23 CODE >665:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-ED6 text23 CODE >666:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-EDE text23 CODE >667:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-F16 text23 CODE >668:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-FA8 text23 CODE >669:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-FBC text23 CODE >671:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-FCC text23 CODE >672:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-FD2 text23 CODE >673:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-FD8 text23 CODE >674:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1036 text23 CODE >664:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-10B2 text23 CODE >678:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-10C0 text23 CODE >679:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-10C6 text23 CODE >680:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-10D6 text23 CODE >681:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-10DC text23 CODE >682:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-10EC text23 CODE >686:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1114 text23 CODE >687:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-68A text22 CODE >692:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-68A text22 CODE >702:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6B0 text22 CODE >703:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6BE text22 CODE >705:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6CE text22 CODE >706:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6D4 text22 CODE >710:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6DC text22 CODE >711:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6E0 text22 CODE >714:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6E2 text22 CODE >715:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6F0 text22 CODE >716:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6F4 text22 CODE >718:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-6FA text22 CODE >722:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-700 text22 CODE >726:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-706 text22 CODE >730:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-70C text22 CODE >734:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-714 text22 CODE >735:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-718 text22 CODE >736:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-76E text22 CODE >711:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-780 text22 CODE >738:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-78E text22 CODE >739:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-790 text22 CODE >745:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-7B6 text22 CODE >746:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-7C4 text22 CODE >747:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-7EC text22 CODE >748:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-7FA text22 CODE >749:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-7FC text22 CODE >750:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-808 text22 CODE >753:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-824 text22 CODE >754:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-828 text22 CODE >755:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-836 text22 CODE >754:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-892 text22 CODE >814:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-8B8 text22 CODE >815:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-8C6 text22 CODE >816:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-8EA text22 CODE >817:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-906 text22 CODE >847:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-952 text22 CODE >849:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-960 text22 CODE >850:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-99A text22 CODE >852:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-9D2 text22 CODE >1296:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-A1E text22 CODE >1298:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-A36 text22 CODE >1299:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-A44 text22 CODE >1300:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-A80 text22 CODE >1302:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-ABC text22 CODE >1372:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-AE2 text22 CODE >1373:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-AF0 text22 CODE >1374:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B04 text22 CODE >1375:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B10 text22 CODE >1379:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B1E text22 CODE >1380:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B2A text22 CODE >1384:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B50 text22 CODE >1385:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-B62 text22 CODE >1387:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D00 text21 CODE >1390:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D00 text21 CODE >1395:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D08 text21 CODE >1396:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D12 text21 CODE >1397:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D16 text21 CODE >1398:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D3C text21 CODE >1397:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D5A text21 CODE >1400:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-1D62 text21 CODE >1404:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
-215C text20 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
-215C text20 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
-2166 text20 CODE >10:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
-2182 text20 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
-1624 text19 CODE >111:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1628 text19 CODE >118:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1632 text19 CODE >119:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1638 text19 CODE >120:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-165A text19 CODE >124:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-165C text19 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1662 text19 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1668 text19 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-166E text19 CODE >128:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1674 text19 CODE >129:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-167A text19 CODE >130:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1680 text19 CODE >131:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1686 text19 CODE >132:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-168C text19 CODE >133:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1696 text19 CODE >134:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1698 text19 CODE >135:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16BA text19 CODE >140:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16BC text19 CODE >141:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16C2 text19 CODE >142:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16C8 text19 CODE >143:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16CE text19 CODE >144:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16D4 text19 CODE >145:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16DA text19 CODE >146:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16E0 text19 CODE >147:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16E6 text19 CODE >148:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16EC text19 CODE >149:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16F6 text19 CODE >150:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-16F8 text19 CODE >151:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1708 text19 CODE >152:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-172A text19 CODE >157:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-172C text19 CODE >158:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1732 text19 CODE >159:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1738 text19 CODE >160:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-173E text19 CODE >161:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1744 text19 CODE >162:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-174A text19 CODE >163:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1750 text19 CODE >164:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1756 text19 CODE >165:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-175C text19 CODE >166:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1766 text19 CODE >167:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1768 text19 CODE >168:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1778 text19 CODE >169:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-179A text19 CODE >171:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F14 text18 CODE >86:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F14 text18 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F16 text18 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F1E text18 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F20 text18 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F30 text18 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F36 text18 CODE >98:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F3C text18 CODE >99:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F42 text18 CODE >100:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F48 text18 CODE >101:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1F4A text18 CODE >104:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B42 text17 CODE >13:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B42 text17 CODE >15:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B42 text17 CODE >17:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B44 text17 CODE >18:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B4A text17 CODE >19:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B50 text17 CODE >20:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B56 text17 CODE >21:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B5C text17 CODE >22:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B62 text17 CODE >23:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B68 text17 CODE >24:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B6E text17 CODE >27:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B84 text17 CODE >30:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1B9A text17 CODE >33:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1BA2 text17 CODE >34:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1BCC text17 CODE >37:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1BD2 text17 CODE >38:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1BD8 text17 CODE >40:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1BDA text17 CODE >42:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C72 text16 CODE >48:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C72 text16 CODE >50:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C72 text16 CODE >52:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C74 text16 CODE >54:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C7A text16 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C80 text16 CODE >56:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C86 text16 CODE >57:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C8C text16 CODE >58:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C92 text16 CODE >59:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C98 text16 CODE >60:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1C9E text16 CODE >63:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CB4 text16 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CBA text16 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CC0 text16 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CC6 text16 CODE >71:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CCC text16 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CD4 text16 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CFC text16 CODE >77:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1CFE text16 CODE >79:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-2280 text15 CODE >87:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2280 text15 CODE >89:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2282 text15 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1A96 text14 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1A98 text14 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1AA6 text14 CODE >76:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1ACA text14 CODE >77:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1AE6 text14 CODE >78:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1AEA text14 CODE >79:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1B0E text14 CODE >80:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1B3E text14 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-1B40 text14 CODE >85:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-225E text13 CODE >174:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-225E text13 CODE >175:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2266 text13 CODE >176:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2254 text12 CODE >166:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2254 text12 CODE >167:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-225C text12 CODE >168:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-224A text11 CODE >170:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-224A text11 CODE >171:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-2252 text11 CODE >172:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E58 text10 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E58 text10 CODE >71:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E5C text10 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E60 text10 CODE >77:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E64 text10 CODE >80:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E68 text10 CODE >83:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E6C text10 CODE >86:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E78 text10 CODE >87:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E84 text10 CODE >88:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E90 text10 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-1E96 text10 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-227C text9 CODE >52:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
-227C text9 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
-227E text9 CODE >56:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
-21AA text8 CODE >61:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21AA text8 CODE >64:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21AE text8 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21B2 text8 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21B6 text8 CODE >70:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21B6 text8 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21C4 text8 CODE >73:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-2104 text7 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2104 text7 CODE >60:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2108 text7 CODE >61:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-210C text7 CODE >62:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2110 text7 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2114 text7 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2118 text7 CODE >69:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-211C text7 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2122 text7 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2126 text7 CODE >76:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-212A text7 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-212E text7 CODE >82:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2130 text7 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
-2224 text6 CODE >62:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2224 text6 CODE >65:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2228 text6 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-222C text6 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2230 text6 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2232 text6 CODE >69:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2234 text6 CODE >70:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
-2240 text5 CODE >156:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2240 text5 CODE >157:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2248 text5 CODE >158:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2062 text4 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2062 text4 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2064 text4 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2068 text4 CODE >78:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-206C text4 CODE >82:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2082 text4 CODE >85:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2084 text4 CODE >88:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2086 text4 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2092 text4 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2096 text4 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-21C6 text3 CODE >50:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21C6 text3 CODE >53:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21CA text3 CODE >54:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21CE text3 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21D2 text3 CODE >56:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21D6 text3 CODE >57:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21DA text3 CODE >58:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-21DE text3 CODE >59:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
-2236 text2 CODE >122:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-2236 text2 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-223A text2 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-223E text2 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
-1116 text1 CODE >179:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1116 text1 CODE >183:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1124 text1 CODE >185:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-112E text1 CODE >186:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-116A text1 CODE >187:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-119C text1 CODE >188:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-11A8 text1 CODE >189:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-11BA text1 CODE >190:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-11D6 text1 CODE >191:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-11E2 text1 CODE >192:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-11E6 text1 CODE >193:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1208 text1 CODE >195:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1224 text1 CODE >196:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1230 text1 CODE >197:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1230 text1 CODE >199:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1254 text1 CODE >200:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-126C text1 CODE >202:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1278 text1 CODE >203:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-128A text1 CODE >204:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-12A6 text1 CODE >205:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-12B2 text1 CODE >206:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-12B6 text1 CODE >207:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-12D8 text1 CODE >209:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-12F4 text1 CODE >210:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-1300 text1 CODE >211:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
-42 text0 CODE >40:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-42 text0 CODE >44:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-54 text0 CODE >47:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-58 text0 CODE >49:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-5C text0 CODE >50:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-5E text0 CODE >53:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-6A text0 CODE >54:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-6C text0 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-7A text0 CODE >57:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-86 text0 CODE >59:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-88 text0 CODE >60:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-8A text0 CODE >62:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-98 text0 CODE >63:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-A6 text0 CODE >64:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-B4 text0 CODE >65:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-C2 text0 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-C6 text0 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-CC text0 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-E0 text0 CODE >73:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-E8 text0 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-EC text0 CODE >80:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-F8 text0 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-106 text0 CODE >82:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-120 text0 CODE >83:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-12E text0 CODE >84:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-154 text0 CODE >85:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-162 text0 CODE >86:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-170 text0 CODE >87:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-17E text0 CODE >88:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-18C text0 CODE >89:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-19A text0 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-1A8 text0 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-1B6 text0 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-1C4 text0 CODE >93:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-1D2 text0 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-1E0 text0 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-1EE text0 CODE >96:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-204 text0 CODE >97:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-21A text0 CODE >98:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-228 text0 CODE >99:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-22C text0 CODE >105:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-238 text0 CODE >106:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-23C text0 CODE >112:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-26C text0 CODE >113:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-26E text0 CODE >114:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-272 text0 CODE >120:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2A6 text0 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2B2 text0 CODE >128:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2C0 text0 CODE >129:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2CE text0 CODE >130:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2DC text0 CODE >131:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2EA text0 CODE >132:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-2FE text0 CODE >133:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-302 text0 CODE >135:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-326 text0 CODE >136:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-32A text0 CODE >137:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-32E text0 CODE >144:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-332 text0 CODE >145:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-338 text0 CODE >146:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-33E text0 CODE >147:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-342 text0 CODE >154:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-354 text0 CODE >155:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-364 text0 CODE >156:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-376 text0 CODE >157:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-382 text0 CODE >158:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-394 text0 CODE >159:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-398 text0 CODE >160:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3A8 text0 CODE >163:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3B8 text0 CODE >164:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3CA text0 CODE >165:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3D6 text0 CODE >166:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3E8 text0 CODE >167:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3EC text0 CODE >168:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3F8 text0 CODE >170:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-3F8 text0 CODE >173:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-406 text0 CODE >174:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-420 text0 CODE >175:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-42E text0 CODE >176:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-454 text0 CODE >177:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-462 text0 CODE >178:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-466 text0 CODE >184:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-496 text0 CODE >185:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-498 text0 CODE >186:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-4B4 text0 CODE >187:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-4CC text0 CODE >188:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-4CE text0 CODE >190:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-4DA text0 CODE >191:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-4E8 text0 CODE >192:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-502 text0 CODE >193:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-510 text0 CODE >194:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-536 text0 CODE >195:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-544 text0 CODE >196:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-558 text0 CODE >197:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-55C text0 CODE >203:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-55E text0 CODE >204:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-57A text0 CODE >205:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-57C text0 CODE >206:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-58A text0 CODE >207:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-598 text0 CODE >208:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-5B2 text0 CODE >209:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-5C0 text0 CODE >210:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-5E6 text0 CODE >211:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-5F4 text0 CODE >212:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-602 text0 CODE >213:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-606 text0 CODE >219:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-618 text0 CODE >220:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-61C text0 CODE >221:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-202C cinit CODE >5498:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-202C cinit CODE >5500:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-202C cinit CODE >5503:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-202C cinit CODE >5549:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2030 cinit CODE >5550:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2034 cinit CODE >5551:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2034 cinit CODE >5552:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2036 cinit CODE >5553:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2038 cinit CODE >5554:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-203A cinit CODE >5555:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-203C cinit CODE >5556:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-203E cinit CODE >5557:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2040 cinit CODE >5560:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2044 cinit CODE >5561:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2046 cinit CODE >5562:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2046 cinit CODE >5563:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2048 cinit CODE >5564:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-204A cinit CODE >5565:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-204C cinit CODE >5568:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-204E cinit CODE >5569:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2050 cinit CODE >5570:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2052 cinit CODE >5571:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2054 cinit CODE >5572:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2056 cinit CODE >5573:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2058 cinit CODE >5579:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-2058 cinit CODE >5581:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-205A cinit CODE >5582:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-205C cinit CODE >5583:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
-205E cinit CODE >5584:C:\Users\fialk\AppData\Local\Temp\sjh8x.s
+2418 text51 CODE >122:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2418 text51 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+241C text51 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2420 text51 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2274 text50 CODE >310:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2274 text50 CODE >313:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2276 text50 CODE >315:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2298 text50 CODE >316:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+22A4 text50 CODE >319:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+22A6 text50 CODE >320:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+22A8 text50 CODE >322:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+242A text49 CODE >160:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+242A text49 CODE >163:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+219A text48 CODE >136:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+219A text48 CODE >140:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+219C text48 CODE >144:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+21A0 text48 CODE >145:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+21A4 text48 CODE >147:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+21B8 text48 CODE >149:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+21D0 text48 CODE >153:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+22D8 text46 CODE >113:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22D8 text46 CODE >115:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22D8 text46 CODE >117:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22E6 text46 CODE >119:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22EC text46 CODE >121:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22FA text46 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22FC text46 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+22FE text46 CODE >129:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2300 text46 CODE >130:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23B6 text45 CODE >99:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23B6 text45 CODE >101:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23C8 text45 CODE >102:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2386 text44 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+2388 text44 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+238C text44 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+239A text44 CODE >96:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+239C text44 CODE >97:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+239E text44 CODE >98:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+232A text43 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+232A text43 CODE >37:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+2336 text43 CODE >38:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+233E text43 CODE >39:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+2346 text43 CODE >52:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+234E text43 CODE >53:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul16.c
+2162 text42 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isdigit.c
+2162 text42 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isdigit.c
+2198 text42 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isdigit.c
+1F68 text41 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isspace.c
+1F68 text41 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isspace.c
+1FB8 text41 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isspace.c
+13F8 text40 CODE >4:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+13F8 text40 CODE >6:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+1408 text40 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+148A text40 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+1492 text40 CODE >10:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+1496 text40 CODE >11:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+14D0 text40 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+1508 text40 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+155A text40 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+1590 text40 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
+23A0 text39 CODE >132:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23A2 text39 CODE >134:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23A2 text39 CODE >136:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23B0 text39 CODE >138:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23B4 text39 CODE >139:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+240E text38 CODE >146:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2410 text38 CODE >148:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2416 text38 CODE >149:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+1D82 text37 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+1D82 text37 CODE >12:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+1DA6 text37 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+1DAC text37 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+1DB0 text37 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+1E04 text37 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+1E16 text37 CODE >24:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+19F6 text36 CODE >259:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+19F6 text36 CODE >264:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A20 text36 CODE >267:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A2E text36 CODE >268:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A40 text36 CODE >271:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A5A text36 CODE >272:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A62 text36 CODE >273:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A66 text36 CODE >274:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A7A text36 CODE >275:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A7E text36 CODE >273:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1A9C text36 CODE >278:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1AAA text36 CODE >279:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1ABC text36 CODE >282:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1AC8 text36 CODE >283:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1592 text35 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1592 text35 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1596 text35 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+15A4 text35 CODE >17:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+15C4 text35 CODE >18:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+15C8 text35 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+15D6 text35 CODE >21:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+15F6 text35 CODE >22:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+15FA text35 CODE >24:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1606 text35 CODE >25:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1624 text35 CODE >26:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1628 text35 CODE >27:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+162C text35 CODE >28:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+163E text35 CODE >29:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1640 text35 CODE >27:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+164E text35 CODE >32:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1660 text35 CODE >33:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+168E text35 CODE >34:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+16AE text35 CODE >35:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+16B0 text35 CODE >37:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+16C2 text35 CODE >38:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+16C8 text35 CODE >40:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+16D8 text35 CODE >41:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+16F8 text35 CODE >42:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1718 text35 CODE >43:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aodiv.c
+1892 text34 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+1892 text34 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+1896 text34 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+18A4 text34 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+18C4 text34 CODE >17:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+18C8 text34 CODE >19:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+18D6 text34 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+18F6 text34 CODE >21:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+1914 text34 CODE >22:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+1918 text34 CODE >23:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+191C text34 CODE >24:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+192E text34 CODE >25:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+1930 text34 CODE >23:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+193E text34 CODE >28:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+196C text34 CODE >29:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+198C text34 CODE >30:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+199E text34 CODE >31:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+19A4 text34 CODE >33:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+19B4 text34 CODE >34:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+19D4 text34 CODE >35:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+19F4 text34 CODE >36:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aomod.c
+203E text33 CODE >1:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
+203E text33 CODE >3:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
+207C text33 CODE >4:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
+1FBA text32 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+1FBA text32 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+1FC2 text32 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+1FC6 text32 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+1FD8 text32 CODE >16:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+1FDC text32 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+1FFC text32 CODE >19:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+223E text31 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+223E text31 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+2246 text31 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+224A text31 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+224E text31 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+2266 text31 CODE >11:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+2272 text31 CODE >12:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+1ACA text30 CODE >72:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1ACA text30 CODE >77:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1AD8 text30 CODE >78:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1AEC text30 CODE >82:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B0E text30 CODE >83:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B16 text30 CODE >84:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B1A text30 CODE >85:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B2E text30 CODE >86:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B32 text30 CODE >84:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B50 text30 CODE >90:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B5E text30 CODE >91:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B72 text30 CODE >94:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1B8A text30 CODE >95:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C5A text29 CODE >287:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C5A text29 CODE >293:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C7A text29 CODE >294:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C90 text29 CODE >295:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+CA2 text29 CODE >296:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+CC2 text29 CODE >300:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+CD2 text29 CODE >301:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+CD4 text29 CODE >303:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D02 text29 CODE >304:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D0A text29 CODE >305:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D2A text29 CODE >306:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D30 text29 CODE >310:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D38 text29 CODE >311:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D3C text29 CODE >312:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D40 text29 CODE >313:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+D46 text29 CODE >314:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+DC8 text29 CODE >315:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+DCE text29 CODE >316:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+DD4 text29 CODE >317:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+E38 text29 CODE >312:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+EB2 text29 CODE >321:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+ED2 text29 CODE >322:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+ED8 text29 CODE >323:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F0E text29 CODE >327:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F36 text29 CODE >328:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+207E text28 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isalpha.c
+207E text28 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isalpha.c
+20B8 text28 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isalpha.c
+212A text27 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isupper.c
+212A text27 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isupper.c
+2160 text27 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\isupper.c
+20F2 text26 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\islower.c
+20F2 text26 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\islower.c
+2128 text26 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\islower.c
+1F0A text25 CODE >4:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
+1F0A text25 CODE >6:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
+1F5E text25 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
+1F66 text25 CODE >8:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\toupper.c
+F38 text24 CODE >645:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F38 text24 CODE >651:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F48 text24 CODE >652:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F4A text24 CODE >654:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F78 text24 CODE >655:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F80 text24 CODE >656:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F8E text24 CODE >657:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+F96 text24 CODE >661:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+FB6 text24 CODE >662:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+FBE text24 CODE >663:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+FC2 text24 CODE >664:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+FC6 text24 CODE >665:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+FCC text24 CODE >666:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+FD4 text24 CODE >667:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+100C text24 CODE >668:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+109E text24 CODE >669:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+10B2 text24 CODE >671:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+10C2 text24 CODE >672:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+10C8 text24 CODE >673:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+10CE text24 CODE >674:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+112C text24 CODE >664:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+11A8 text24 CODE >678:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+11B6 text24 CODE >679:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+11BC text24 CODE >680:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+11CC text24 CODE >681:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+11D2 text24 CODE >682:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+11E2 text24 CODE >686:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+120A text24 CODE >687:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+780 text23 CODE >692:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+780 text23 CODE >702:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7A6 text23 CODE >703:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7B4 text23 CODE >705:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7C4 text23 CODE >706:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7CA text23 CODE >710:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7D2 text23 CODE >711:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7D6 text23 CODE >714:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7D8 text23 CODE >715:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7E6 text23 CODE >716:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7EA text23 CODE >718:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7F0 text23 CODE >722:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7F6 text23 CODE >726:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+7FC text23 CODE >730:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+802 text23 CODE >734:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+80A text23 CODE >735:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+80E text23 CODE >736:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+864 text23 CODE >711:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+876 text23 CODE >738:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+884 text23 CODE >739:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+886 text23 CODE >745:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+8AC text23 CODE >746:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+8BA text23 CODE >747:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+8E2 text23 CODE >748:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+8F0 text23 CODE >749:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+8F2 text23 CODE >750:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+8FE text23 CODE >753:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+91A text23 CODE >754:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+91E text23 CODE >755:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+92C text23 CODE >754:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+988 text23 CODE >814:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+9AE text23 CODE >815:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+9BC text23 CODE >816:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+9E0 text23 CODE >817:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+9FC text23 CODE >847:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+A48 text23 CODE >849:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+A56 text23 CODE >850:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+A90 text23 CODE >852:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+AC8 text23 CODE >1296:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+B14 text23 CODE >1298:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+B2C text23 CODE >1299:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+B3A text23 CODE >1300:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+B76 text23 CODE >1302:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+BB2 text23 CODE >1372:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+BD8 text23 CODE >1373:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+BE6 text23 CODE >1374:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+BFA text23 CODE >1375:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C06 text23 CODE >1379:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C14 text23 CODE >1380:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C20 text23 CODE >1384:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C46 text23 CODE >1385:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+C58 text23 CODE >1387:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1EA6 text22 CODE >1390:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1EA6 text22 CODE >1395:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1EAE text22 CODE >1396:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1EB8 text22 CODE >1397:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1EBC text22 CODE >1398:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1EE2 text22 CODE >1397:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1F00 text22 CODE >1400:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+1F08 text22 CODE >1404:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+2302 text21 CODE >5:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
+2302 text21 CODE >9:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
+230C text21 CODE >10:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
+2328 text21 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
+171A text20 CODE >111:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+171E text20 CODE >118:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1728 text20 CODE >119:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+172E text20 CODE >120:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1750 text20 CODE >124:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1752 text20 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1758 text20 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+175E text20 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1764 text20 CODE >128:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+176A text20 CODE >129:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1770 text20 CODE >130:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1776 text20 CODE >131:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+177C text20 CODE >132:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1782 text20 CODE >133:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+178C text20 CODE >134:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+178E text20 CODE >135:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17B0 text20 CODE >140:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17B2 text20 CODE >141:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17B8 text20 CODE >142:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17BE text20 CODE >143:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17C4 text20 CODE >144:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17CA text20 CODE >145:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17D0 text20 CODE >146:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17D6 text20 CODE >147:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17DC text20 CODE >148:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17E2 text20 CODE >149:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17EC text20 CODE >150:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17EE text20 CODE >151:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+17FE text20 CODE >152:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1820 text20 CODE >157:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1822 text20 CODE >158:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1828 text20 CODE >159:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+182E text20 CODE >160:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1834 text20 CODE >161:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+183A text20 CODE >162:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1840 text20 CODE >163:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1846 text20 CODE >164:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+184C text20 CODE >165:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1852 text20 CODE >166:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+185C text20 CODE >167:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+185E text20 CODE >168:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+186E text20 CODE >169:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1890 text20 CODE >171:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20BA text19 CODE >86:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20BA text19 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20BC text19 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20C4 text19 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20C6 text19 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20D6 text19 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20DC text19 CODE >98:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20E2 text19 CODE >99:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20E8 text19 CODE >100:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20EE text19 CODE >101:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+20F0 text19 CODE >104:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CE8 text18 CODE >13:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CE8 text18 CODE >15:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CE8 text18 CODE >17:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CEA text18 CODE >18:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CF0 text18 CODE >19:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CF6 text18 CODE >20:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1CFC text18 CODE >21:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D02 text18 CODE >22:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D08 text18 CODE >23:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D0E text18 CODE >24:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D14 text18 CODE >27:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D2A text18 CODE >30:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D40 text18 CODE >33:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D48 text18 CODE >34:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D72 text18 CODE >37:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D78 text18 CODE >38:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D7E text18 CODE >40:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1D80 text18 CODE >42:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E18 text17 CODE >48:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E18 text17 CODE >50:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E18 text17 CODE >52:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E1A text17 CODE >54:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E20 text17 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E26 text17 CODE >56:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E2C text17 CODE >57:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E32 text17 CODE >58:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E38 text17 CODE >59:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E3E text17 CODE >60:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E44 text17 CODE >63:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E5A text17 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E60 text17 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E66 text17 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E6C text17 CODE >71:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E72 text17 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1E7A text17 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1EA2 text17 CODE >77:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1EA4 text17 CODE >79:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+2426 text16 CODE >87:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+2426 text16 CODE >89:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+2428 text16 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1C3C text15 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1C3E text15 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1C4C text15 CODE >76:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1C70 text15 CODE >77:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1C8C text15 CODE >78:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1C90 text15 CODE >79:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1CB4 text15 CODE >80:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1CE4 text15 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+1CE6 text15 CODE >85:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+2404 text14 CODE >174:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2404 text14 CODE >175:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+240C text14 CODE >176:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23FA text13 CODE >166:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23FA text13 CODE >167:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2402 text13 CODE >168:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23F0 text12 CODE >170:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23F0 text12 CODE >171:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+23F8 text12 CODE >172:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+1FFE text11 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+1FFE text11 CODE >71:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2002 text11 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2006 text11 CODE >77:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+200A text11 CODE >80:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+200E text11 CODE >83:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2012 text11 CODE >86:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+201E text11 CODE >87:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+202A text11 CODE >88:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2036 text11 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+203C text11 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
+2422 text10 CODE >52:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
+2422 text10 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
+2424 text10 CODE >56:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/interrupt_manager.c
+2350 text9 CODE >61:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2350 text9 CODE >64:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2354 text9 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2358 text9 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+235C text9 CODE >70:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+235C text9 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+236A text9 CODE >73:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+22AA text8 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22AA text8 CODE >60:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22AE text8 CODE >61:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22B2 text8 CODE >62:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22B6 text8 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22BA text8 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22BE text8 CODE >69:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22C2 text8 CODE >74:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22C8 text8 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22CC text8 CODE >76:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22D0 text8 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22D4 text8 CODE >82:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+22D6 text8 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/pin_manager.c
+23CA text7 CODE >62:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23CA text7 CODE >65:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23CE text7 CODE >66:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23D2 text7 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23D6 text7 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23D8 text7 CODE >69:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23DA text7 CODE >70:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/spi2.c
+23E6 text6 CODE >156:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+23E6 text6 CODE >157:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+23EE text6 CODE >158:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2208 text5 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2208 text5 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+220A text5 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+220E text5 CODE >78:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2212 text5 CODE >82:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2228 text5 CODE >85:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+222A text5 CODE >88:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+222C text5 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+2238 text5 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+223C text5 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+236C text4 CODE >50:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+236C text4 CODE >53:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2370 text4 CODE >54:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2374 text4 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2378 text4 CODE >56:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+237C text4 CODE >57:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2380 text4 CODE >58:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+2384 text4 CODE >59:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/mcc.c
+23DC text3 CODE >122:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+23DC text3 CODE >125:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+23E0 text3 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+23E4 text3 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
+1B8C text2 CODE >7:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1B8C text2 CODE >12:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1B90 text2 CODE >13:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1B9E text2 CODE >14:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BA6 text2 CODE >15:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BAA text2 CODE >17:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BB8 text2 CODE >18:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BC0 text2 CODE >19:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BD2 text2 CODE >20:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BD6 text2 CODE >21:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BDA text2 CODE >22:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BE0 text2 CODE >23:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BE2 text2 CODE >21:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1BF0 text2 CODE >26:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C06 text2 CODE >27:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C0E text2 CODE >28:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C14 text2 CODE >29:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C1A text2 CODE >31:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C2A text2 CODE >32:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C32 text2 CODE >33:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+1C3A text2 CODE >34:C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+120C text1 CODE >179:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+120C text1 CODE >183:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+121A text1 CODE >185:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1224 text1 CODE >186:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1260 text1 CODE >187:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1292 text1 CODE >188:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+129E text1 CODE >189:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+12B0 text1 CODE >190:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+12CC text1 CODE >191:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+12D8 text1 CODE >192:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+12DC text1 CODE >193:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+12FE text1 CODE >195:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+131A text1 CODE >196:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1326 text1 CODE >197:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1326 text1 CODE >199:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+134A text1 CODE >200:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1362 text1 CODE >202:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+136E text1 CODE >203:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+1380 text1 CODE >204:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+139C text1 CODE >205:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+13A8 text1 CODE >206:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+13AC text1 CODE >207:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+13CE text1 CODE >209:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+13EA text1 CODE >210:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+13F6 text1 CODE >211:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
+42 text0 CODE >45:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+42 text0 CODE >49:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+54 text0 CODE >51:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+58 text0 CODE >55:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5C text0 CODE >57:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+60 text0 CODE >58:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+62 text0 CODE >61:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6E text0 CODE >62:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+70 text0 CODE >63:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+7E text0 CODE >65:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+8A text0 CODE >67:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+8C text0 CODE >68:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+8E text0 CODE >70:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+9C text0 CODE >71:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+AA text0 CODE >72:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+B8 text0 CODE >73:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+C6 text0 CODE >75:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+CA text0 CODE >76:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+D0 text0 CODE >80:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+E4 text0 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+EC text0 CODE >82:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+F0 text0 CODE >88:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+FC text0 CODE >89:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+10A text0 CODE >90:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+124 text0 CODE >91:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+132 text0 CODE >92:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+158 text0 CODE >93:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+166 text0 CODE >94:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+174 text0 CODE >95:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+182 text0 CODE >96:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+190 text0 CODE >97:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+19E text0 CODE >98:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+1AC text0 CODE >99:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+1BA text0 CODE >100:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+1C8 text0 CODE >101:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+1D6 text0 CODE >105:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+1E4 text0 CODE >106:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+1FA text0 CODE >107:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+210 text0 CODE >108:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+21E text0 CODE >109:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+234 text0 CODE >110:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+24A text0 CODE >111:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+260 text0 CODE >112:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+26E text0 CODE >113:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+272 text0 CODE >119:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+27E text0 CODE >120:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+282 text0 CODE >126:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2B2 text0 CODE >127:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2B4 text0 CODE >128:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2B8 text0 CODE >134:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2EC text0 CODE >159:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2F0 text0 CODE >160:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2F6 text0 CODE >161:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+2FC text0 CODE >162:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+300 text0 CODE >169:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+312 text0 CODE >170:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+322 text0 CODE >171:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+334 text0 CODE >172:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+340 text0 CODE >173:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+352 text0 CODE >174:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+356 text0 CODE >175:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+366 text0 CODE >178:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+376 text0 CODE >179:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+388 text0 CODE >180:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+394 text0 CODE >181:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3A6 text0 CODE >182:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3AA text0 CODE >183:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3B6 text0 CODE >185:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3B6 text0 CODE >188:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3C4 text0 CODE >189:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3DE text0 CODE >190:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+3EC text0 CODE >191:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+412 text0 CODE >192:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+420 text0 CODE >193:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+424 text0 CODE >218:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+426 text0 CODE >219:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+442 text0 CODE >220:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+444 text0 CODE >221:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+452 text0 CODE >222:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+460 text0 CODE >223:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+47A text0 CODE >224:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+488 text0 CODE >225:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4AE text0 CODE >226:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4BC text0 CODE >227:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4CA text0 CODE >228:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4CE text0 CODE >232:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4D2 text0 CODE >233:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4E2 text0 CODE >234:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4EE text0 CODE >235:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4F2 text0 CODE >238:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+4FC text0 CODE >239:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+520 text0 CODE >240:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+554 text0 CODE >242:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+570 text0 CODE >243:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+588 text0 CODE >244:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+598 text0 CODE >235:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5AC text0 CODE >248:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5B0 text0 CODE >249:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5BE text0 CODE >250:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5C2 text0 CODE >252:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5D6 text0 CODE >253:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5DA text0 CODE >255:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5EE text0 CODE >256:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5F2 text0 CODE >258:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+5FE text0 CODE >259:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+602 text0 CODE >262:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+60E text0 CODE >266:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+61E text0 CODE >267:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+622 text0 CODE >268:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+63E text0 CODE >269:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+664 text0 CODE >270:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+686 text0 CODE >271:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+69E text0 CODE >275:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6A8 text0 CODE >276:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6BA text0 CODE >267:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6CE text0 CODE >279:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6D2 text0 CODE >281:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6E0 text0 CODE >282:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6E4 text0 CODE >287:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6F6 text0 CODE >288:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+6FA text0 CODE >289:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+21D2 cinit CODE >6013:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21D2 cinit CODE >6015:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21D2 cinit CODE >6018:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21D2 cinit CODE >6072:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21D6 cinit CODE >6073:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21DA cinit CODE >6074:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21DA cinit CODE >6075:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21DC cinit CODE >6076:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21DE cinit CODE >6077:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21E0 cinit CODE >6078:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21E2 cinit CODE >6079:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21E4 cinit CODE >6080:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21E6 cinit CODE >6083:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21EA cinit CODE >6084:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21EC cinit CODE >6085:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21EC cinit CODE >6086:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21EE cinit CODE >6087:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21F0 cinit CODE >6088:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21F2 cinit CODE >6091:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21F4 cinit CODE >6092:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21F6 cinit CODE >6093:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21F8 cinit CODE >6094:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21FA cinit CODE >6095:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21FC cinit CODE >6096:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21FE cinit CODE >6102:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+21FE cinit CODE >6104:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+2200 cinit CODE >6105:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+2202 cinit CODE >6106:C:\Users\fialk\AppData\Local\Temp\snpgx.s
+2204 cinit CODE >6107:C:\Users\fialk\AppData\Local\Temp\snpgx.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -777,66 +811,67 @@ F8 text0 CODE >81:C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 __size_of_SDCARD_PollWriteComplete 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__Lmediumconst FB94 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
+__Lmediumconst F996 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
 __Hspace_0 10000 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__Hspace_1 2CB 0 ABS 0 - dist/default/production\Lab09.X.production.o
+__Hspace_1 4D5 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\Lab09.X.production.o
 EUSART1_SetErrorHandler@interruptHandler 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Lab09.X.production.o
-__mediumconst FB94 0 MEDIUMCONST 0 mediumconst C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-_EUSART1_Initialize 1E58 0 CODE 0 text10 dist/default/production\Lab09.X.production.o
+__mediumconst F996 0 MEDIUMCONST 0 mediumconst C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+_EUSART1_Initialize 1FFE 0 CODE 0 text11 dist/default/production\Lab09.X.production.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Lab09.X.production.o
 isalpha@c 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_INTERRUPT_Initialize 2280 0 CODE 0 text9 dist/default/production\Lab09.X.production.o
+__end_of_INTERRUPT_Initialize 2426 0 CODE 0 text10 dist/default/production\Lab09.X.production.o
 SDCARD_ReadBlock@i E 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ?_abs 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ?_pad 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-main@i 98 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-__end_of_SDCARD_WriteBlock 1D00 0 CODE 0 text16 dist/default/production\Lab09.X.production.o
+main@i A1 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+__end_of_SDCARD_WriteBlock 1EA6 0 CODE 0 text17 dist/default/production\Lab09.X.production.o
 ?_vfprintf 79 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Lab09.X.production.o
-__end_of_SDCARD_Initialize 179C 0 CODE 0 text19 dist/default/production\Lab09.X.production.o
+__end_of_SDCARD_Initialize 1892 0 CODE 0 text20 dist/default/production\Lab09.X.production.o
 _LATA F89 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _LATB F8A 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _LATC F8B 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _WPUB F61 0 ABS 0 - dist/default/production\Lab09.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-_atoi 1302 0 CODE 0 text39 dist/default/production\Lab09.X.production.o
-_ctoa 1900 0 CODE 0 text35 dist/default/production\Lab09.X.production.o
-_dbuf AB 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
-_dtoa B64 0 CODE 0 text28 dist/default/production\Lab09.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+_atoi 13F8 0 CODE 0 text40 dist/default/production\Lab09.X.production.o
+_ctoa 19F6 0 CODE 0 text36 dist/default/production\Lab09.X.production.o
+_dbuf B5 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_dtoa C5A 0 CODE 0 text29 dist/default/production\Lab09.X.production.o
 _main 42 0 CODE 0 text0 dist/default/production\Lab09.X.production.o
-_nout 9E 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
-_prec A0 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
-_xtoa E42 0 CODE 0 text23 dist/default/production\Lab09.X.production.o
+_nout A7 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_prec A9 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_xtoa F38 0 CODE 0 text24 dist/default/production\Lab09.X.production.o
 abs@a 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 btemp 59 0 COMRAM 1 temp dist/default/production\Lab09.X.production.o
 pad@i 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 pad@p 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 pad@w 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\Lab09.X.production.o
-start 3E 0 CODE 0 init C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
+start 3E 0 CODE 0 init C:\Users\fialk\AppData\Local\Temp\snpgxd.o
 ___aomod@counter 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_TMR0_InterruptHandler A8 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_TMR0_InterruptHandler B1 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_EUSART1_is_rx_ready 2224 0 CODE 0 text44 dist/default/production\Lab09.X.production.o
+__size_of___awmod 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
+__end_of_EUSART1_is_rx_ready 23CA 0 CODE 0 text45 dist/default/production\Lab09.X.production.o
 __size_of_atoi 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_ctoa 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_dtoa 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_xtoa 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_sdCardBuffer CB 0 BIGRAM 1 bssBIGRAM dist/default/production\Lab09.X.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_TMR0_SetInterruptHandler 224A 0 CODE 0 text5 dist/default/production\Lab09.X.production.o
+__end_of_TMR0_SetInterruptHandler 23F0 0 CODE 0 text6 dist/default/production\Lab09.X.production.o
 myTMR0ISR@bigOleWasteOfTime 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 pad@fp 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_toupper 1D64 0 CODE 0 text24 dist/default/production\Lab09.X.production.o
+_toupper 1F0A 0 CODE 0 text25 dist/default/production\Lab09.X.production.o
 ?___wmul 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 isupper@c 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Hpowerup 3E 0 CODE 0 powerup dist/default/production\Lab09.X.production.o
-__end_of_vfpfcnvrt B64 0 CODE 0 text22 dist/default/production\Lab09.X.production.o
+__end_of_vfpfcnvrt C5A 0 CODE 0 text23 dist/default/production\Lab09.X.production.o
+___awmod@sign C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 _T0CONbits FD5 0 ABS 0 - dist/default/production\Lab09.X.production.o
 ttemp5 5A 0 COMRAM 1 temp dist/default/production\Lab09.X.production.o
 ttemp6 5D 0 COMRAM 1 temp dist/default/production\Lab09.X.production.o
@@ -846,11 +881,11 @@ __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.producti
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 TMR0_SetInterruptHandler@InterruptHandler 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __LbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\Lab09.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-intlevel0 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-intlevel1 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-intlevel2 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-intlevel3 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
+__accesstop 60 0 ABS 0 - C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+intlevel0 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+intlevel1 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+intlevel2 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+intlevel3 0 0 CODE 0 text C:\Users\fialk\AppData\Local\Temp\snpgxd.o
 __size_of_EUSART1_SetErrorHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Lab09.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Lab09.X.production.o
@@ -865,38 +900,41 @@ xtoa@x 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\Lab09.X.production.o
 EUSART1_Write@txData 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\Lab09.X.production.o
-_vfpfcnvrt 68A 0 CODE 0 text22 dist/default/production\Lab09.X.production.o
+_vfpfcnvrt 780 0 CODE 0 text23 dist/default/production\Lab09.X.production.o
 dtoa@fp 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_SDCARD_ReadBlock 1B42 0 CODE 0 text17 dist/default/production\Lab09.X.production.o
-__end_of_SDCARD_PollWriteComplete 1F4C 0 CODE 0 text18 dist/default/production\Lab09.X.production.o
+_SDCARD_ReadBlock 1CE8 0 CODE 0 text18 dist/default/production\Lab09.X.production.o
+__end_of_SDCARD_PollWriteComplete 20F2 0 CODE 0 text19 dist/default/production\Lab09.X.production.o
 xtoa@fp 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ___wmul@multiplicand 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+main@waveIdx 9B 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 _ANSELA F38 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _ANSELB F39 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _ANSELC F3A 0 ABS 0 - dist/default/production\Lab09.X.production.o
 hexDumpBuffer@i 91 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 hexDumpBuffer@j 8D 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-_TMR0_DefaultInterruptHandler 2284 0 CODE 0 text48 dist/default/production\Lab09.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
+_TMR0_DefaultInterruptHandler 242A 0 CODE 0 text49 dist/default/production\Lab09.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\fialk\AppData\Local\Temp\snpgxd.o
 ?_toupper D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __end_of_INTERRUPT_InterruptManager 3E 0 CODE 0 intcode dist/default/production\Lab09.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Lab09.X.production.o
-__end_of___wmul 21AA 0 CODE 0 text42 dist/default/production\Lab09.X.production.o
-main@sdCardAddress 9A 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+__end_of___wmul 2350 0 CODE 0 text43 dist/default/production\Lab09.X.production.o
+main@sdCardAddress A3 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+main@localAddress 97 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Lab09.X.production.o
-main@cmd 97 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-_SDCARD_WriteBlock 1C72 0 CODE 0 text16 dist/default/production\Lab09.X.production.o
+main@cmd 9C 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+_SDCARD_WriteBlock 1E18 0 CODE 0 text17 dist/default/production\Lab09.X.production.o
 _TXSTA1bits FAC 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_SDCARD_Initialize 1624 0 CODE 0 text19 dist/default/production\Lab09.X.production.o
+_SDCARD_Initialize 171A 0 CODE 0 text20 dist/default/production\Lab09.X.production.o
 __Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
 ?_printf 7F 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-_atoi$1745 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_atoi$1746 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_atoi$1747 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_atoi$1752 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_atoi$1753 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_atoi$1754 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Hintcodelo 3E 0 CODE 0 intcodelo dist/default/production\Lab09.X.production.o
-__end_of___aodiv 1624 0 CODE 0 text34 dist/default/production\Lab09.X.production.o
-__end_of___aomod 1900 0 CODE 0 text33 dist/default/production\Lab09.X.production.o
+__end_of___aodiv 171A 0 CODE 0 text35 dist/default/production\Lab09.X.production.o
+__end_of___aomod 19F6 0 CODE 0 text34 dist/default/production\Lab09.X.production.o
+__end_of___awmod 1C3C 0 CODE 0 text2 dist/default/production\Lab09.X.production.o
 EUSART1_SetFramingErrorHandler@interruptHandler 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_isalpha 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
@@ -904,7 +942,7 @@ __size_of_islower 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_isspace 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_isupper 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 ___aodiv@quotient 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_SPI2_Initialize 2236 0 CODE 0 text6 dist/default/production\Lab09.X.production.o
+__end_of_SPI2_Initialize 23DC 0 CODE 0 text7 dist/default/production\Lab09.X.production.o
 ?_strlen 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ___aomod@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_ofi2_TMR0_WriteTimer 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
@@ -913,14 +951,14 @@ __size_of_fputs 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_putch 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _INTCON2bits FF1 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lintcodelo 3E 0 CODE 0 intcodelo dist/default/production\Lab09.X.production.o
-_PIN_MANAGER_Initialize 2104 0 CODE 0 text7 dist/default/production\Lab09.X.production.o
+_PIN_MANAGER_Initialize 22AA 0 CODE 0 text8 dist/default/production\Lab09.X.production.o
 ___aomod@divisor F 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 _SSP2CON1bits F6C 0 ABS 0 - dist/default/production\Lab09.X.production.o
-start_initialization 202C 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
-_eusart1RxLastError AA 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+start_initialization 21D2 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
+_eusart1RxLastError B3 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
 SPI2_ExchangeByte@data 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 _OSCCON FD3 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_hexDumpBuffer 1116 0 CODE 0 text1 dist/default/production\Lab09.X.production.o
+_hexDumpBuffer 120C 0 CODE 0 text1 dist/default/production\Lab09.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Lab09.X.production.o
 _PLLRDY 7E97 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TRISBbits F93 0 ABS 0 - dist/default/production\Lab09.X.production.o
@@ -928,17 +966,17 @@ SDCARD_WriteBlock@i E 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.pr
 ___rparam_used 1 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _RCREG1 FAE 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _RCSTA1 FAB 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_SDCARD_ReadBlock 1BDC 0 CODE 0 text17 dist/default/production\Lab09.X.production.o
-__end_of_SYSTEM_Initialize 21E0 0 CODE 0 text3 dist/default/production\Lab09.X.production.o
+__end_of_SDCARD_ReadBlock 1D82 0 CODE 0 text18 dist/default/production\Lab09.X.production.o
+__end_of_SYSTEM_Initialize 2386 0 CODE 0 text4 dist/default/production\Lab09.X.production.o
 _SPBRG1 FAF 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 _TXREG1 FAD 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TXSTA1 FAC 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_SDCARD_ReadBlock 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 islower@c 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_printf 2184 0 CODE 0 text20 dist/default/production\Lab09.X.production.o
+__end_of_printf 232A 0 CODE 0 text21 dist/default/production\Lab09.X.production.o
 _EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_SPI2_Initialize 2224 0 CODE 0 text6 dist/default/production\Lab09.X.production.o
+_SPI2_Initialize 23CA 0 CODE 0 text7 dist/default/production\Lab09.X.production.o
 _EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 hexDumpBuffer@sdCardBuffer 89 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 i2TMR0_WriteTimer@timerVal 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
@@ -946,7 +984,7 @@ __size_of_EUSART1_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.product
 fputc@fp B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 fputs@fp 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 toupper@c D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_EUSART1_Write 21FA 0 CODE 0 text38 dist/default/production\Lab09.X.production.o
+_EUSART1_Write 23A0 0 CODE 0 text39 dist/default/production\Lab09.X.production.o
 vfpfcnvrt@done 74 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\Lab09.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\Lab09.X.production.o
@@ -960,7 +998,7 @@ __Hbank8 0 0 ABS 0 bank8 dist/default/production\Lab09.X.production.o
 __Hbank9 0 0 ABS 0 bank9 dist/default/production\Lab09.X.production.o
 __Hcinit 0 0 ABS 0 cinit dist/default/production\Lab09.X.production.o
 __Hconst 0 0 CONST 0 const dist/default/production\Lab09.X.production.o
-__end_of_strlen 20CE 0 CODE 0 text30 dist/default/production\Lab09.X.production.o
+__end_of_strlen 2274 0 CODE 0 text31 dist/default/production\Lab09.X.production.o
 __Hidata 0 0 CODE 0 idata dist/default/production\Lab09.X.production.o
 __Hidloc 200008 0 IDLOC 5 idloc dist/default/production\Lab09.X.production.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\Lab09.X.production.o
@@ -968,7 +1006,7 @@ __Hparam 0 0 COMRAM 1 rparam dist/default/production\Lab09.X.production.o
 __size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Hrdata 0 0 COMRAM 1 rdata dist/default/production\Lab09.X.production.o
 __Hstack 0 0 STACK 2 stack dist/default/production\Lab09.X.production.o
-_SPI2_Close 2280 0 CODE 0 text15 dist/default/production\Lab09.X.production.o
+_SPI2_Close 2426 0 CODE 0 text16 dist/default/production\Lab09.X.production.o
 __Htext0 0 0 ABS 0 text0 dist/default/production\Lab09.X.production.o
 __Htext1 0 0 ABS 0 text1 dist/default/production\Lab09.X.production.o
 __Htext2 0 0 ABS 0 text2 dist/default/production\Lab09.X.production.o
@@ -987,11 +1025,11 @@ __Hbank14 0 0 ABS 0 bank14 dist/default/production\Lab09.X.production.o
 __Hbank15 0 0 ABS 0 bank15 dist/default/production\Lab09.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Lab09.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\Lab09.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\fialk\AppData\Local\Temp\snpgxd.o
 _BAUDCON1 FB8 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\Lab09.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\Lab09.X.production.o
-__end_of_isalpha 1F14 0 CODE 0 text27 dist/default/production\Lab09.X.production.o
+__end_of_isalpha 20BA 0 CODE 0 text28 dist/default/production\Lab09.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\Lab09.X.production.o
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\Lab09.X.production.o
 __Lbank2 0 0 ABS 0 bank2 dist/default/production\Lab09.X.production.o
@@ -1002,18 +1040,18 @@ __Lbank6 0 0 ABS 0 bank6 dist/default/production\Lab09.X.production.o
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\Lab09.X.production.o
 __Lbank8 0 0 ABS 0 bank8 dist/default/production\Lab09.X.production.o
 __Lbank9 0 0 ABS 0 bank9 dist/default/production\Lab09.X.production.o
-__end_of_isdigit 1FF4 0 CODE 0 text41 dist/default/production\Lab09.X.production.o
+__end_of_isdigit 219A 0 CODE 0 text42 dist/default/production\Lab09.X.production.o
 __Lcinit 0 0 ABS 0 cinit dist/default/production\Lab09.X.production.o
 __Lconst 0 0 CONST 0 const dist/default/production\Lab09.X.production.o
 __Lidata 0 0 CODE 0 idata dist/default/production\Lab09.X.production.o
 __Lidloc 0 0 IDLOC 5 idloc dist/default/production\Lab09.X.production.o
-__end_of_islower 1F84 0 CODE 0 text25 dist/default/production\Lab09.X.production.o
+__end_of_islower 212A 0 CODE 0 text26 dist/default/production\Lab09.X.production.o
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\Lab09.X.production.o
 __Lparam 0 0 COMRAM 1 rparam dist/default/production\Lab09.X.production.o
-__end_of_isspace 1E14 0 CODE 0 text40 dist/default/production\Lab09.X.production.o
+__end_of_isspace 1FBA 0 CODE 0 text41 dist/default/production\Lab09.X.production.o
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production\Lab09.X.production.o
 __Lstack 0 0 STACK 2 stack dist/default/production\Lab09.X.production.o
-__end_of_isupper 1FBC 0 CODE 0 text26 dist/default/production\Lab09.X.production.o
+__end_of_isupper 2162 0 CODE 0 text27 dist/default/production\Lab09.X.production.o
 __Ltext0 0 0 ABS 0 text0 dist/default/production\Lab09.X.production.o
 __Ltext1 0 0 ABS 0 text1 dist/default/production\Lab09.X.production.o
 __Ltext2 0 0 ABS 0 text2 dist/default/production\Lab09.X.production.o
@@ -1024,14 +1062,14 @@ __Ltext6 0 0 ABS 0 text6 dist/default/production\Lab09.X.production.o
 __Ltext7 0 0 ABS 0 text7 dist/default/production\Lab09.X.production.o
 __Ltext8 0 0 ABS 0 text8 dist/default/production\Lab09.X.production.o
 __Ltext9 0 0 ABS 0 text9 dist/default/production\Lab09.X.production.o
-_EUSART1_FramingErrorHandler A6 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
-_EUSART1_OverrunErrorHandler A4 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_EUSART1_FramingErrorHandler AF 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_EUSART1_OverrunErrorHandler AD 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\Lab09.X.production.o
 __size_of_EUSART1_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_EUSART1_SetOverrunErrorHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Lab09.X.production.o
 _INTCONbits FF2 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_INTERRUPT_Initialize 227C 0 CODE 0 text9 dist/default/production\Lab09.X.production.o
+_INTERRUPT_Initialize 2422 0 CODE 0 text10 dist/default/production\Lab09.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\Lab09.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\Lab09.X.production.o
 __Hinit 42 0 CODE 0 init dist/default/production\Lab09.X.production.o
@@ -1050,10 +1088,10 @@ ___aodiv@counter 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.prod
 _SSP2CON1 F6C 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _SSP2CON2 F6B 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _SSP2STAT F6D 0 ABS 0 - dist/default/production\Lab09.X.production.o
-___wmul 2184 0 CODE 0 text42 dist/default/production\Lab09.X.production.o
+___wmul 232A 0 CODE 0 text43 dist/default/production\Lab09.X.production.o
 ___aomod@sign 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Lab09.X.production.o
-_toupper$1821 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_toupper$1828 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_SPI2_ExchangeByte 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 int$flags 59 0 COMRAM 1 temp dist/default/production\Lab09.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Lab09.X.production.o
@@ -1062,29 +1100,31 @@ __size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\Lab09.X
 __Hintret 0 0 ABS 0 intret dist/default/production\Lab09.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\Lab09.X.production.o
 __S0 10000 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__S1 2CB 0 ABS 0 - dist/default/production\Lab09.X.production.o
+__S1 4D5 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __S2 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_abs 1E98 0 CODE 0 text32 dist/default/production\Lab09.X.production.o
-_pad 19D4 0 CODE 0 text29 dist/default/production\Lab09.X.production.o
+_abs 203E 0 CODE 0 text33 dist/default/production\Lab09.X.production.o
+_pad 1ACA 0 CODE 0 text30 dist/default/production\Lab09.X.production.o
+_sin F997 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
 __size_of_TMR0_ISR 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 TMR0_WriteTimer@timerVal 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_TMR0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _EUSART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_TMR0_DefaultInterruptHandler 2286 0 CODE 0 text48 dist/default/production\Lab09.X.production.o
-__end_ofi2_TMR0_WriteTimer 227C 0 CODE 0 text50 dist/default/production\Lab09.X.production.o
+__end_of_TMR0_DefaultInterruptHandler 242C 0 CODE 0 text49 dist/default/production\Lab09.X.production.o
+__end_ofi2_TMR0_WriteTimer 2422 0 CODE 0 text51 dist/default/production\Lab09.X.production.o
 __size_of_hexDumpBuffer 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 ___aodiv@sign 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Lab09.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\Lab09.X.production.o
 __size_of_toupper 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_SYSTEM_Initialize 21C6 0 CODE 0 text3 dist/default/production\Lab09.X.production.o
-_dtoa$1697 36 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_vfpfcnvrt$1723 76 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-__end_of_abs 1ED8 0 CODE 0 text32 dist/default/production\Lab09.X.production.o
-__end_of_pad 1A96 0 CODE 0 text29 dist/default/production\Lab09.X.production.o
-__end_of_SPI2_Close 2284 0 CODE 0 text15 dist/default/production\Lab09.X.production.o
+_SYSTEM_Initialize 236C 0 CODE 0 text4 dist/default/production\Lab09.X.production.o
+_dtoa$1704 36 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_vfpfcnvrt$1730 76 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+__end_of_abs 207E 0 CODE 0 text33 dist/default/production\Lab09.X.production.o
+__end_of_pad 1B8C 0 CODE 0 text30 dist/default/production\Lab09.X.production.o
+__end_of_sin F9B1 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
+__end_of_SPI2_Close 242A 0 CODE 0 text16 dist/default/production\Lab09.X.production.o
 __Lintentry 0 0 ABS 0 intentry dist/default/production\Lab09.X.production.o
 __Hramtop 1000 0 RAM 0 ramtop dist/default/production\Lab09.X.production.o
 strlen@a 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
@@ -1131,66 +1171,70 @@ __Htext42 0 0 ABS 0 text42 dist/default/production\Lab09.X.production.o
 __Htext43 0 0 ABS 0 text43 dist/default/production\Lab09.X.production.o
 __Htext44 0 0 ABS 0 text44 dist/default/production\Lab09.X.production.o
 __Htext45 0 0 ABS 0 text45 dist/default/production\Lab09.X.production.o
-__Htext47 0 0 ABS 0 text47 dist/default/production\Lab09.X.production.o
+__Htext46 0 0 ABS 0 text46 dist/default/production\Lab09.X.production.o
 __Htext48 0 0 ABS 0 text48 dist/default/production\Lab09.X.production.o
 __Htext49 0 0 ABS 0 text49 dist/default/production\Lab09.X.production.o
 __Htext50 0 0 ABS 0 text50 dist/default/production\Lab09.X.production.o
 __Htext51 0 0 ABS 0 text51 dist/default/production\Lab09.X.production.o
+__Htext52 0 0 ABS 0 text52 dist/default/production\Lab09.X.production.o
 vfpfcnvrt@fmt 4D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 vfpfcnvrt@llu 6C 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 _INTERRUPT_InterruptManager 8 0 CODE 0 intcode dist/default/production\Lab09.X.production.o
+___awmod@counter B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 SDCARD_Initialize@i 89 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-__end_of_hexDumpBuffer 1302 0 CODE 0 text1 dist/default/production\Lab09.X.production.o
+__end_of_hexDumpBuffer 13F8 0 CODE 0 text1 dist/default/production\Lab09.X.production.o
 __size_of_EUSART1_Write 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 pad@buf 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_TMR0_ISR 1FF4 0 CODE 0 text47 dist/default/production\Lab09.X.production.o
-__ptext10 1E58 0 CODE 0 text10 dist/default/production\Lab09.X.production.o
-__ptext11 224A 0 CODE 0 text11 dist/default/production\Lab09.X.production.o
-__ptext12 2254 0 CODE 0 text12 dist/default/production\Lab09.X.production.o
-__ptext13 225E 0 CODE 0 text13 dist/default/production\Lab09.X.production.o
-__ptext14 1A96 0 CODE 0 text14 dist/default/production\Lab09.X.production.o
-__ptext15 2280 0 CODE 0 text15 dist/default/production\Lab09.X.production.o
-__ptext16 1C72 0 CODE 0 text16 dist/default/production\Lab09.X.production.o
-__ptext17 1B42 0 CODE 0 text17 dist/default/production\Lab09.X.production.o
-__ptext18 1F14 0 CODE 0 text18 dist/default/production\Lab09.X.production.o
-__ptext19 1624 0 CODE 0 text19 dist/default/production\Lab09.X.production.o
-__ptext20 215C 0 CODE 0 text20 dist/default/production\Lab09.X.production.o
-__ptext21 1D00 0 CODE 0 text21 dist/default/production\Lab09.X.production.o
-__ptext22 68A 0 CODE 0 text22 dist/default/production\Lab09.X.production.o
-__ptext23 E42 0 CODE 0 text23 dist/default/production\Lab09.X.production.o
-__ptext24 1D64 0 CODE 0 text24 dist/default/production\Lab09.X.production.o
-__ptext25 1F4C 0 CODE 0 text25 dist/default/production\Lab09.X.production.o
-__ptext26 1F84 0 CODE 0 text26 dist/default/production\Lab09.X.production.o
-__ptext27 1ED8 0 CODE 0 text27 dist/default/production\Lab09.X.production.o
-__ptext28 B64 0 CODE 0 text28 dist/default/production\Lab09.X.production.o
-__ptext29 19D4 0 CODE 0 text29 dist/default/production\Lab09.X.production.o
-__ptext30 2098 0 CODE 0 text30 dist/default/production\Lab09.X.production.o
-__ptext31 1E14 0 CODE 0 text31 dist/default/production\Lab09.X.production.o
-__ptext32 1E98 0 CODE 0 text32 dist/default/production\Lab09.X.production.o
-__ptext33 179C 0 CODE 0 text33 dist/default/production\Lab09.X.production.o
-__ptext34 149C 0 CODE 0 text34 dist/default/production\Lab09.X.production.o
-__ptext35 1900 0 CODE 0 text35 dist/default/production\Lab09.X.production.o
-__ptext36 1BDC 0 CODE 0 text36 dist/default/production\Lab09.X.production.o
-__ptext37 2268 0 CODE 0 text37 dist/default/production\Lab09.X.production.o
-__ptext38 21FA 0 CODE 0 text38 dist/default/production\Lab09.X.production.o
-__ptext39 1302 0 CODE 0 text39 dist/default/production\Lab09.X.production.o
-__ptext40 1DC2 0 CODE 0 text40 dist/default/production\Lab09.X.production.o
-__ptext41 1FBC 0 CODE 0 text41 dist/default/production\Lab09.X.production.o
-__ptext42 2184 0 CODE 0 text42 dist/default/production\Lab09.X.production.o
-__ptext43 21E0 0 CODE 0 text43 dist/default/production\Lab09.X.production.o
-__ptext44 2210 0 CODE 0 text44 dist/default/production\Lab09.X.production.o
-__ptext45 2132 0 CODE 0 text45 dist/default/production\Lab09.X.production.o
-__ptext47 1FF4 0 CODE 0 text47 dist/default/production\Lab09.X.production.o
-__ptext48 2284 0 CODE 0 text48 dist/default/production\Lab09.X.production.o
-__ptext49 20CE 0 CODE 0 text49 dist/default/production\Lab09.X.production.o
-__ptext50 2272 0 CODE 0 text50 dist/default/production\Lab09.X.production.o
-__ptext51 0 0 CODE 0 text51 dist/default/production\Lab09.X.production.o
-__end_of_PIN_MANAGER_Initialize 2132 0 CODE 0 text7 dist/default/production\Lab09.X.production.o
-___aodiv 149C 0 CODE 0 text34 dist/default/production\Lab09.X.production.o
-___aomod 179C 0 CODE 0 text33 dist/default/production\Lab09.X.production.o
-__end_of_TMR0_Initialize 2098 0 CODE 0 text4 dist/default/production\Lab09.X.production.o
-__end_of_TMR0_WriteTimer 2240 0 CODE 0 text2 dist/default/production\Lab09.X.production.o
-_EUSART1_ErrorHandler A2 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+_TMR0_ISR 219A 0 CODE 0 text48 dist/default/production\Lab09.X.production.o
+__ptext10 2422 0 CODE 0 text10 dist/default/production\Lab09.X.production.o
+__ptext11 1FFE 0 CODE 0 text11 dist/default/production\Lab09.X.production.o
+__ptext12 23F0 0 CODE 0 text12 dist/default/production\Lab09.X.production.o
+__ptext13 23FA 0 CODE 0 text13 dist/default/production\Lab09.X.production.o
+__ptext14 2404 0 CODE 0 text14 dist/default/production\Lab09.X.production.o
+__ptext15 1C3C 0 CODE 0 text15 dist/default/production\Lab09.X.production.o
+__ptext16 2426 0 CODE 0 text16 dist/default/production\Lab09.X.production.o
+__ptext17 1E18 0 CODE 0 text17 dist/default/production\Lab09.X.production.o
+__ptext18 1CE8 0 CODE 0 text18 dist/default/production\Lab09.X.production.o
+__ptext19 20BA 0 CODE 0 text19 dist/default/production\Lab09.X.production.o
+__ptext20 171A 0 CODE 0 text20 dist/default/production\Lab09.X.production.o
+__ptext21 2302 0 CODE 0 text21 dist/default/production\Lab09.X.production.o
+__ptext22 1EA6 0 CODE 0 text22 dist/default/production\Lab09.X.production.o
+__ptext23 780 0 CODE 0 text23 dist/default/production\Lab09.X.production.o
+__ptext24 F38 0 CODE 0 text24 dist/default/production\Lab09.X.production.o
+__ptext25 1F0A 0 CODE 0 text25 dist/default/production\Lab09.X.production.o
+__ptext26 20F2 0 CODE 0 text26 dist/default/production\Lab09.X.production.o
+__ptext27 212A 0 CODE 0 text27 dist/default/production\Lab09.X.production.o
+__ptext28 207E 0 CODE 0 text28 dist/default/production\Lab09.X.production.o
+__ptext29 C5A 0 CODE 0 text29 dist/default/production\Lab09.X.production.o
+__ptext30 1ACA 0 CODE 0 text30 dist/default/production\Lab09.X.production.o
+__ptext31 223E 0 CODE 0 text31 dist/default/production\Lab09.X.production.o
+__ptext32 1FBA 0 CODE 0 text32 dist/default/production\Lab09.X.production.o
+__ptext33 203E 0 CODE 0 text33 dist/default/production\Lab09.X.production.o
+__ptext34 1892 0 CODE 0 text34 dist/default/production\Lab09.X.production.o
+__ptext35 1592 0 CODE 0 text35 dist/default/production\Lab09.X.production.o
+__ptext36 19F6 0 CODE 0 text36 dist/default/production\Lab09.X.production.o
+__ptext37 1D82 0 CODE 0 text37 dist/default/production\Lab09.X.production.o
+__ptext38 240E 0 CODE 0 text38 dist/default/production\Lab09.X.production.o
+__ptext39 23A0 0 CODE 0 text39 dist/default/production\Lab09.X.production.o
+__ptext40 13F8 0 CODE 0 text40 dist/default/production\Lab09.X.production.o
+__ptext41 1F68 0 CODE 0 text41 dist/default/production\Lab09.X.production.o
+__ptext42 2162 0 CODE 0 text42 dist/default/production\Lab09.X.production.o
+__ptext43 232A 0 CODE 0 text43 dist/default/production\Lab09.X.production.o
+__ptext44 2386 0 CODE 0 text44 dist/default/production\Lab09.X.production.o
+__ptext45 23B6 0 CODE 0 text45 dist/default/production\Lab09.X.production.o
+__ptext46 22D8 0 CODE 0 text46 dist/default/production\Lab09.X.production.o
+__ptext48 219A 0 CODE 0 text48 dist/default/production\Lab09.X.production.o
+__ptext49 242A 0 CODE 0 text49 dist/default/production\Lab09.X.production.o
+__ptext50 2274 0 CODE 0 text50 dist/default/production\Lab09.X.production.o
+__ptext51 2418 0 CODE 0 text51 dist/default/production\Lab09.X.production.o
+__ptext52 0 0 CODE 0 text52 dist/default/production\Lab09.X.production.o
+__end_of_PIN_MANAGER_Initialize 22D8 0 CODE 0 text8 dist/default/production\Lab09.X.production.o
+___aodiv 1592 0 CODE 0 text35 dist/default/production\Lab09.X.production.o
+___aomod 1892 0 CODE 0 text34 dist/default/production\Lab09.X.production.o
+___awmod 1B8C 0 CODE 0 text2 dist/default/production\Lab09.X.production.o
+__end_of_TMR0_Initialize 223E 0 CODE 0 text5 dist/default/production\Lab09.X.production.o
+__end_of_TMR0_WriteTimer 23E6 0 CODE 0 text3 dist/default/production\Lab09.X.production.o
+_EUSART1_ErrorHandler AB 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
 __Lbank10 0 0 ABS 0 bank10 dist/default/production\Lab09.X.production.o
 __Lbank11 0 0 ABS 0 bank11 dist/default/production\Lab09.X.production.o
 __Lbank12 0 0 ABS 0 bank12 dist/default/production\Lab09.X.production.o
@@ -1205,56 +1249,58 @@ __Lbigram 0 0 ABS 0 bigram dist/default/production\Lab09.X.production.o
 ?_xtoa 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\Lab09.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\Lab09.X.production.o
-_printf 215C 0 CODE 0 text20 dist/default/production\Lab09.X.production.o
-_xtoa$1708 37 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_xtoa$1709 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_TMR0_ISR 202C 0 CODE 0 text47 dist/default/production\Lab09.X.production.o
+_printf 2302 0 CODE 0 text21 dist/default/production\Lab09.X.production.o
+_xtoa$1715 37 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_xtoa$1716 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+__end_of_TMR0_ISR 21D2 0 CODE 0 text48 dist/default/production\Lab09.X.production.o
 ___wmul@multiplier 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 _LATAbits F89 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _LATBbits F8A 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _LATCbits F8B 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_EUSART1_SetErrorHandler 225E 0 CODE 0 text13 dist/default/production\Lab09.X.production.o
-_EUSART1_Read 2132 0 CODE 0 text45 dist/default/production\Lab09.X.production.o
+_EUSART1_SetErrorHandler 2404 0 CODE 0 text14 dist/default/production\Lab09.X.production.o
+_EUSART1_Read 22D8 0 CODE 0 text46 dist/default/production\Lab09.X.production.o
 _RCSTA1bits FAB 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_EUSART1_SetErrorHandler 2268 0 CODE 0 text13 dist/default/production\Lab09.X.production.o
+__end_of_EUSART1_SetErrorHandler 240E 0 CODE 0 text14 dist/default/production\Lab09.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Lab09.X.production.o
-_strlen 2098 0 CODE 0 text30 dist/default/production\Lab09.X.production.o
-_TMR0_SetInterruptHandler 2240 0 CODE 0 text5 dist/default/production\Lab09.X.production.o
+main@i_708 9D 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+_strlen 223E 0 CODE 0 text31 dist/default/production\Lab09.X.production.o
+_TMR0_SetInterruptHandler 23E6 0 CODE 0 text6 dist/default/production\Lab09.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\Lab09.X.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_EUSART1_SetFramingErrorHandler 225E 0 CODE 0 text12 dist/default/production\Lab09.X.production.o
-stackhi F37 0 ABS 0 - C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-stacklo 2CB 0 ABS 0 - C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-__end_of_EUSART1_SetOverrunErrorHandler 2254 0 CODE 0 text11 dist/default/production\Lab09.X.production.o
-__end_of_EUSART1_Write 2210 0 CODE 0 text38 dist/default/production\Lab09.X.production.o
-__end_of_SPI2_Open 1B42 0 CODE 0 text14 dist/default/production\Lab09.X.production.o
+__end_of_EUSART1_SetFramingErrorHandler 2404 0 CODE 0 text13 dist/default/production\Lab09.X.production.o
+stackhi F37 0 ABS 0 - C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+stacklo 4D5 0 ABS 0 - C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+__end_of_EUSART1_SetOverrunErrorHandler 23FA 0 CODE 0 text12 dist/default/production\Lab09.X.production.o
+__end_of_EUSART1_Write 23B6 0 CODE 0 text39 dist/default/production\Lab09.X.production.o
+__end_of_SPI2_Open 1CE8 0 CODE 0 text15 dist/default/production\Lab09.X.production.o
 __Lintcode 8 0 CODE 0 intcode dist/default/production\Lab09.X.production.o
 _OSCCON2 FD2 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _OSCTUNE F9B 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\Lab09.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\Lab09.X.production.o
 __size_of_SPI2_Open 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__pbssBIGRAM CB 0 BIGRAM 1 bssBIGRAM dist/default/production\Lab09.X.production.o
-i2_TMR0_WriteTimer 2272 0 CODE 0 text50 dist/default/production\Lab09.X.production.o
+__pbssBIGRAM D5 0 BIGRAM 1 bssBIGRAM dist/default/production\Lab09.X.production.o
+i2_TMR0_WriteTimer 2418 0 CODE 0 text51 dist/default/production\Lab09.X.production.o
+main@bufIdx 9F 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 ?_vfpfcnvrt 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Lspace_0 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lspace_4 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __pbssCOMRAM 53 0 COMRAM 1 bssCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_SPI2_ExchangeByte 21FA 0 CODE 0 text43 dist/default/production\Lab09.X.production.o
+__end_of_SPI2_ExchangeByte 23A0 0 CODE 0 text44 dist/default/production\Lab09.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Lab09.X.production.o
 _PIR1bits F9E 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _PIR3bits FA4 0 ABS 0 - dist/default/production\Lab09.X.production.o
 ___aodiv@divisor F 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_toupper 1DC2 0 CODE 0 text24 dist/default/production\Lab09.X.production.o
+__end_of_toupper 1F68 0 CODE 0 text25 dist/default/production\Lab09.X.production.o
 ___aodiv@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Lab09.X.production.o
 printf@ap 87 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 SDCARD_Initialize@response 8C 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-end_of_initialization 2058 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
-_TMR0_Initialize 2062 0 CODE 0 text4 dist/default/production\Lab09.X.production.o
-_TMR0_WriteTimer 2236 0 CODE 0 text2 dist/default/production\Lab09.X.production.o
+end_of_initialization 21FE 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
+_TMR0_Initialize 2208 0 CODE 0 text5 dist/default/production\Lab09.X.production.o
+_TMR0_WriteTimer 23DC 0 CODE 0 text3 dist/default/production\Lab09.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\Lab09.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\Lab09.X.production.o
 SDCARD_WriteBlock@sdCardBuffer C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
@@ -1264,35 +1310,39 @@ fputc@c 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 fputs@c 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 fputs@i 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 fputs@s 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_SPI2_Open 1A96 0 CODE 0 text14 dist/default/production\Lab09.X.production.o
+_SPI2_Open 1C3C 0 CODE 0 text15 dist/default/production\Lab09.X.production.o
 ?___aodiv 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ?___aomod 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+?___awmod 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_EUSART1_Read 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_spi2_configuration FB99 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
+__end_of_spi2_configuration F9B5 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
+_bufState B4 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
 vfprintf@fmt 7B 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\Lab09.X.production.o
 __HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Lab09.X.production.o
 SDCARD_PollWriteComplete@status 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+___awmod@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 SDCARD_WriteBlock@addr 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_EUSART1_is_rx_ready 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lramtop 1000 0 RAM 0 ramtop dist/default/production\Lab09.X.production.o
 __size_of_strlen 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_SDCARD_PollWriteComplete 1F14 0 CODE 0 text18 dist/default/production\Lab09.X.production.o
+_SDCARD_PollWriteComplete 20BA 0 CODE 0 text19 dist/default/production\Lab09.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\Lab09.X.production.o
-__pcinit 202C 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
+__pcinit 21D2 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
 vfpfcnvrt@ap 4F 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 vfpfcnvrt@fp 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 vfpfcnvrt@ll 64 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 __ptext0 42 0 CODE 0 text0 dist/default/production\Lab09.X.production.o
-__ptext1 1116 0 CODE 0 text1 dist/default/production\Lab09.X.production.o
-__ptext2 2236 0 CODE 0 text2 dist/default/production\Lab09.X.production.o
-__ptext3 21C6 0 CODE 0 text3 dist/default/production\Lab09.X.production.o
-__ptext4 2062 0 CODE 0 text4 dist/default/production\Lab09.X.production.o
-__ptext5 2240 0 CODE 0 text5 dist/default/production\Lab09.X.production.o
-__ptext6 2224 0 CODE 0 text6 dist/default/production\Lab09.X.production.o
-__ptext7 2104 0 CODE 0 text7 dist/default/production\Lab09.X.production.o
-__ptext8 21AA 0 CODE 0 text8 dist/default/production\Lab09.X.production.o
-__ptext9 227C 0 CODE 0 text9 dist/default/production\Lab09.X.production.o
+__ptext1 120C 0 CODE 0 text1 dist/default/production\Lab09.X.production.o
+__ptext2 1B8C 0 CODE 0 text2 dist/default/production\Lab09.X.production.o
+__ptext3 23DC 0 CODE 0 text3 dist/default/production\Lab09.X.production.o
+__ptext4 236C 0 CODE 0 text4 dist/default/production\Lab09.X.production.o
+__ptext5 2208 0 CODE 0 text5 dist/default/production\Lab09.X.production.o
+__ptext6 23E6 0 CODE 0 text6 dist/default/production\Lab09.X.production.o
+__ptext7 23CA 0 CODE 0 text7 dist/default/production\Lab09.X.production.o
+__ptext8 22AA 0 CODE 0 text8 dist/default/production\Lab09.X.production.o
+__ptext9 2350 0 CODE 0 text9 dist/default/production\Lab09.X.production.o
+_secondBuffer D5 0 BIGRAM 1 bssBIGRAM dist/default/production\Lab09.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\Lab09.X.production.o
 vfprintf@ap 7D 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 vfprintf@fp 79 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
@@ -1333,31 +1383,34 @@ __Ltext42 0 0 ABS 0 text42 dist/default/production\Lab09.X.production.o
 __Ltext43 0 0 ABS 0 text43 dist/default/production\Lab09.X.production.o
 __Ltext44 0 0 ABS 0 text44 dist/default/production\Lab09.X.production.o
 __Ltext45 0 0 ABS 0 text45 dist/default/production\Lab09.X.production.o
-__Ltext47 0 0 ABS 0 text47 dist/default/production\Lab09.X.production.o
+__Ltext46 0 0 ABS 0 text46 dist/default/production\Lab09.X.production.o
 __Ltext48 0 0 ABS 0 text48 dist/default/production\Lab09.X.production.o
 __Ltext49 0 0 ABS 0 text49 dist/default/production\Lab09.X.production.o
 __Ltext50 0 0 ABS 0 text50 dist/default/production\Lab09.X.production.o
 __Ltext51 0 0 ABS 0 text51 dist/default/production\Lab09.X.production.o
+__Ltext52 0 0 ABS 0 text52 dist/default/production\Lab09.X.production.o
 main@letter 96 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-__ramtop 1000 0 RAM 0 ramtop C:\Users\fialk\AppData\Local\Temp\sjh8xd.o
-_vfprintf 1D00 0 CODE 0 text21 dist/default/production\Lab09.X.production.o
+__ramtop 1000 0 RAM 0 ramtop C:\Users\fialk\AppData\Local\Temp\snpgxd.o
+_vfprintf 1EA6 0 CODE 0 text22 dist/default/production\Lab09.X.production.o
 __Lpowerup 3E 0 CODE 0 powerup dist/default/production\Lab09.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Lab09.X.production.o
-_isalpha 1ED8 0 CODE 0 text27 dist/default/production\Lab09.X.production.o
-_isdigit 1FBC 0 CODE 0 text41 dist/default/production\Lab09.X.production.o
-_islower 1F4C 0 CODE 0 text25 dist/default/production\Lab09.X.production.o
-__end_of_EUSART1_Read 215C 0 CODE 0 text45 dist/default/production\Lab09.X.production.o
-_isspace 1DC2 0 CODE 0 text40 dist/default/production\Lab09.X.production.o
-_isupper 1F84 0 CODE 0 text26 dist/default/production\Lab09.X.production.o
+_isalpha 207E 0 CODE 0 text28 dist/default/production\Lab09.X.production.o
+_isdigit 2162 0 CODE 0 text42 dist/default/production\Lab09.X.production.o
+_islower 20F2 0 CODE 0 text26 dist/default/production\Lab09.X.production.o
+__end_of_EUSART1_Read 2302 0 CODE 0 text46 dist/default/production\Lab09.X.production.o
+_isspace 1F68 0 CODE 0 text41 dist/default/production\Lab09.X.production.o
+_isupper 212A 0 CODE 0 text27 dist/default/production\Lab09.X.production.o
 SDCARD_ReadBlock@addr 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Lab09.X.production.o
+_firstBuffer 2D5 0 BIGRAM 1 bssBIGRAM dist/default/production\Lab09.X.production.o
 __size_of_SDCARD_WriteBlock 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_vfprintf 1D64 0 CODE 0 text21 dist/default/production\Lab09.X.production.o
+__end_of_vfprintf 1F0A 0 CODE 0 text22 dist/default/production\Lab09.X.production.o
 __size_of_SDCARD_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_spi2_configuration FB95 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
+_spi2_configuration F9B1 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Lab09.X.production.o
-__end_of__initialization 2058 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
+__end_of__initialization 21FE 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
+___awmod@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\Lab09.X.production.o
 _timer0ReloadVal 57 0 COMRAM 1 bssCOMRAM dist/default/production\Lab09.X.production.o
 main@status 95 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
@@ -1365,38 +1418,38 @@ SDCARD_ReadBlock@sdCardBuffer C 0 COMRAM 1 cstackCOMRAM dist/default/production\
 __size_of_SPI2_Close 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\Lab09.X.production.o
 _SPBRGH1 FB0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_isspace$1772 D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_EUSART1_is_rx_ready 2210 0 CODE 0 text44 dist/default/production\Lab09.X.production.o
+_isspace$1779 D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
+_EUSART1_is_rx_ready 23B6 0 CODE 0 text45 dist/default/production\Lab09.X.production.o
 ctoa@fp 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-_SPI2_ExchangeByte 21E0 0 CODE 0 text43 dist/default/production\Lab09.X.production.o
-__pmediumconst FB94 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
+_SPI2_ExchangeByte 2386 0 CODE 0 text44 dist/default/production\Lab09.X.production.o
+__pmediumconst F996 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab09.X.production.o
 _SSP2ADD F6E 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _SSP2BUF F6F 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_TMR0_SetInterruptHandler 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_myTMR0ISR 2104 0 CODE 0 text49 dist/default/production\Lab09.X.production.o
+__end_of_myTMR0ISR 22AA 0 CODE 0 text50 dist/default/production\Lab09.X.production.o
 vfpfcnvrt@c 78 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-_EUSART1_SetFramingErrorHandler 2254 0 CODE 0 text12 dist/default/production\Lab09.X.production.o
-_EUSART1_SetOverrunErrorHandler 224A 0 CODE 0 text11 dist/default/production\Lab09.X.production.o
+_EUSART1_SetFramingErrorHandler 23FA 0 CODE 0 text13 dist/default/production\Lab09.X.production.o
+_EUSART1_SetOverrunErrorHandler 23F0 0 CODE 0 text12 dist/default/production\Lab09.X.production.o
 putch@txData 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-__end_of_atoi 149C 0 CODE 0 text39 dist/default/production\Lab09.X.production.o
-__end_of_ctoa 19D4 0 CODE 0 text35 dist/default/production\Lab09.X.production.o
-__end_of_dtoa E42 0 CODE 0 text28 dist/default/production\Lab09.X.production.o
-__end_of_main 68A 0 CODE 0 text0 dist/default/production\Lab09.X.production.o
-__end_of_xtoa 1116 0 CODE 0 text23 dist/default/production\Lab09.X.production.o
+__end_of_atoi 1592 0 CODE 0 text40 dist/default/production\Lab09.X.production.o
+__end_of_ctoa 1ACA 0 CODE 0 text36 dist/default/production\Lab09.X.production.o
+__end_of_dtoa F38 0 CODE 0 text29 dist/default/production\Lab09.X.production.o
+__end_of_main 780 0 CODE 0 text0 dist/default/production\Lab09.X.production.o
+__end_of_xtoa 120C 0 CODE 0 text24 dist/default/production\Lab09.X.production.o
 __pintcode 8 0 CODE 0 intcode dist/default/production\Lab09.X.production.o
 isdigit@c 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_myTMR0ISR 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 printf@fmt 7F 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-__end_of_fputc 1C72 0 CODE 0 text36 dist/default/production\Lab09.X.production.o
-__end_of_fputs 1E58 0 CODE 0 text31 dist/default/production\Lab09.X.production.o
+__end_of_fputc 1E18 0 CODE 0 text37 dist/default/production\Lab09.X.production.o
+__end_of_fputs 1FFE 0 CODE 0 text32 dist/default/production\Lab09.X.production.o
 _T0CON FD5 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TMR0H FD7 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TMR0L FD6 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TRISA F92 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TRISB F93 0 ABS 0 - dist/default/production\Lab09.X.production.o
 _TRISC F94 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_putch 2272 0 CODE 0 text37 dist/default/production\Lab09.X.production.o
+__end_of_putch 2418 0 CODE 0 text38 dist/default/production\Lab09.X.production.o
 __size_of_TMR0_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_TMR0_WriteTimer 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __HRAM 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
@@ -1409,9 +1462,9 @@ __Lram 0 0 ABS 0 ram dist/default/production\Lab09.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\Lab09.X.production.o
 atoi@neg 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 _flags 55 0 COMRAM 1 bssCOMRAM dist/default/production\Lab09.X.production.o
-_fputc 1BDC 0 CODE 0 text36 dist/default/production\Lab09.X.production.o
-_fputs 1E14 0 CODE 0 text31 dist/default/production\Lab09.X.production.o
-_putch 2268 0 CODE 0 text37 dist/default/production\Lab09.X.production.o
+_fputc 1D82 0 CODE 0 text37 dist/default/production\Lab09.X.production.o
+_fputs 1FBA 0 CODE 0 text32 dist/default/production\Lab09.X.production.o
+_putch 240E 0 CODE 0 text38 dist/default/production\Lab09.X.production.o
 _width 53 0 COMRAM 1 bssCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 ?_isalpha 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
@@ -1421,14 +1474,14 @@ __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.pro
 ?_isupper 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __size_of_abs 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
 __size_of_pad 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-__end_of_EUSART1_Initialize 1E98 0 CODE 0 text10 dist/default/production\Lab09.X.production.o
-__end_of_OSCILLATOR_Initialize 21C6 0 CODE 0 text8 dist/default/production\Lab09.X.production.o
+__end_of_EUSART1_Initialize 203E 0 CODE 0 text11 dist/default/production\Lab09.X.production.o
+__end_of_OSCILLATOR_Initialize 236C 0 CODE 0 text9 dist/default/production\Lab09.X.production.o
 atoi@n 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 atoi@s E 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 SDCARD_Initialize@verbose 8B 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
-__initialization 202C 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
-_myTMR0ISR 20CE 0 CODE 0 text49 dist/default/production\Lab09.X.production.o
-__pbssBANK0 9E 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
+__initialization 21D2 0 CODE 0 cinit dist/default/production\Lab09.X.production.o
+_myTMR0ISR 2274 0 CODE 0 text50 dist/default/production\Lab09.X.production.o
+__pbssBANK0 A7 0 BANK0 1 bssBANK0 dist/default/production\Lab09.X.production.o
 ctoa@c 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ctoa@l 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 ctoa@w 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
@@ -1441,13 +1494,13 @@ dtoa@n 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 dtoa@p 38 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 dtoa@s 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 dtoa@w 3A 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
-hexDumpBuffer@j_1158 8F 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
+hexDumpBuffer@j_1165 8F 0 BANK0 1 cstackBANK0 dist/default/production\Lab09.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\Lab09.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Lab09.X.production.o
 EUSART1_SetOverrunErrorHandler@interruptHandler 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab09.X.production.o
 __Hintcode 3E 0 CODE 0 intcode dist/default/production\Lab09.X.production.o
 __size_of_INTERRUPT_Initialize 0 0 ABS 0 - dist/default/production\Lab09.X.production.o
-_OSCILLATOR_Initialize 21AA 0 CODE 0 text8 dist/default/production\Lab09.X.production.o
+_OSCILLATOR_Initialize 2350 0 CODE 0 text9 dist/default/production\Lab09.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1473,11 +1526,11 @@ _OSCILLATOR_Initialize 21AA 0 CODE 0 text8 dist/default/production\Lab09.X.produ
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cstackCOMRAM 1 1 1 59 1
-cstackBANK0 1 60 60 6B 1
+cstackBANK0 1 60 60 75 1
 reset_vec 0 0 0 4 1
-intcode 0 8 8 227E 1
-bssBIGRAM 1 CB CB 200 1
-mediumconst 0 FB94 FB94 46C 1
+intcode 0 8 8 2424 1
+bssBIGRAM 1 D5 D5 400 1
+mediumconst 0 F996 F996 66A 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

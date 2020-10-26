@@ -7,7 +7,12 @@
 [e E355 . `uc
 SPI2_DEFAULT 0
 ]
-"68 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+"44 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+[e E6167 . `uc
+RED_FIRST 0
+RED_SECOND 1
+]
+"76
 [e E6082 . `uc
 SPI2_DEFAULT 0
 ]
@@ -19,6 +24,8 @@ SPI2_DEFAULT 0
 [v ___aomod __aomod `(o  1 e 8 0 ]
 "4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
 "72 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
 "259
@@ -77,9 +84,9 @@ SPI2_DEFAULT 0
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"40 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+"45 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"242
+"310
 [v _myTMR0ISR myTMR0ISR `(v  1 e 1 0 ]
 "66 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
 [v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
@@ -185,7 +192,7 @@ SPI2_DEFAULT 0
 [v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3951 ]
 "7244
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
-[s S572 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S574 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 LATA3 1 0 :1:3 
@@ -195,7 +202,7 @@ SPI2_DEFAULT 0
 `uc 1 LATA7 1 0 :1:7 
 ]
 "7271
-[s S581 . 1 `uc 1 LA0 1 0 :1:0 
+[s S583 . 1 `uc 1 LA0 1 0 :1:0 
 `uc 1 LA1 1 0 :1:1 
 `uc 1 LA2 1 0 :1:2 
 `uc 1 LA3 1 0 :1:3 
@@ -204,11 +211,11 @@ SPI2_DEFAULT 0
 `uc 1 LA6 1 0 :1:6 
 `uc 1 LA7 1 0 :1:7 
 ]
-[u S590 . 1 `S572 1 . 1 0 `S581 1 . 1 0 ]
-[v _LATAbits LATAbits `VES590  1 e 1 @3977 ]
+[u S592 . 1 `S574 1 . 1 0 `S583 1 . 1 0 ]
+[v _LATAbits LATAbits `VES592  1 e 1 @3977 ]
 "7356
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-[s S414 . 1 `uc 1 LATB0 1 0 :1:0 
+[s S417 . 1 `uc 1 LATB0 1 0 :1:0 
 `uc 1 LATB1 1 0 :1:1 
 `uc 1 LATB2 1 0 :1:2 
 `uc 1 LATB3 1 0 :1:3 
@@ -218,7 +225,7 @@ SPI2_DEFAULT 0
 `uc 1 LATB7 1 0 :1:7 
 ]
 "7383
-[s S423 . 1 `uc 1 LB0 1 0 :1:0 
+[s S426 . 1 `uc 1 LB0 1 0 :1:0 
 `uc 1 LB1 1 0 :1:1 
 `uc 1 LB2 1 0 :1:2 
 `uc 1 LB3 1 0 :1:3 
@@ -227,11 +234,11 @@ SPI2_DEFAULT 0
 `uc 1 LB6 1 0 :1:6 
 `uc 1 LB7 1 0 :1:7 
 ]
-[u S432 . 1 `S414 1 . 1 0 `S423 1 . 1 0 ]
-[v _LATBbits LATBbits `VES432  1 e 1 @3978 ]
+[u S435 . 1 `S417 1 . 1 0 `S426 1 . 1 0 ]
+[v _LATBbits LATBbits `VES435  1 e 1 @3978 ]
 "7468
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-[s S511 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S513 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -241,7 +248,7 @@ SPI2_DEFAULT 0
 `uc 1 LATC7 1 0 :1:7 
 ]
 "7495
-[s S520 . 1 `uc 1 LC0 1 0 :1:0 
+[s S522 . 1 `uc 1 LC0 1 0 :1:0 
 `uc 1 LC1 1 0 :1:1 
 `uc 1 LC2 1 0 :1:2 
 `uc 1 LC3 1 0 :1:3 
@@ -250,8 +257,8 @@ SPI2_DEFAULT 0
 `uc 1 LC6 1 0 :1:6 
 `uc 1 LC7 1 0 :1:7 
 ]
-[u S529 . 1 `S511 1 . 1 0 `S520 1 . 1 0 ]
-[v _LATCbits LATCbits `VES529  1 e 1 @3979 ]
+[u S531 . 1 `S513 1 . 1 0 `S522 1 . 1 0 ]
+[v _LATCbits LATCbits `VES531  1 e 1 @3979 ]
 "7580
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "7802
@@ -281,7 +288,7 @@ SPI2_DEFAULT 0
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
 "8267
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
-[s S761 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[s S768 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSP1IF 1 0 :1:3 
@@ -290,13 +297,13 @@ SPI2_DEFAULT 0
 `uc 1 ADIF 1 0 :1:6 
 ]
 "8716
-[s S769 . 1 `uc 1 . 1 0 :3:0 
+[s S776 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 SSPIF 1 0 :1:3 
 `uc 1 TXIF 1 0 :1:4 
 `uc 1 RCIF 1 0 :1:5 
 ]
-[u S774 . 1 `S761 1 . 1 0 `S769 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES774  1 e 1 @3998 ]
+[u S781 . 1 `S768 1 . 1 0 `S776 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES781  1 e 1 @3998 ]
 [s S121 . 1 `uc 1 TMR1GIF 1 0 :1:0 
 `uc 1 TMR3GIF 1 0 :1:1 
 `uc 1 TMR5GIF 1 0 :1:2 
@@ -316,7 +323,7 @@ SPI2_DEFAULT 0
 [v _PIR3bits PIR3bits `VES135  1 e 1 @4004 ]
 "9582
 [v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
-[s S840 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S847 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -326,10 +333,10 @@ SPI2_DEFAULT 0
 `uc 1 SPEN 1 0 :1:7 
 ]
 "9635
-[s S849 . 1 `uc 1 . 1 0 :3:0 
+[s S856 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S852 . 1 `uc 1 RX9D1 1 0 :1:0 
+[s S859 . 1 `uc 1 RX9D1 1 0 :1:0 
 `uc 1 OERR1 1 0 :1:1 
 `uc 1 FERR1 1 0 :1:2 
 `uc 1 ADDEN1 1 0 :1:3 
@@ -338,21 +345,21 @@ SPI2_DEFAULT 0
 `uc 1 RX91 1 0 :1:6 
 `uc 1 SPEN1 1 0 :1:7 
 ]
-[s S861 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S868 . 1 `uc 1 RCD8 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S865 . 1 `uc 1 . 1 0 :6:0 
+[s S872 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S868 . 1 `uc 1 . 1 0 :5:0 
+[s S875 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[u S871 . 1 `S840 1 . 1 0 `S849 1 . 1 0 `S852 1 . 1 0 `S861 1 . 1 0 `S865 1 . 1 0 `S868 1 . 1 0 ]
-[v _RCSTA1bits RCSTA1bits `VES871  1 e 1 @4011 ]
+[u S878 . 1 `S847 1 . 1 0 `S856 1 . 1 0 `S859 1 . 1 0 `S868 1 . 1 0 `S872 1 . 1 0 `S875 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES878  1 e 1 @4011 ]
 "10038
 [v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
-[s S791 . 1 `uc 1 TX9D 1 0 :1:0 
+[s S798 . 1 `uc 1 TX9D 1 0 :1:0 
 `uc 1 TRMT 1 0 :1:1 
 `uc 1 BRGH 1 0 :1:2 
 `uc 1 SENDB 1 0 :1:3 
@@ -362,7 +369,7 @@ SPI2_DEFAULT 0
 `uc 1 CSRC 1 0 :1:7 
 ]
 "10079
-[s S800 . 1 `uc 1 TX9D1 1 0 :1:0 
+[s S807 . 1 `uc 1 TX9D1 1 0 :1:0 
 `uc 1 TRMT1 1 0 :1:1 
 `uc 1 BRGH1 1 0 :1:2 
 `uc 1 SENDB1 1 0 :1:3 
@@ -371,12 +378,12 @@ SPI2_DEFAULT 0
 `uc 1 TX91 1 0 :1:6 
 `uc 1 CSRC1 1 0 :1:7 
 ]
-[s S809 . 1 `uc 1 TXD8 1 0 :1:0 
+[s S816 . 1 `uc 1 TXD8 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 TX8_9 1 0 :1:6 
 ]
-[u S813 . 1 `S791 1 . 1 0 `S800 1 . 1 0 `S809 1 . 1 0 ]
-[v _TXSTA1bits TXSTA1bits `VES813  1 e 1 @4012 ]
+[u S820 . 1 `S798 1 . 1 0 `S807 1 . 1 0 `S816 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES820  1 e 1 @4012 ]
 "10413
 [v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
 "10491
@@ -387,22 +394,22 @@ SPI2_DEFAULT 0
 [v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4016 ]
 "11611
 [v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4024 ]
-[s S995 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+[s S1002 . 1 `uc 1 NOT_BOR 1 0 :1:0 
 ]
 "15074
-[s S997 . 1 `uc 1 . 1 0 :1:0 
+[s S1004 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_POR 1 0 :1:1 
 ]
-[s S1000 . 1 `uc 1 . 1 0 :2:0 
+[s S1007 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_PD 1 0 :1:2 
 ]
-[s S1003 . 1 `uc 1 . 1 0 :3:0 
+[s S1010 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_TO 1 0 :1:3 
 ]
-[s S1006 . 1 `uc 1 . 1 0 :4:0 
+[s S1013 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 NOT_RI 1 0 :1:4 
 ]
-[s S1009 . 1 `uc 1 nBOR 1 0 :1:0 
+[s S1016 . 1 `uc 1 nBOR 1 0 :1:0 
 `uc 1 nPOR 1 0 :1:1 
 `uc 1 nPD 1 0 :1:2 
 `uc 1 nTO 1 0 :1:3 
@@ -411,14 +418,14 @@ SPI2_DEFAULT 0
 `uc 1 SBOREN 1 0 :1:6 
 `uc 1 IPEN 1 0 :1:7 
 ]
-[s S1018 . 1 `uc 1 BOR 1 0 :1:0 
+[s S1025 . 1 `uc 1 BOR 1 0 :1:0 
 `uc 1 POR 1 0 :1:1 
 `uc 1 PD 1 0 :1:2 
 `uc 1 TO 1 0 :1:3 
 `uc 1 RI 1 0 :1:4 
 ]
-[u S1024 . 1 `S995 1 . 1 0 `S997 1 . 1 0 `S1000 1 . 1 0 `S1003 1 . 1 0 `S1006 1 . 1 0 `S1009 1 . 1 0 `S1018 1 . 1 0 ]
-[v _RCONbits RCONbits `VES1024  1 e 1 @4048 ]
+[u S1031 . 1 `S1002 1 . 1 0 `S1004 1 . 1 0 `S1007 1 . 1 0 `S1010 1 . 1 0 `S1013 1 . 1 0 `S1016 1 . 1 0 `S1025 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1031  1 e 1 @4048 ]
 "15192
 [v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
 "15249
@@ -496,16 +503,18 @@ SPI2_DEFAULT 0
 [v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"34 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
-[v _sdCardBuffer sdCardBuffer `[512]uc  1 e 512 0 ]
-[s S715 . 1 `uc 1 perr 1 0 :1:0 
+"36 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+[v _firstBuffer firstBuffer `[512]uc  1 e 512 0 ]
+"38
+[v _sin sin `C[26]uc  1 e 26 0 ]
+[s S722 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
 "52 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
-[u S720 . 1 `S715 1 . 1 0 `uc 1 status 1 0 ]
-[v _eusart1RxLastError eusart1RxLastError `VES720  1 e 1 0 ]
+[u S727 . 1 `S722 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES727  1 e 1 0 ]
 "58
 [v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
 "59
@@ -519,19 +528,28 @@ SPI2_DEFAULT 0
 [v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
 "60
 [v _timer0ReloadVal timer0ReloadVal `VEus  1 e 2 0 ]
-"40 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+"45 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"44
-[v main@sdCardAddress sdCardAddress `ul  1 a 4 58 ]
-"43
-[v main@i i `us  1 a 2 56 ]
-"45
-[v main@cmd cmd `uc  1 a 1 55 ]
+"269
+[v main@i_708 i `i  1 a 2 61 ]
+"49
+[v main@sdCardAddress sdCardAddress `ul  1 a 4 67 ]
+"52
+[v main@localAddress localAddress `ul  1 a 4 55 ]
+"48
+[v main@i i `us  1 a 2 65 ]
+"50
+[v main@bufIdx bufIdx `us  1 a 2 63 ]
+"53
+[v main@cmd cmd `uc  1 a 1 60 ]
+"51
+[v main@waveIdx waveIdx `uc  1 a 1 59 ]
+"53
 [v main@letter letter `uc  1 a 1 54 ]
-"42
+"47
 [v main@status status `uc  1 a 1 53 ]
-"225
+"293
 } 0
 "179 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\sdCard.c
 [v _hexDumpBuffer hexDumpBuffer `(v  1 e 1 0 ]
@@ -539,12 +557,23 @@ SPI2_DEFAULT 0
 "189
 [v hexDumpBuffer@j j `i  1 a 2 45 ]
 "203
-[v hexDumpBuffer@j_1158 j `i  1 a 2 47 ]
+[v hexDumpBuffer@j_1165 j `i  1 a 2 47 ]
 "181
 [v hexDumpBuffer@i i `us  1 a 2 49 ]
 "179
 [v hexDumpBuffer@sdCardBuffer sdCardBuffer `*.39uc  1 p 2 41 ]
 "211
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 11 ]
+[v ___awmod@counter counter `uc  1 a 1 10 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 6 ]
+[v ___awmod@divisor divisor `i  1 p 2 8 ]
+"34
 } 0
 "122 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
 [v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
@@ -680,9 +709,9 @@ SPI2_DEFAULT 0
 {
 "1393
 [v vfprintf@cfmt cfmt `*.32uc  1 a 2 80 ]
-[s S1620 _IO_FILE 0 ]
+[s S1627 _IO_FILE 0 ]
 "1390
-[v vfprintf@fp fp `*.2S1620  1 p 2 25 ]
+[v vfprintf@fp fp `*.2S1627  1 p 2 25 ]
 [v vfprintf@fmt fmt `*.32Cuc  1 p 2 27 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 29 ]
 "1404
@@ -698,9 +727,9 @@ SPI2_DEFAULT 0
 [v vfpfcnvrt@done done `i  1 a 2 20 ]
 "694
 [v vfpfcnvrt@c c `uc  1 a 1 24 ]
-[s S1620 _IO_FILE 0 ]
+[s S1627 _IO_FILE 0 ]
 "692
-[v vfpfcnvrt@fp fp `*.2S1620  1 p 2 74 ]
+[v vfpfcnvrt@fp fp `*.2S1627  1 p 2 74 ]
 [v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 76 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 78 ]
 "1387
@@ -715,9 +744,9 @@ SPI2_DEFAULT 0
 [v xtoa@i i `i  1 a 2 70 ]
 [v xtoa@w w `i  1 a 2 60 ]
 [v xtoa@p p `i  1 a 2 58 ]
-[s S1620 _IO_FILE 0 ]
+[s S1627 _IO_FILE 0 ]
 "645
-[v xtoa@fp fp `*.2S1620  1 p 2 35 ]
+[v xtoa@fp fp `*.2S1627  1 p 2 35 ]
 [v xtoa@d d `uo  1 p 8 37 ]
 [v xtoa@x x `uc  1 p 1 45 ]
 "687
@@ -756,9 +785,9 @@ SPI2_DEFAULT 0
 [v dtoa@s s `i  1 a 2 59 ]
 [v dtoa@w w `i  1 a 2 57 ]
 [v dtoa@p p `i  1 a 2 55 ]
-[s S1620 _IO_FILE 0 ]
+[s S1627 _IO_FILE 0 ]
 "287
-[v dtoa@fp fp `*.2S1620  1 p 2 35 ]
+[v dtoa@fp fp `*.2S1627  1 p 2 35 ]
 [v dtoa@d d `o  1 p 8 37 ]
 "328
 } 0
@@ -768,9 +797,9 @@ SPI2_DEFAULT 0
 "74
 [v pad@w w `i  1 a 2 33 ]
 [v pad@i i `i  1 a 2 31 ]
-[s S1620 _IO_FILE 0 ]
+[s S1627 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.2S1620  1 p 2 24 ]
+[v pad@fp fp `*.2S1627  1 p 2 24 ]
 [v pad@buf buf `*.39uc  1 p 2 26 ]
 [v pad@p p `i  1 p 2 28 ]
 "95
@@ -793,8 +822,8 @@ SPI2_DEFAULT 0
 [v fputs@c c `uc  1 a 1 21 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 17 ]
-[s S1603 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.2S1603  1 p 2 19 ]
+[s S1610 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.2S1610  1 p 2 19 ]
 "19
 } 0
 "1 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\abs.c
@@ -833,9 +862,9 @@ SPI2_DEFAULT 0
 "261
 [v ctoa@w w `i  1 a 2 23 ]
 [v ctoa@l l `i  1 a 2 21 ]
-[s S1620 _IO_FILE 0 ]
+[s S1627 _IO_FILE 0 ]
 "259
-[v ctoa@fp fp `*.2S1620  1 p 2 17 ]
+[v ctoa@fp fp `*.2S1627  1 p 2 17 ]
 [v ctoa@c c `uc  1 p 1 19 ]
 "283
 } 0
@@ -843,8 +872,8 @@ SPI2_DEFAULT 0
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 8 ]
-[s S1603 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.2S1603  1 p 2 10 ]
+[s S1610 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S1610  1 p 2 10 ]
 "24
 } 0
 "146 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/eusart1.c
@@ -930,12 +959,12 @@ SPI2_DEFAULT 0
 {
 "163
 } 0
-"242 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
+"310 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\main.c
 [v _myTMR0ISR myTMR0ISR `(v  1 e 1 0 ]
 {
-"244
+"312
 [v myTMR0ISR@bigOleWasteOfTime bigOleWasteOfTime `us  1 a 2 2 ]
-"254
+"322
 } 0
 "122 C:\Users\fialk\Google Drive\Code\Embedded\lab09\Lab09.X\mcc_generated_files/tmr0.c
 [v i2_TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
