@@ -26,22 +26,25 @@
 void myTMR0ISR(void);
 
 #define BLOCK_SIZE          512
-#define RATE                1600
+//#define RATE                1600
 #define MAX_NUM_BLOCKS      4
 #define ZERO 0
 
+uint16_t sampleRate = 1600;
+
+uint8_t beginSampling = false;
+uint8_t blueFull = false;
+uint8_t redFull = false;
 
 // Large arrays need to be defined as global even though you may only need to 
 // use them in main.  This quirk will be important in the next two assignments.
-uint8_t firstBuffer[BLOCK_SIZE];
-uint8_t secondBuffer[BLOCK_SIZE];
+uint8_t blueBuffer[BLOCK_SIZE];
+uint8_t redBuffer[BLOCK_SIZE];
 const uint8_t   sin[SINE_WAVE_ARRAY_LENGTH] = {128,	159,	187,	213,	233,	248,	255,	255,	248,	233,	213,	187,	159,	128,	97,	69,	43,	23,	8,	1,	1,	8,	23,	43,	69,	97};
-//----------------------------------------------
+//----------------------------------------------20
 // Main "function"
 //----------------------------------------------
 
-typedef enum  {RED_FIRST, RED_SECOND} myBufferStates_t;
-myBufferStates_t bufState = RED_FIRST;
 void main(void) {
 
     uint8_t status;
@@ -195,28 +198,28 @@ void main(void) {
 //                    //--------------------------------------------
 //                    // w: write a block of BLOCK_SIZE bytes to SD card
 //                    //--------------------------------------------
-//                case 'w':
-//                    for (i = 0; i < BLOCK_SIZE; i++) sdCardBuffer[i] = 255 - i;
-//                    WRITE_TIME_PIN_SetHigh();
-//                    SDCARD_WriteBlock(sdCardAddress, sdCardBuffer);
-//                    while ((status = SDCARD_PollWriteComplete()) == WRITE_NOT_COMPLETE);
-//                    WRITE_TIME_PIN_SetLow();
-//                    
-//                    printf("Write block of decremented 8-bit values:\r\n");
-//                    printf("    Address:    ");
-//                    printf("%04x", sdCardAddress >> 16);
-//                    printf(":");
-//                    printf("%04x", sdCardAddress & 0X0000FFFF);
-//                    printf("\r\n");
-//                    printf("    Status:     %02x\r\n", status);
-//                    break;
+                case 'w':
+                    for (i = 0; i < BLOCK_SIZE; i++) blueBuffer[i] = 255 - i;
+                    WRITE_TIME_PIN_SetHigh();
+                    SDCARD_WriteBlock(sdCardAddress, blueBuffer);
+                    while ((status = SDCARD_PollWriteComplete()) == WRITE_NOT_COMPLETE);
+                    WRITE_TIME_PIN_SetLow();
+                    
+                    printf("Write block of decremented 8-bit values:\r\n");
+                    printf("    Address:    ");
+                    printf("%04x", sdCardAddress >> 16);
+                    printf(":");
+                    printf("%04x", sdCardAddress & 0X0000FFFF);
+                    printf("\r\n");
+                    printf("    Status:     %02x\r\n", status);
+                    break;
 
                     //--------------------------------------------
                     // r: read a block of BLOCK_SIZE bytes from SD card                
                     //--------------------------------------------
                 case 'r':
                     READ_TIME_PIN_SetHigh();
-                    SDCARD_ReadBlock(sdCardAddress, firstBuffer);
+                    SDCARD_ReadBlock(sdCardAddress, blueBuffer);
                     READ_TIME_PIN_SetLow();
                     printf("Read block: \r\n");
                     printf("    Address:    ");
@@ -224,7 +227,7 @@ void main(void) {
                     printf(":");
                     printf("%04x", sdCardAddress & 0X0000FFFF);
                     printf("\r\n");
-                    hexDumpBuffer(firstBuffer);
+                    hexDumpBuffer(blueBuffer);
                     break;
 
 
@@ -236,10 +239,10 @@ void main(void) {
                         
                     //First, construct the write buffer. 
                     for(bufIdx = 0;bufIdx < BLOCK_SIZE;waveIdx = (waveIdx + 1) % 26, bufIdx++){
-                        firstBuffer[bufIdx] = sin[waveIdx];
+                        blueBuffer[bufIdx] = sin[waveIdx];
                     }
                     //Then write the buffer
-                    SDCARD_WriteBlock(localAddress, firstBuffer);
+                    SDCARD_WriteBlock(localAddress, blueBuffer);
                     while ((status = SDCARD_PollWriteComplete()) == WRITE_NOT_COMPLETE);
                     localAddress += BLOCK_SIZE;
                     
@@ -249,13 +252,49 @@ void main(void) {
                     printf("Write stopped\r\n");
                     break;
                 case '+':
-                    printf("+/-: Increase the sample rate by 10 us\r\n", BLOCK_SIZE);
+                    sampleRate += 160;
+                    printf("The sampling rate is %u us\r\n", sampleRate/16);
                     break;
                 case '-':
-                    printf("+/-: Decrease the sample rate by 10 us\r\n", BLOCK_SIZE);
+                    sampleRate -= 160;
+                    if(sampleRate < 320) sampleRate = 320;
+                    printf("The sampling rate is %u us\r\n", sampleRate/16);
                     break;
                 case 'W':
-                    printf("W: Write microphone => SD card at 1600 us\r\n");
+                    printf("Press any key to start recording audio and press any key to stop recording\r\n");
+                    //key to start sampling
+                    localAddress = sdCardAddress;
+                    while(!EUSART1_DataReady);
+                    (void) EUSART1_Read();//remove the start key from buffer might be unnecessary
+                    beginSampling = true;     
+                    //key to stop sampling
+                    while(!EUSART1_DataReady){
+                        if(blueFull == true){
+                            WRITE_TIME_PIN_SetHigh();
+                            SDCARD_WriteBlock(localAddress, blueBuffer);
+                            while ((status = SDCARD_PollWriteComplete()) == WRITE_NOT_COMPLETE);
+                            WRITE_TIME_PIN_SetLow();
+                            localAddress += BLOCK_SIZE;
+                            blueFull = false;
+//                            printf("Just wrote blue buffer to SDcard\r\n");
+                        }
+                        if(redFull == true){
+                            WRITE_TIME_PIN_SetHigh();
+                            SDCARD_WriteBlock(localAddress, redBuffer);
+                            while ((status = SDCARD_PollWriteComplete()) == WRITE_NOT_COMPLETE);
+                            WRITE_TIME_PIN_SetLow();
+                            localAddress += BLOCK_SIZE;
+                            redFull = false;
+//                            printf("Just wrote red buffer to SDcard\r\n");
+                        }
+                    }
+                    (void) EUSART1_Read();
+                    beginSampling = false;
+                    
+                    //*****************
+                    //needs a status print statement somewhere to slow down the process
+                    //*****************
+                    
                     break;
                 case 's':
                     //Gigantic string but it works. The whole thing is constant so no need to format it.
@@ -265,9 +304,9 @@ void main(void) {
                     //I'll follow the rubric
                     localAddress = sdCardAddress;
                     while(!EUSART1_DataReady){
-                    SDCARD_ReadBlock(localAddress, firstBuffer);
+                    SDCARD_ReadBlock(localAddress, blueBuffer);
                     for(int i = 0;i<BLOCK_SIZE;i++){
-                        printf("%d\r\n", firstBuffer[i]);
+                        printf("%d\r\n", blueBuffer[i]);
                         if(EUSART1_DataReady){
                             //Data is still ready after breaking out so you leave the while loop too
                             break;
@@ -304,21 +343,70 @@ void main(void) {
 //
 // !!!MAKE SURE THAT TMR0 has 0 TIMER PERIOD in MCC!!!!
 //----------------------------------------------
-#define WASTING_TIME    true
-#define BASIC_TIME      false
 
+typedef enum  {MIC_IDLE, MIC_ACQUIRE_BLUE, MIC_ACQUIRE_RED} myTMR0states_t;
+myTMR0states_t timerState = MIC_IDLE;
+
+uint16_t bufferIdx = 0;
 void myTMR0ISR(void) {
+    //Ensure that there is always something in the buffer. 
+//    while(ADCON0bits.GO_NOT_DONE == 1);
+    uint8_t micReading = ADRESH;
+    //Always need something in the buffer
+    //make CERTAIN that you give this as much time as you possibly can to work.
+    //It should always be the second line of this ISR
+    //I tried to put it at the end and it broke everything. 
+    ADCON0bits.GO_NOT_DONE = 1; 
+    //Each ISR will tell the ADC to take the sample now. By the next ISR, the sample should be through the ADC. 
+    //This means that the data an ISR places into the buffer at a given interrupt is the data it got during the last interrupt.
+    //I believe this doesn't actually cause problems?
+    switch(timerState){
+        
+        
+        case MIC_IDLE:
+            if(beginSampling == true){
+                timerState = MIC_ACQUIRE_BLUE;
+                bufferIdx = 0; 
+            }
+            break;
+        
+        case MIC_ACQUIRE_BLUE:
+            blueBuffer[bufferIdx] = micReading;
+            bufferIdx += 1;
+            if(bufferIdx >= BLOCK_SIZE){
+                blueFull = true;
+                timerState = MIC_ACQUIRE_RED;
+                bufferIdx = 0;
+            }
+            if(beginSampling == false){
+                timerState = MIC_IDLE;
+            }
+            break;
+            
+        case MIC_ACQUIRE_RED:
+            redBuffer[bufferIdx] = micReading;
+            bufferIdx += 1;
+            if(bufferIdx >= BLOCK_SIZE){
+                redFull = true;
+                timerState = MIC_ACQUIRE_BLUE;
+                bufferIdx = 0;
+            }
+            if(beginSampling == false){
+                timerState = MIC_IDLE;
+            }
+            break;
+        
+    }
+        
+        
+        //Need to add fudge value. I have no idea how to count the cycles.
+        //We'll probably need to ask a TA.
+        
+        TMR0_WriteTimer(TMR0_ReadTimer() + (0x10000 - sampleRate));
+        INTCONbits.TMR0IF = 0;
+            
 
-    uint16_t bigOleWasteOfTime;
-    TEST_PIN_SetHigh();
+} // end myTMR0ISR
 
-    for (bigOleWasteOfTime = 0; bigOleWasteOfTime < 40; bigOleWasteOfTime++);
-    TMR0_WriteTimer(0x10000 - RATE); // Less accurate    
-    // TMR0_WriteTimer(TMR0_ReadTimer() + (0x10000 - RATE));   // More accurate
-
-    INTCONbits.TMR0IF = 0;
-    TEST_PIN_SetLow();
-
-}
 
 /* end of file */

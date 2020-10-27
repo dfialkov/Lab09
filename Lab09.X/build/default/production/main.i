@@ -9508,16 +9508,27 @@ void hexDumpBuffer(uint8_t sdCardBuffer[]);
 
 
 void myTMR0ISR(void);
-# 36 "main.c"
-uint8_t firstBuffer[512];
-uint8_t secondBuffer[512];
+
+
+
+
+
+
+uint16_t sampleRate = 1600;
+
+uint8_t beginSampling = 0;
+uint8_t blueFull = 0;
+uint8_t redFull = 0;
+
+
+
+uint8_t blueBuffer[512];
+uint8_t redBuffer[512];
 const uint8_t sin[26] = {128, 159, 187, 213, 233, 248, 255, 255, 248, 233, 213, 187, 159, 128, 97, 69, 43, 23, 8, 1, 1, 8, 23, 43, 69, 97};
 
 
 
 
-typedef enum {RED_FIRST, RED_SECOND} myBufferStates_t;
-myBufferStates_t bufState = RED_FIRST;
 void main(void) {
 
     uint8_t status;
@@ -9609,7 +9620,7 @@ void main(void) {
                 case 'z':
                     for (i = 0; i < 40; i++) printf("\n");
                     break;
-# 158 "main.c"
+# 161 "main.c"
                 case 'i':
                     SPI2_Close();
                     SPI2_Open(SPI2_DEFAULT);
@@ -9646,10 +9657,32 @@ void main(void) {
                     printf("%04x", sdCardAddress & 0X0000FFFF);
                     printf("\r\n");
                     break;
-# 217 "main.c"
+
+
+
+
+                case 'w':
+                    for (i = 0; i < 512; i++) blueBuffer[i] = 255 - i;
+                    do { LATCbits.LATC4 = 1; } while(0);
+                    SDCARD_WriteBlock(sdCardAddress, blueBuffer);
+                    while ((status = SDCARD_PollWriteComplete()) == 0xFF);
+                    do { LATCbits.LATC4 = 0; } while(0);
+
+                    printf("Write block of decremented 8-bit values:\r\n");
+                    printf("    Address:    ");
+                    printf("%04x", sdCardAddress >> 16);
+                    printf(":");
+                    printf("%04x", sdCardAddress & 0X0000FFFF);
+                    printf("\r\n");
+                    printf("    Status:     %02x\r\n", status);
+                    break;
+
+
+
+
                 case 'r':
                     do { LATCbits.LATC5 = 1; } while(0);
-                    SDCARD_ReadBlock(sdCardAddress, firstBuffer);
+                    SDCARD_ReadBlock(sdCardAddress, blueBuffer);
                     do { LATCbits.LATC5 = 0; } while(0);
                     printf("Read block: \r\n");
                     printf("    Address:    ");
@@ -9657,7 +9690,7 @@ void main(void) {
                     printf(":");
                     printf("%04x", sdCardAddress & 0X0000FFFF);
                     printf("\r\n");
-                    hexDumpBuffer(firstBuffer);
+                    hexDumpBuffer(blueBuffer);
                     break;
 
 
@@ -9669,10 +9702,10 @@ void main(void) {
 
 
                     for(bufIdx = 0;bufIdx < 512;waveIdx = (waveIdx + 1) % 26, bufIdx++){
-                        firstBuffer[bufIdx] = sin[waveIdx];
+                        blueBuffer[bufIdx] = sin[waveIdx];
                     }
 
-                    SDCARD_WriteBlock(localAddress, firstBuffer);
+                    SDCARD_WriteBlock(localAddress, blueBuffer);
                     while ((status = SDCARD_PollWriteComplete()) == 0xFF);
                     localAddress += 512;
 
@@ -9682,13 +9715,49 @@ void main(void) {
                     printf("Write stopped\r\n");
                     break;
                 case '+':
-                    printf("+/-: Increase the sample rate by 10 us\r\n", 512);
+                    sampleRate += 160;
+                    printf("The sampling rate is %u us\r\n", sampleRate/16);
                     break;
                 case '-':
-                    printf("+/-: Decrease the sample rate by 10 us\r\n", 512);
+                    sampleRate -= 160;
+                    if(sampleRate < 320) sampleRate = 320;
+                    printf("The sampling rate is %u us\r\n", sampleRate/16);
                     break;
                 case 'W':
-                    printf("W: Write microphone => SD card at 1600 us\r\n");
+                    printf("Press any key to start recording audio and press any key to stop recording\r\n");
+
+                    localAddress = sdCardAddress;
+                    while(!(EUSART1_is_rx_ready()));
+                    (void) EUSART1_Read();
+                    beginSampling = 1;
+
+                    while(!(EUSART1_is_rx_ready())){
+                        if(blueFull == 1){
+                            do { LATCbits.LATC4 = 1; } while(0);
+                            SDCARD_WriteBlock(localAddress, blueBuffer);
+                            while ((status = SDCARD_PollWriteComplete()) == 0xFF);
+                            do { LATCbits.LATC4 = 0; } while(0);
+                            localAddress += 512;
+                            blueFull = 0;
+
+                        }
+                        if(redFull == 1){
+                            do { LATCbits.LATC4 = 1; } while(0);
+                            SDCARD_WriteBlock(localAddress, redBuffer);
+                            while ((status = SDCARD_PollWriteComplete()) == 0xFF);
+                            do { LATCbits.LATC4 = 0; } while(0);
+                            localAddress += 512;
+                            redFull = 0;
+
+                        }
+                    }
+                    (void) EUSART1_Read();
+                    beginSampling = 0;
+
+
+
+
+
                     break;
                 case 's':
 
@@ -9698,9 +9767,9 @@ void main(void) {
 
                     localAddress = sdCardAddress;
                     while(!(EUSART1_is_rx_ready())){
-                    SDCARD_ReadBlock(localAddress, firstBuffer);
+                    SDCARD_ReadBlock(localAddress, blueBuffer);
                     for(int i = 0;i<512;i++){
-                        printf("%d\r\n", firstBuffer[i]);
+                        printf("%d\r\n", blueBuffer[i]);
                         if((EUSART1_is_rx_ready())){
 
                             break;
@@ -9724,17 +9793,67 @@ void main(void) {
         }
     }
 }
-# 310 "main.c"
+# 347 "main.c"
+typedef enum {MIC_IDLE, MIC_ACQUIRE_BLUE, MIC_ACQUIRE_RED} myTMR0states_t;
+myTMR0states_t timerState = MIC_IDLE;
+
+uint16_t bufferIdx = 0;
 void myTMR0ISR(void) {
 
-    uint16_t bigOleWasteOfTime;
-    do { LATAbits.LATA6 = 1; } while(0);
 
-    for (bigOleWasteOfTime = 0; bigOleWasteOfTime < 40; bigOleWasteOfTime++);
-    TMR0_WriteTimer(0x10000 - 1600);
+    uint8_t micReading = ADRESH;
 
 
-    INTCONbits.TMR0IF = 0;
-    do { LATAbits.LATA6 = 0; } while(0);
+
+
+    ADCON0bits.GO_NOT_DONE = 1;
+
+
+
+    switch(timerState){
+
+
+        case MIC_IDLE:
+            if(beginSampling == 1){
+                timerState = MIC_ACQUIRE_BLUE;
+                bufferIdx = 0;
+            }
+            break;
+
+        case MIC_ACQUIRE_BLUE:
+            blueBuffer[bufferIdx] = micReading;
+            bufferIdx += 1;
+            if(bufferIdx >= 512){
+                blueFull = 1;
+                timerState = MIC_ACQUIRE_RED;
+                bufferIdx = 0;
+            }
+            if(beginSampling == 0){
+                timerState = MIC_IDLE;
+            }
+            break;
+
+        case MIC_ACQUIRE_RED:
+            redBuffer[bufferIdx] = micReading;
+            bufferIdx += 1;
+            if(bufferIdx >= 512){
+                redFull = 1;
+                timerState = MIC_ACQUIRE_BLUE;
+                bufferIdx = 0;
+            }
+            if(beginSampling == 0){
+                timerState = MIC_IDLE;
+            }
+            break;
+
+    }
+
+
+
+
+
+        TMR0_WriteTimer(TMR0_ReadTimer() + (0x10000 - sampleRate));
+        INTCONbits.TMR0IF = 0;
+
 
 }
