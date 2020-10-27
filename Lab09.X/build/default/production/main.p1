@@ -1,7 +1,11 @@
 Version 4.0 HI-TECH Software Intermediate Code
+"49 main.c
+[; ;main.c: 49: 
+[c E6193 0 1 2 .. ]
+[n E6193 . MIC_IDLE MIC_ACQUIRE_BLUE MIC_ACQUIRE_RED  ]
 [p mainexit ]
-"73 ./mcc_generated_files/mcc.h
-[; ;./mcc_generated_files/mcc.h: 73: void SYSTEM_Initialize(void);
+"74 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 74: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
 "7362 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
 [; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7362:     struct {
@@ -45,64 +49,21 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;./mcc_generated_files/tmr0.h: 309:  void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
 [v _TMR0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F6112 ]
 "26 main.c
-[; ;main.c: 26:     uint16_t i;
+[; ;main.c: 26: void main(void) {
 [v _myTMR0ISR `(v ~T0 @X0 0 ef ]
 "111 C:\Program Files\Microchip\xc8\v2.30\pic\include\c99\stdio.h
 [v _printf `(i ~T0 @X0 0 ev`*Cuc ]
 "65 ./mcc_generated_files/spi2.h
 [; ;./mcc_generated_files/spi2.h: 65: void SPI2_Close(void);
 [v _SPI2_Close `(v ~T0 @X0 0 ef ]
-"79 main.c
-[; ;main.c: 79:                     printf("-------------------------------------------------\r\n");
+"86 main.c
+[; ;main.c: 86:                     printf("o: k\r\n");
 [c E6082 0 .. ]
 [n E6082 . SPI2_DEFAULT  ]
 "64 ./mcc_generated_files/spi2.h
 [; ;./mcc_generated_files/spi2.h: 64: _Bool SPI2_Open(spi2_modes_t spi2UniqueConfiguration);
 [v _SPI2_Open `(a ~T0 @X0 0 ef1`E6082 ]
-"207 ./mcc_generated_files/eusart1.h
-[; ;./mcc_generated_files/eusart1.h: 207: _Bool EUSART1_is_rx_ready(void);
-[v _EUSART1_is_rx_ready `(a ~T0 @X0 0 ef ]
-"322
-[; ;./mcc_generated_files/eusart1.h: 322: uint8_t EUSART1_Read(void);
-[v _EUSART1_Read `(uc ~T0 @X0 0 ef ]
-"3 ./sdCard.h
-[; ;./sdCard.h: 3: void SDCARD_Initialize(uint8_t verbose);
-[v _SDCARD_Initialize `(v ~T0 @X0 0 ef1`uc ]
-"7474 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
-[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7474:     struct {
-[s S377 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S377 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
-"7484
-[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7484:     struct {
-[s S378 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S378 . LC0 LC1 LC2 LC3 LC4 LC5 LC6 LC7 ]
-"7473
-[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7473: typedef union {
-[u S376 `S377 1 `S378 1 ]
-[n S376 . . . ]
-"7495
-[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7495: extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
-[v _LATCbits `VS376 ~T0 @X0 0 e@3979 ]
-"2 ./sdCard.h
-[; ;./sdCard.h: 2: void SDCARD_WriteBlock(uint32_t addr, uint8_t sdCardBuffer[]);
-[v _SDCARD_WriteBlock `(v ~T0 @X0 0 ef2`ul`*uc ]
-"6
-[; ;./sdCard.h: 6: uint8_t SDCARD_PollWriteComplete(void);
-[v _SDCARD_PollWriteComplete `(uc ~T0 @X0 0 ef ]
-"1
-[; ;./sdCard.h: 1: void SDCARD_ReadBlock(uint32_t addr, uint8_t sdCardBuffer[]);
-[v _SDCARD_ReadBlock `(v ~T0 @X0 0 ef2`ul`*uc ]
-"8
-[; ;./sdCard.h: 8: void hexDumpBuffer(uint8_t sdCardBuffer[]);
-[v _hexDumpBuffer `(v ~T0 @X0 0 ef1`*uc ]
-"348 main.c
-[; ;main.c: 348: myTMR0states_t timerState = MIC_IDLE;
-[c E6182 0 1 2 .. ]
-[n E6182 . MIC_IDLE MIC_ACQUIRE_BLUE MIC_ACQUIRE_RED  ]
-"12966 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
-[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 12966: extern volatile unsigned char ADRESH __attribute__((address(0xFC4)));
-[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
-"12820
+"12820 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
 [; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 12820:     struct {
 [s S623 :1 `uc 1 :1 `uc 1 ]
 [n S623 . . GO_NOT_DONE ]
@@ -141,6 +102,45 @@ Version 4.0 HI-TECH Software Intermediate Code
 "12859
 [; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 12859: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
 [v _ADCON0bits `VS622 ~T0 @X0 0 e@4034 ]
+"207 ./mcc_generated_files/eusart1.h
+[; ;./mcc_generated_files/eusart1.h: 207: _Bool EUSART1_is_rx_ready(void);
+[v _EUSART1_is_rx_ready `(a ~T0 @X0 0 ef ]
+"322
+[; ;./mcc_generated_files/eusart1.h: 322: uint8_t EUSART1_Read(void);
+[v _EUSART1_Read `(uc ~T0 @X0 0 ef ]
+"3 ./sdCard.h
+[; ;./sdCard.h: 3: void SDCARD_Initialize(uint8_t verbose);
+[v _SDCARD_Initialize `(v ~T0 @X0 0 ef1`uc ]
+"7474 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7474:     struct {
+[s S377 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S377 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"7484
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7484:     struct {
+[s S378 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S378 . LC0 LC1 LC2 LC3 LC4 LC5 LC6 LC7 ]
+"7473
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7473: typedef union {
+[u S376 `S377 1 `S378 1 ]
+[n S376 . . . ]
+"7495
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 7495: extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
+[v _LATCbits `VS376 ~T0 @X0 0 e@3979 ]
+"1 ./sdCard.h
+[; ;./sdCard.h: 1: void SDCARD_ReadBlock(uint32_t addr, uint8_t sdCardBuffer[]);
+[v _SDCARD_ReadBlock `(v ~T0 @X0 0 ef2`ul`*uc ]
+"8
+[; ;./sdCard.h: 8: void hexDumpBuffer(uint8_t sdCardBuffer[]);
+[v _hexDumpBuffer `(v ~T0 @X0 0 ef1`*uc ]
+"2
+[; ;./sdCard.h: 2: void SDCARD_WriteBlock(uint32_t addr, uint8_t sdCardBuffer[]);
+[v _SDCARD_WriteBlock `(v ~T0 @X0 0 ef2`ul`*uc ]
+"6
+[; ;./sdCard.h: 6: uint8_t SDCARD_PollWriteComplete(void);
+[v _SDCARD_PollWriteComplete `(uc ~T0 @X0 0 ef ]
+"12966 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h: 12966: extern volatile unsigned char ADRESH __attribute__((address(0xFC4)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
 "197 ./mcc_generated_files/tmr0.h
 [; ;./mcc_generated_files/tmr0.h: 197: uint16_t TMR0_ReadTimer(void);
 [v _TMR0_ReadTimer `(us ~T0 @X0 0 ef ]
@@ -883,40 +883,46 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 22: 
 [p n 520      ]
 "23
-[; ;main.c: 23: void main(void) {
+[; ;main.c: 23: typedef enum {MIC_IDLE, MIC_ACQUIRE_BLUE, MIC_ACQUIRE_RED} myTMR0states_t;
 [p n 1498     ]
 "33
-[; ;main.c: 33:     letter = '0';
+[; ;main.c: 33:     uint16_t i;
 [v _sampleRate `us ~T0 @X0 1 e ]
 [i _sampleRate
 -> -> 1600 `i `us
 ]
 "35
-[; ;main.c: 35:     SYSTEM_Initialize();
+[; ;main.c: 35:     uint16_t bufIdx = 0;
 [v _beginSampling `uc ~T0 @X0 1 e ]
 [i _beginSampling
 -> -> 0 `i `uc
 ]
 "36
-[; ;main.c: 36:     do { LATBbits.LATB4 = 1; } while(0);
+[; ;main.c: 36:     uint8_t waveIdx = 0;
 [v _blueFull `uc ~T0 @X0 1 e ]
 [i _blueFull
 -> -> 0 `i `uc
 ]
 "37
-[; ;main.c: 37: 
+[; ;main.c: 37:     uint32_t localAddress;
 [v _redFull `uc ~T0 @X0 1 e ]
 [i _redFull
 -> -> 0 `i `uc
 ]
-"41
-[; ;main.c: 41:     while (INTCONbits.TMR0IF == 0);
-[v _blueBuffer `uc ~T0 @X0 -> 512 `i e ]
+"38
+[; ;main.c: 38:     char cmd, letter;
+[v _bufferIdx `us ~T0 @X0 1 e ]
+[i _bufferIdx
+-> -> 0 `i `us
+]
 "42
-[; ;main.c: 42: 
-[v _redBuffer `uc ~T0 @X0 -> 512 `i e ]
+[; ;main.c: 42:     SYSTEM_Initialize();
+[v _blueBuffer `uc ~T0 @X0 -> 512 `i e ]
 "43
-[; ;main.c: 43:     TMR0_SetInterruptHandler(myTMR0ISR);
+[; ;main.c: 43:     do { LATBbits.LATB4 = 1; } while(0);
+[v _redBuffer `uc ~T0 @X0 -> 512 `i e ]
+"44
+[; ;main.c: 44: 
 [v _sin `Cuc ~T0 @X0 -> 26 `i e ]
 [i _sin
 :U ..
@@ -948,924 +954,806 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 97 `i `uc
 ..
 ]
+"49
+[; ;main.c: 49: 
+[v _timerState `E6193 ~T0 @X0 1 e ]
+[i _timerState
+. `E6193 0
+]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"48
-[; ;main.c: 48:     printf("inLab 09\r\n");
+"51
+[; ;main.c: 51: 
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"50
-[; ;main.c: 50:     printf("Dev'21\r\n");
+"57
+[; ;main.c: 57:     printf("Dev'21\r\n");
 [v _status `uc ~T0 @X0 1 a ]
-"51
-[; ;main.c: 51:     printf("No configuration of development board\r\n> ");
+"58
+[; ;main.c: 58:     printf("No configuration of development board\r\n> ");
 [v _i `us ~T0 @X0 1 a ]
-"52
-[; ;main.c: 52: 
+"59
+[; ;main.c: 59: 
 [v _sdCardAddress `ul ~T0 @X0 1 a ]
 [e = _sdCardAddress -> -> -> 0 `i `l `ul ]
-"53
-[; ;main.c: 53:     SPI2_Close();
+"60
+[; ;main.c: 60:     SPI2_Close();
 [v _bufIdx `us ~T0 @X0 1 a ]
 [e = _bufIdx -> -> 0 `i `us ]
-"54
-[; ;main.c: 54:     SPI2_Open(SPI2_DEFAULT);
+"61
+[; ;main.c: 61:     SPI2_Open(SPI2_DEFAULT);
 [v _waveIdx `uc ~T0 @X0 1 a ]
 [e = _waveIdx -> -> 0 `i `uc ]
-"55
-[; ;main.c: 55: 
+"62
+[; ;main.c: 62: 
 [v _localAddress `ul ~T0 @X0 1 a ]
-"56
-[; ;main.c: 56:     for (;;) {
+"63
+[; ;main.c: 63: 
 [v _cmd `uc ~T0 @X0 1 a ]
 [v _letter `uc ~T0 @X0 1 a ]
-"58
-[; ;main.c: 58:         if ((EUSART1_is_rx_ready())) {
+"65
+[; ;main.c: 65:     ADCON0bits.GO_NOT_DONE = 1;
 [e = _letter -> -> 48 `ui `uc ]
-"60
-[; ;main.c: 60:             switch (cmd) {
+"67
+[; ;main.c: 67: 
 [e ( _SYSTEM_Initialize ..  ]
-"61
-[; ;main.c: 61: 
-[e :U 836 ]
+"68
+[; ;main.c: 68:     for (;;) {
+[e :U 837 ]
 {
 [e = . . _LATBbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 835 ]
-"64
-[; ;main.c: 64: 
-[e ( _TMR0_WriteTimer (1 -> -> 0 `i `us ]
-"65
-[; ;main.c: 65:                 case '?':
-[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
-"66
-[; ;main.c: 66:                     printf("\r\n-------------------------------------------------\r\n");
-[e $U 837  ]
-[e :U 838 ]
-[e :U 837 ]
-[e $ == -> . . _INTCONbits 0 2 `i -> 0 `i 838  ]
-[e :U 839 ]
-"68
-[; ;main.c: 68:                     printf("%04x", sdCardAddress >> 16);
-[e ( _TMR0_SetInterruptHandler (1 &U _myTMR0ISR ]
-"70
-[; ;main.c: 70:                     printf("%04x", sdCardAddress & 0X0000FFFF);
-[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+[e :U 836 ]
 "71
-[; ;main.c: 71:                     printf("\r\n");
-[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+[; ;main.c: 71:             cmd = EUSART1_Read();
+[e ( _TMR0_WriteTimer (1 -> -> 0 `i `us ]
+"72
+[; ;main.c: 72:             switch (cmd) {
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
 "73
-[; ;main.c: 73:                     printf("?: help menu\r\n");
-[e ( _printf :s 1C ]
-"74
-[; ;main.c: 74:                     printf("o: k\r\n");
-[e ( _printf :s 2C ]
-"75
-[; ;main.c: 75:                     printf("Z: Reset processor\r\n");
-[e ( _printf :s 3C ]
-"76
-[; ;main.c: 76:                     printf("z: Clear the terminal\r\n");
-[e ( _printf :s 4C ]
-"78
-[; ;main.c: 78:                     printf("i: Initialize SD card\r\n");
-[e ( _SPI2_Close ..  ]
-"79
-[; ;main.c: 79:                     printf("-------------------------------------------------\r\n");
-[e ( _SPI2_Open (1 . `E6082 0 ]
-"81
-[; ;main.c: 81: 
-{
+[; ;main.c: 73: 
+[e $U 838  ]
+[e :U 839 ]
+[e :U 838 ]
+[e $ == -> . . _INTCONbits 0 2 `i -> 0 `i 839  ]
 [e :U 840 ]
-{
+"75
+[; ;main.c: 75: 
+[e ( _TMR0_SetInterruptHandler (1 &U _myTMR0ISR ]
+"77
+[; ;main.c: 77:                 case '?':
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"78
+[; ;main.c: 78:                     printf("\r\n-------------------------------------------------\r\n");
+[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"80
+[; ;main.c: 80:                     printf("%04x", sdCardAddress >> 16);
+[e ( _printf :s 1C ]
+"81
+[; ;main.c: 81:                     printf(":");
+[e ( _printf :s 2C ]
+"82
+[; ;main.c: 82:                     printf("%04x", sdCardAddress & 0X0000FFFF);
+[e ( _printf :s 3C ]
 "83
-[; ;main.c: 83:                     printf("a/A decrease/increase read address\r\n");
-[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 843  ]
-{
-"84
-[; ;main.c: 84:                     printf("r: read a block of %d bytes from SD card\r\n", 512);
-[e = _cmd -> ( _EUSART1_Read ..  `uc ]
+[; ;main.c: 83:                     printf("\r\n");
+[e ( _printf :s 4C ]
 "85
-[; ;main.c: 85:                     printf("1: write a perfect 26 value sine wave to the SD card\r\n", 512);
-[e $U 845  ]
-{
+[; ;main.c: 85:                     printf("?: help menu\r\n");
+[e ( _SPI2_Close ..  ]
+"86
+[; ;main.c: 86:                     printf("o: k\r\n");
+[e ( _SPI2_Open (1 . `E6082 0 ]
 "90
-[; ;main.c: 90:                     printf("-------------------------------------------------\r\n");
-[e :U 846 ]
+[; ;main.c: 90:                     printf("i: Initialize SD card\r\n");
+[e = . . _ADCON0bits 0 1 -> -> 1 `i `uc ]
 "91
-[; ;main.c: 91:                     break;
-[e ( _printf :s 5C ]
-"92
-[; ;main.c: 92: 
-[e ( _printf :s 6C ]
+[; ;main.c: 91:                     printf("-------------------------------------------------\r\n");
+[e $U 841  ]
+[e :U 842 ]
+[e :U 841 ]
+[e $ == -> . . _ADCON0bits 0 1 `i -> 1 `i 842  ]
+[e :U 843 ]
 "93
 [; ;main.c: 93: 
-[e ( _printf , (. :s 7C >> _sdCardAddress -> 16 `i ]
-"94
-[; ;main.c: 94: 
-[e ( _printf :s 8C ]
-"95
-[; ;main.c: 95: 
-[e ( _printf , (. :s 9C & _sdCardAddress -> -> 65535 `ui `ul ]
-"96
-[; ;main.c: 96:                 case 'o':
-[e ( _printf :s 10C ]
-"97
-[; ;main.c: 97:                     printf("o:	ok\r\n");
-[e ( _printf :s 11C ]
-"98
-[; ;main.c: 98:                     break;
-[e ( _printf :s 12C ]
-"99
-[; ;main.c: 99: 
-[e ( _printf :s 13C ]
-"100
-[; ;main.c: 100: 
-[e ( _printf :s 14C ]
-"101
-[; ;main.c: 101: 
-[e ( _printf :s 15C ]
-"102
-[; ;main.c: 102: 
-[e ( _printf :s 16C ]
-"103
-[; ;main.c: 103:                 case 'Z':
-[e ( _printf :s 17C ]
-"104
-[; ;main.c: 104:                     for (i = 0; i < 40; i++) printf("\n");
-[e ( _printf :s 18C ]
-"108
-[; ;main.c: 108: 
-[e ( _printf :s 19C ]
-"109
-[; ;main.c: 109: 
-[e ( _printf , (. :s 20C -> 512 `i ]
-"110
-[; ;main.c: 110: 
-[e ( _printf , (. :s 21C -> 512 `i ]
-"111
-[; ;main.c: 111:                 case 'z':
-[e ( _printf :s 22C ]
-"112
-[; ;main.c: 112:                     for (i = 0; i < 40; i++) printf("\n");
-[e ( _printf , (. :s 23C -> 512 `i ]
-"113
-[; ;main.c: 113:                     break;
-[e ( _printf , (. :s 24C -> 512 `i ]
-"114
-[e ( _printf , (. :s 25C -> 512 `i ]
-"115
-[e ( _printf :s 26C ]
-"116
-[e $U 844  ]
-"121
-[e :U 847 ]
-"122
-[e ( _printf :s 27C ]
-"123
-[e $U 844  ]
-"128
-[e :U 848 ]
-"129
 {
-[e = _i -> -> 0 `i `us ]
-[e $ < -> _i `ui -> -> 40 `i `ui 849  ]
-[e $U 850  ]
-[e :U 849 ]
-[e ( _printf :s 28C ]
-[e ++ _i -> -> 1 `i `us ]
-[e $ < -> _i `ui -> -> 40 `i `ui 849  ]
+[e :U 844 ]
+{
+"95
+[; ;main.c: 95:                     printf("a/A decrease/increase read address\r\n");
+[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 847  ]
+{
+"96
+[; ;main.c: 96:                     printf("r: read a block of %d bytes from SD card\r\n", 512);
+[e = _cmd -> ( _EUSART1_Read ..  `uc ]
+"97
+[; ;main.c: 97:                     printf("1: write a perfect 26 value sine wave to the SD card\r\n", 512);
+[e $U 849  ]
+{
+"102
+[; ;main.c: 102:                     printf("-------------------------------------------------\r\n");
 [e :U 850 ]
-}
-"130
-[; <" reset ;# ">
-"131
-[e $U 844  ]
-"136
+"103
+[; ;main.c: 103:                     break;
+[e ( _printf :s 5C ]
+"104
+[; ;main.c: 104: 
+[e ( _printf :s 6C ]
+"105
+[; ;main.c: 105: 
+[e ( _printf , (. :s 7C >> _sdCardAddress -> 16 `i ]
+"106
+[; ;main.c: 106: 
+[e ( _printf :s 8C ]
+"107
+[; ;main.c: 107: 
+[e ( _printf , (. :s 9C & _sdCardAddress -> -> 65535 `ui `ul ]
+"108
+[; ;main.c: 108:                 case 'o':
+[e ( _printf :s 10C ]
+"109
+[; ;main.c: 109:                     printf("o:	ok\r\n");
+[e ( _printf :s 11C ]
+"110
+[; ;main.c: 110:                     break;
+[e ( _printf :s 12C ]
+"111
+[; ;main.c: 111: 
+[e ( _printf :s 13C ]
+"112
+[; ;main.c: 112: 
+[e ( _printf :s 14C ]
+"113
+[; ;main.c: 113: 
+[e ( _printf :s 15C ]
+"114
+[; ;main.c: 114: 
+[e ( _printf :s 16C ]
+"115
+[; ;main.c: 115:                 case 'Z':
+[e ( _printf :s 17C ]
+"116
+[; ;main.c: 116:                     for (i = 0; i < 40; i++) printf("\n");
+[e ( _printf :s 18C ]
+"120
+[; ;main.c: 120: 
+[e ( _printf :s 19C ]
+"121
+[; ;main.c: 121: 
+[e ( _printf , (. :s 20C -> 512 `i ]
+"122
+[; ;main.c: 122: 
+[e ( _printf , (. :s 21C -> 512 `i ]
+"123
+[; ;main.c: 123:                 case 'z':
+[e ( _printf :s 22C ]
+"124
+[; ;main.c: 124:                     for (i = 0; i < 40; i++) printf("\n");
+[e ( _printf , (. :s 23C -> 512 `i ]
+"125
+[; ;main.c: 125:                     break;
+[e ( _printf , (. :s 24C -> 512 `i ]
+"126
+[e ( _printf , (. :s 25C -> 512 `i ]
+"127
+[e ( _printf :s 26C ]
+"128
+[e $U 848  ]
+"133
+[e :U 851 ]
+"134
+[e ( _printf :s 27C ]
+"135
+[e $U 848  ]
+"140
 [e :U 852 ]
-"137
+"141
 {
 [e = _i -> -> 0 `i `us ]
 [e $ < -> _i `ui -> -> 40 `i `ui 853  ]
 [e $U 854  ]
 [e :U 853 ]
-[e ( _printf :s 29C ]
+[e ( _printf :s 28C ]
 [e ++ _i -> -> 1 `i `us ]
 [e $ < -> _i `ui -> -> 40 `i `ui 853  ]
 [e :U 854 ]
 }
-"138
-[e $U 844  ]
-"161
-[; ;main.c: 161:                 case 'i':
+"142
+[; <" reset ;# ">
+"143
+[e $U 848  ]
+"148
 [e :U 856 ]
-"162
-[; ;main.c: 162:                     SPI2_Close();
-[e ( _SPI2_Close ..  ]
-"163
-[; ;main.c: 163:                     SPI2_Open(SPI2_DEFAULT);
-[e ( _SPI2_Open (1 . `E6082 0 ]
-"164
-[; ;main.c: 164:                     SDCARD_Initialize(1);
-[e ( _SDCARD_Initialize (1 -> -> 1 `i `uc ]
-"165
-[; ;main.c: 165:                     break;
-[e $U 844  ]
-"170
-[; ;main.c: 170:                 case 'A':
-[e :U 857 ]
-"171
-[; ;main.c: 171:                 case 'a':
-[e :U 858 ]
-"172
-[; ;main.c: 172:                     if (cmd == 'a') {
-[e $ ! == -> _cmd `ui -> 97 `ui 859  ]
-{
-"173
-[; ;main.c: 173:                         sdCardAddress -= 512;
-[e =- _sdCardAddress -> -> -> 512 `i `l `ul ]
-"174
-[; ;main.c: 174:                         if (sdCardAddress >= 0x04000000) {
-[e $ ! >= _sdCardAddress -> -> 67108864 `l `ul 860  ]
-{
-"175
-[; ;main.c: 175:                             printf("Underflowed to high address\r\n");
-[e ( _printf :s 30C ]
-"176
-[; ;main.c: 176:                             sdCardAddress = 0x04000000 - 512;
-[e = _sdCardAddress -> - -> 67108864 `l -> -> 512 `i `l `ul ]
-"177
-[; ;main.c: 177:                         } else {
-}
-[e $U 861  ]
-[e :U 860 ]
-{
-"178
-[; ;main.c: 178:                             printf("Decreased address\r\n");
-[e ( _printf :s 31C ]
-"179
-[; ;main.c: 179:                         }
-}
-[e :U 861 ]
-"180
-[; ;main.c: 180:                     } else {
-}
-[e $U 862  ]
-[e :U 859 ]
-{
-"181
-[; ;main.c: 181:                         sdCardAddress += 512;
-[e =+ _sdCardAddress -> -> -> 512 `i `l `ul ]
-"182
-[; ;main.c: 182:                         if (sdCardAddress >= 0x04000000) {
-[e $ ! >= _sdCardAddress -> -> 67108864 `l `ul 863  ]
-{
-"183
-[; ;main.c: 183:                             printf("Overflowed to low address\r\n");
-[e ( _printf :s 32C ]
-"184
-[; ;main.c: 184:                             sdCardAddress = 0x00000000;
-[e = _sdCardAddress -> -> -> 0 `i `l `ul ]
-"185
-[; ;main.c: 185:                         } else {
-}
-[e $U 864  ]
-[e :U 863 ]
-{
-"186
-[; ;main.c: 186:                             printf("Increased address\r\n");
-[e ( _printf :s 33C ]
-"187
-[; ;main.c: 187:                         }
-}
-[e :U 864 ]
-"188
-[; ;main.c: 188:                     }
-}
-[e :U 862 ]
-"191
-[; ;main.c: 191:                     printf("SD card address:  ");
-[e ( _printf :s 34C ]
-"192
-[; ;main.c: 192:                     printf("%04x", sdCardAddress >> 16);
-[e ( _printf , (. :s 35C >> _sdCardAddress -> 16 `i ]
-"193
-[; ;main.c: 193:                     printf(":");
-[e ( _printf :s 36C ]
-"194
-[; ;main.c: 194:                     printf("%04x", sdCardAddress & 0X0000FFFF);
-[e ( _printf , (. :s 37C & _sdCardAddress -> -> 65535 `ui `ul ]
-"195
-[; ;main.c: 195:                     printf("\r\n");
-[e ( _printf :s 38C ]
-"196
-[; ;main.c: 196:                     break;
-[e $U 844  ]
-"201
-[; ;main.c: 201:                 case 'w':
-[e :U 865 ]
-"202
-[; ;main.c: 202:                     for (i = 0; i < 512; i++) blueBuffer[i] = 255 - i;
+"149
 {
 [e = _i -> -> 0 `i `us ]
-[e $ < -> _i `ui -> -> 512 `i `ui 866  ]
-[e $U 867  ]
-[e :U 866 ]
-[e = *U + &U _blueBuffer * -> _i `ux -> -> # *U &U _blueBuffer `ui `ux -> - -> -> 255 `i `ui -> _i `ui `uc ]
+[e $ < -> _i `ui -> -> 40 `i `ui 857  ]
+[e $U 858  ]
+[e :U 857 ]
+[e ( _printf :s 29C ]
 [e ++ _i -> -> 1 `i `us ]
-[e $ < -> _i `ui -> -> 512 `i `ui 866  ]
+[e $ < -> _i `ui -> -> 40 `i `ui 857  ]
+[e :U 858 ]
+}
+"150
+[e $U 848  ]
+"173
+[; ;main.c: 173:                 case 'i':
+[e :U 860 ]
+"174
+[; ;main.c: 174:                     SPI2_Close();
+[e ( _SPI2_Close ..  ]
+"175
+[; ;main.c: 175:                     SPI2_Open(SPI2_DEFAULT);
+[e ( _SPI2_Open (1 . `E6082 0 ]
+"176
+[; ;main.c: 176:                     SDCARD_Initialize(1);
+[e ( _SDCARD_Initialize (1 -> -> 1 `i `uc ]
+"177
+[; ;main.c: 177:                     break;
+[e $U 848  ]
+"182
+[; ;main.c: 182:                 case 'A':
+[e :U 861 ]
+"183
+[; ;main.c: 183:                 case 'a':
+[e :U 862 ]
+"184
+[; ;main.c: 184:                     if (cmd == 'a') {
+[e $ ! == -> _cmd `ui -> 97 `ui 863  ]
+{
+"185
+[; ;main.c: 185:                         sdCardAddress -= 512;
+[e =- _sdCardAddress -> -> -> 512 `i `l `ul ]
+"186
+[; ;main.c: 186:                         if (sdCardAddress >= 0x04000000) {
+[e $ ! >= _sdCardAddress -> -> 67108864 `l `ul 864  ]
+{
+"187
+[; ;main.c: 187:                             printf("Underflowed to high address\r\n");
+[e ( _printf :s 30C ]
+"188
+[; ;main.c: 188:                             sdCardAddress = 0x04000000 - 512;
+[e = _sdCardAddress -> - -> 67108864 `l -> -> 512 `i `l `ul ]
+"189
+[; ;main.c: 189:                         } else {
+}
+[e $U 865  ]
+[e :U 864 ]
+{
+"190
+[; ;main.c: 190:                             printf("Decreased address\r\n");
+[e ( _printf :s 31C ]
+"191
+[; ;main.c: 191:                         }
+}
+[e :U 865 ]
+"192
+[; ;main.c: 192:                     } else {
+}
+[e $U 866  ]
+[e :U 863 ]
+{
+"193
+[; ;main.c: 193:                         sdCardAddress += 512;
+[e =+ _sdCardAddress -> -> -> 512 `i `l `ul ]
+"194
+[; ;main.c: 194:                         if (sdCardAddress >= 0x04000000) {
+[e $ ! >= _sdCardAddress -> -> 67108864 `l `ul 867  ]
+{
+"195
+[; ;main.c: 195:                             printf("Overflowed to low address\r\n");
+[e ( _printf :s 32C ]
+"196
+[; ;main.c: 196:                             sdCardAddress = 0x00000000;
+[e = _sdCardAddress -> -> -> 0 `i `l `ul ]
+"197
+[; ;main.c: 197:                         } else {
+}
+[e $U 868  ]
 [e :U 867 ]
+{
+"198
+[; ;main.c: 198:                             printf("Increased address\r\n");
+[e ( _printf :s 33C ]
+"199
+[; ;main.c: 199:                         }
 }
+[e :U 868 ]
+"200
+[; ;main.c: 200:                     }
+}
+[e :U 866 ]
 "203
-[; ;main.c: 203:                     do { LATCbits.LATC4 = 1; } while(0);
-[e :U 871 ]
-{
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 870 ]
+[; ;main.c: 203:                     printf("SD card address:  ");
+[e ( _printf :s 34C ]
 "204
-[; ;main.c: 204:                     SDCARD_WriteBlock(sdCardAddress, blueBuffer);
-[e ( _SDCARD_WriteBlock (2 , _sdCardAddress &U _blueBuffer ]
+[; ;main.c: 204:                     printf("%04x", sdCardAddress >> 16);
+[e ( _printf , (. :s 35C >> _sdCardAddress -> 16 `i ]
 "205
-[; ;main.c: 205:                     while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-[e $U 872  ]
-[e :U 873 ]
-[e :U 872 ]
-[e $ == -> = _status ( _SDCARD_PollWriteComplete ..  `i -> 255 `i 873  ]
-[e :U 874 ]
+[; ;main.c: 205:                     printf(":");
+[e ( _printf :s 36C ]
 "206
-[; ;main.c: 206:                     do { LATCbits.LATC4 = 0; } while(0);
-[e :U 877 ]
-{
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
-}
-[e :U 876 ]
+[; ;main.c: 206:                     printf("%04x", sdCardAddress & 0X0000FFFF);
+[e ( _printf , (. :s 37C & _sdCardAddress -> -> 65535 `ui `ul ]
+"207
+[; ;main.c: 207:                     printf("\r\n");
+[e ( _printf :s 38C ]
 "208
-[; ;main.c: 208:                     printf("Write block of decremented 8-bit values:\r\n");
-[e ( _printf :s 39C ]
-"209
-[; ;main.c: 209:                     printf("    Address:    ");
-[e ( _printf :s 40C ]
-"210
-[; ;main.c: 210:                     printf("%04x", sdCardAddress >> 16);
-[e ( _printf , (. :s 41C >> _sdCardAddress -> 16 `i ]
-"211
-[; ;main.c: 211:                     printf(":");
-[e ( _printf :s 42C ]
-"212
-[; ;main.c: 212:                     printf("%04x", sdCardAddress & 0X0000FFFF);
-[e ( _printf , (. :s 43C & _sdCardAddress -> -> 65535 `ui `ul ]
-"213
-[; ;main.c: 213:                     printf("\r\n");
-[e ( _printf :s 44C ]
-"214
-[; ;main.c: 214:                     printf("    Status:     %02x\r\n", status);
-[e ( _printf , (. :s 45C -> _status `i ]
+[; ;main.c: 208:                     break;
+[e $U 848  ]
 "215
-[; ;main.c: 215:                     break;
-[e $U 844  ]
-"220
-[; ;main.c: 220:                 case 'r':
-[e :U 878 ]
-"221
-[; ;main.c: 221:                     do { LATCbits.LATC5 = 1; } while(0);
-[e :U 881 ]
+[; ;main.c: 215:                 case 'r':
+[e :U 869 ]
+"216
+[; ;main.c: 216:                     do { LATCbits.LATC5 = 1; } while(0);
+[e :U 872 ]
 {
 [e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
 }
-[e :U 880 ]
-"222
-[; ;main.c: 222:                     SDCARD_ReadBlock(sdCardAddress, blueBuffer);
+[e :U 871 ]
+"217
+[; ;main.c: 217:                     SDCARD_ReadBlock(sdCardAddress, blueBuffer);
 [e ( _SDCARD_ReadBlock (2 , _sdCardAddress &U _blueBuffer ]
-"223
-[; ;main.c: 223:                     do { LATCbits.LATC5 = 0; } while(0);
-[e :U 884 ]
+"218
+[; ;main.c: 218:                     do { LATCbits.LATC5 = 0; } while(0);
+[e :U 875 ]
 {
 [e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
 }
-[e :U 883 ]
+[e :U 874 ]
+"219
+[; ;main.c: 219:                     printf("Read block: \r\n");
+[e ( _printf :s 39C ]
+"220
+[; ;main.c: 220:                     printf("    Address:    ");
+[e ( _printf :s 40C ]
+"221
+[; ;main.c: 221:                     printf("%04x", sdCardAddress >> 16);
+[e ( _printf , (. :s 41C >> _sdCardAddress -> 16 `i ]
+"222
+[; ;main.c: 222:                     printf(":");
+[e ( _printf :s 42C ]
+"223
+[; ;main.c: 223:                     printf("%04x", sdCardAddress & 0X0000FFFF);
+[e ( _printf , (. :s 43C & _sdCardAddress -> -> 65535 `ui `ul ]
 "224
-[; ;main.c: 224:                     printf("Read block: \r\n");
-[e ( _printf :s 46C ]
+[; ;main.c: 224:                     printf("\r\n");
+[e ( _printf :s 44C ]
 "225
-[; ;main.c: 225:                     printf("    Address:    ");
-[e ( _printf :s 47C ]
-"226
-[; ;main.c: 226:                     printf("%04x", sdCardAddress >> 16);
-[e ( _printf , (. :s 48C >> _sdCardAddress -> 16 `i ]
-"227
-[; ;main.c: 227:                     printf(":");
-[e ( _printf :s 49C ]
-"228
-[; ;main.c: 228:                     printf("%04x", sdCardAddress & 0X0000FFFF);
-[e ( _printf , (. :s 50C & _sdCardAddress -> -> 65535 `ui `ul ]
-"229
-[; ;main.c: 229:                     printf("\r\n");
-[e ( _printf :s 51C ]
-"230
-[; ;main.c: 230:                     hexDumpBuffer(blueBuffer);
+[; ;main.c: 225:                     hexDumpBuffer(blueBuffer);
 [e ( _hexDumpBuffer (1 &U _blueBuffer ]
-"231
-[; ;main.c: 231:                     break;
-[e $U 844  ]
-"234
-[; ;main.c: 234:                 case '1':
-[e :U 885 ]
-"235
-[; ;main.c: 235:                     waveIdx = 0;
+"226
+[; ;main.c: 226:                     break;
+[e $U 848  ]
+"229
+[; ;main.c: 229:                 case '1':
+[e :U 876 ]
+"230
+[; ;main.c: 230:                     waveIdx = 0;
 [e = _waveIdx -> -> 0 `i `uc ]
-"236
-[; ;main.c: 236:                     localAddress = sdCardAddress;
+"231
+[; ;main.c: 231:                     localAddress = sdCardAddress;
 [e = _localAddress _sdCardAddress ]
-"237
-[; ;main.c: 237:                     printf("Writing sine wave to memory, starting with the current address. Press any key to stop.\r\n");
-[e ( _printf :s 52C ]
-"238
-[; ;main.c: 238:                     while (!(EUSART1_is_rx_ready())){
-[e $U 886  ]
-[e :U 887 ]
+"232
+[; ;main.c: 232:                     printf("Writing sine wave to memory, starting with the current address. Press any key to stop.\r\n");
+[e ( _printf :s 45C ]
+"233
+[; ;main.c: 233:                     while (!(EUSART1_is_rx_ready())){
+[e $U 877  ]
+[e :U 878 ]
 {
-"241
-[; ;main.c: 241:                     for(bufIdx = 0;bufIdx < 512;waveIdx = (waveIdx + 1) % 26, bufIdx++){
+"235
+[; ;main.c: 235:                     for(bufIdx = 0;bufIdx < 512;waveIdx = (waveIdx + 1) % 26, bufIdx++){
 {
 [e = _bufIdx -> -> 0 `i `us ]
-[e $ < -> _bufIdx `ui -> -> 512 `i `ui 889  ]
-[e $U 890  ]
-[e :U 889 ]
+[e $ < -> _bufIdx `ui -> -> 512 `i `ui 880  ]
+[e $U 881  ]
+[e :U 880 ]
 {
-"242
-[; ;main.c: 242:                         blueBuffer[bufIdx] = sin[waveIdx];
+"236
+[; ;main.c: 236:                         blueBuffer[bufIdx] = sin[waveIdx];
 [e = *U + &U _blueBuffer * -> _bufIdx `ux -> -> # *U &U _blueBuffer `ui `ux *U + &U _sin * -> _waveIdx `ux -> -> # *U &U _sin `ui `ux ]
-"243
-[; ;main.c: 243:                     }
+"237
+[; ;main.c: 237:                     }
 }
 [e ; = _waveIdx -> % + -> _waveIdx `i -> 1 `i -> 26 `i `uc ++ _bufIdx -> -> 1 `i `us ]
-[e $ < -> _bufIdx `ui -> -> 512 `i `ui 889  ]
-[e :U 890 ]
+[e $ < -> _bufIdx `ui -> -> 512 `i `ui 880  ]
+[e :U 881 ]
 }
-"245
-[; ;main.c: 245:                     SDCARD_WriteBlock(localAddress, blueBuffer);
+"239
+[; ;main.c: 239:                     SDCARD_WriteBlock(localAddress, blueBuffer);
 [e ( _SDCARD_WriteBlock (2 , _localAddress &U _blueBuffer ]
-"246
-[; ;main.c: 246:                     while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-[e $U 892  ]
-[e :U 893 ]
-[e :U 892 ]
-[e $ == -> = _status ( _SDCARD_PollWriteComplete ..  `i -> 255 `i 893  ]
-[e :U 894 ]
-"247
-[; ;main.c: 247:                     localAddress += 512;
+"240
+[; ;main.c: 240:                     while ((status = SDCARD_PollWriteComplete()) == 0xFF);
+[e $U 883  ]
+[e :U 884 ]
+[e :U 883 ]
+[e $ == -> = _status ( _SDCARD_PollWriteComplete ..  `i -> 255 `i 884  ]
+[e :U 885 ]
+"241
+[; ;main.c: 241:                     __asm("nop");
+[; <" nop ;# ">
+"242
+[; ;main.c: 242:                     localAddress += 512;
 [e =+ _localAddress -> -> -> 512 `i `l `ul ]
-"249
-[; ;main.c: 249:                     }
+"244
+[; ;main.c: 244:                     }
 }
-[e :U 886 ]
-"238
-[; ;main.c: 238:                     while (!(EUSART1_is_rx_ready())){
-[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 887  ]
-[e :U 888 ]
-"251
-[; ;main.c: 251:                     (void) EUSART1_Read();
+[e :U 877 ]
+"233
+[; ;main.c: 233:                     while (!(EUSART1_is_rx_ready())){
+[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 878  ]
+[e :U 879 ]
+"246
+[; ;main.c: 246:                     (void) EUSART1_Read();
 [e ( _EUSART1_Read ..  ]
-"252
-[; ;main.c: 252:                     printf("Write stopped\r\n");
-[e ( _printf :s 53C ]
-"253
-[; ;main.c: 253:                     break;
-[e $U 844  ]
-"254
-[; ;main.c: 254:                 case '+':
-[e :U 895 ]
-"255
-[; ;main.c: 255:                     sampleRate += 160;
+"247
+[; ;main.c: 247:                     printf("Write stopped\r\n");
+[e ( _printf :s 46C ]
+"248
+[; ;main.c: 248:                     break;
+[e $U 848  ]
+"249
+[; ;main.c: 249:                 case '+':
+[e :U 886 ]
+"250
+[; ;main.c: 250:                     sampleRate += 160;
 [e =+ _sampleRate -> -> 160 `i `us ]
+"251
+[; ;main.c: 251:                     printf("The sampling rate is %u us\r\n", sampleRate/16);
+[e ( _printf , (. :s 47C / -> _sampleRate `ui -> -> 16 `i `ui ]
+"252
+[; ;main.c: 252:                     break;
+[e $U 848  ]
+"253
+[; ;main.c: 253:                 case '-':
+[e :U 887 ]
+"254
+[; ;main.c: 254:                     sampleRate -= 160;
+[e =- _sampleRate -> -> 160 `i `us ]
+"255
+[; ;main.c: 255:                     if(sampleRate < 320) sampleRate = 320;
+[e $ ! < -> _sampleRate `ui -> -> 320 `i `ui 888  ]
+[e = _sampleRate -> -> 320 `i `us ]
+[e :U 888 ]
 "256
 [; ;main.c: 256:                     printf("The sampling rate is %u us\r\n", sampleRate/16);
-[e ( _printf , (. :s 54C / -> _sampleRate `ui -> -> 16 `i `ui ]
+[e ( _printf , (. :s 48C / -> _sampleRate `ui -> -> 16 `i `ui ]
 "257
 [; ;main.c: 257:                     break;
-[e $U 844  ]
+[e $U 848  ]
 "258
-[; ;main.c: 258:                 case '-':
-[e :U 896 ]
+[; ;main.c: 258:                 case 'W':
+[e :U 889 ]
 "259
-[; ;main.c: 259:                     sampleRate -= 160;
-[e =- _sampleRate -> -> 160 `i `us ]
-"260
-[; ;main.c: 260:                     if(sampleRate < 320) sampleRate = 320;
-[e $ ! < -> _sampleRate `ui -> -> 320 `i `ui 897  ]
-[e = _sampleRate -> -> 320 `i `us ]
-[e :U 897 ]
+[; ;main.c: 259:                     printf("Press any key to start recording audio and press any key to stop recording\r\n");
+[e ( _printf :s 49C ]
 "261
-[; ;main.c: 261:                     printf("The sampling rate is %u us\r\n", sampleRate/16);
-[e ( _printf , (. :s 55C / -> _sampleRate `ui -> -> 16 `i `ui ]
-"262
-[; ;main.c: 262:                     break;
-[e $U 844  ]
-"263
-[; ;main.c: 263:                 case 'W':
-[e :U 898 ]
-"264
-[; ;main.c: 264:                     printf("Press any key to start recording audio and press any key to stop recording\r\n");
-[e ( _printf :s 56C ]
-"266
-[; ;main.c: 266:                     localAddress = sdCardAddress;
+[; ;main.c: 261:                     localAddress = sdCardAddress;
 [e = _localAddress _sdCardAddress ]
-"267
-[; ;main.c: 267:                     while(!(EUSART1_is_rx_ready()));
-[e $U 899  ]
-[e :U 900 ]
-[e :U 899 ]
-[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 900  ]
-[e :U 901 ]
-"268
-[; ;main.c: 268:                     (void) EUSART1_Read();
+"262
+[; ;main.c: 262:                     bufferIdx = 0;
+[e = _bufferIdx -> -> 0 `i `us ]
+"263
+[; ;main.c: 263:                     while(!(EUSART1_is_rx_ready()));
+[e $U 890  ]
+[e :U 891 ]
+[e :U 890 ]
+[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 891  ]
+[e :U 892 ]
+"264
+[; ;main.c: 264:                     printf("Recording started");
+[e ( _printf :s 50C ]
+"266
+[; ;main.c: 266:                     (void) EUSART1_Read();
 [e ( _EUSART1_Read ..  ]
-"269
-[; ;main.c: 269:                     beginSampling = 1;
+"267
+[; ;main.c: 267:                     beginSampling = 1;
 [e = _beginSampling -> -> 1 `i `uc ]
-"271
-[; ;main.c: 271:                     while(!(EUSART1_is_rx_ready())){
-[e $U 902  ]
-[e :U 903 ]
+"268
+[; ;main.c: 268:                     timerState = MIC_ACQUIRE_BLUE;
+[e = _timerState . `E6193 1 ]
+"270
+[; ;main.c: 270:                     while(!(EUSART1_is_rx_ready())){
+[e $U 893  ]
+[e :U 894 ]
 {
-"272
-[; ;main.c: 272:                         if(blueFull == 1){
-[e $ ! == -> _blueFull `i -> 1 `i 905  ]
-{
-"273
-[; ;main.c: 273:                             do { LATCbits.LATC4 = 1; } while(0);
-[e :U 908 ]
-{
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 907 ]
-"274
-[; ;main.c: 274:                             SDCARD_WriteBlock(localAddress, blueBuffer);
-[e ( _SDCARD_WriteBlock (2 , _localAddress &U _blueBuffer ]
-"275
-[; ;main.c: 275:                             while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-[e $U 909  ]
-[e :U 910 ]
-[e :U 909 ]
-[e $ == -> = _status ( _SDCARD_PollWriteComplete ..  `i -> 255 `i 910  ]
-[e :U 911 ]
 "276
-[; ;main.c: 276:                             do { LATCbits.LATC4 = 0; } while(0);
-[e :U 914 ]
+[; ;main.c: 276:                         if(blueFull == 1){
+[e $ ! == -> _blueFull `i -> 1 `i 896  ]
 {
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
-}
-[e :U 913 ]
 "277
-[; ;main.c: 277:                             localAddress += 512;
+[; ;main.c: 277:                             SDCARD_WriteBlock(localAddress, blueBuffer);
+[e ( _SDCARD_WriteBlock (2 , _localAddress &U _blueBuffer ]
+"279
+[; ;main.c: 279:                             localAddress += 512;
 [e =+ _localAddress -> -> -> 512 `i `l `ul ]
-"278
-[; ;main.c: 278:                             blueFull = 0;
-[e = _blueFull -> -> 0 `i `uc ]
 "280
-[; ;main.c: 280:                         }
-}
-[e :U 905 ]
+[; ;main.c: 280:                             blueFull = 0;
+[e = _blueFull -> -> 0 `i `uc ]
 "281
-[; ;main.c: 281:                         if(redFull == 1){
-[e $ ! == -> _redFull `i -> 1 `i 915  ]
-{
-"282
-[; ;main.c: 282:                             do { LATCbits.LATC4 = 1; } while(0);
-[e :U 918 ]
-{
-[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
-}
-[e :U 917 ]
+[; ;main.c: 281:                             timerState = MIC_ACQUIRE_RED;
+[e = _timerState . `E6193 2 ]
 "283
-[; ;main.c: 283:                             SDCARD_WriteBlock(localAddress, redBuffer);
-[e ( _SDCARD_WriteBlock (2 , _localAddress &U _redBuffer ]
-"284
-[; ;main.c: 284:                             while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-[e $U 919  ]
-[e :U 920 ]
-[e :U 919 ]
-[e $ == -> = _status ( _SDCARD_PollWriteComplete ..  `i -> 255 `i 920  ]
-[e :U 921 ]
-"285
-[; ;main.c: 285:                             do { LATCbits.LATC4 = 0; } while(0);
-[e :U 924 ]
-{
-[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+[; ;main.c: 283:                         }
 }
-[e :U 923 ]
-"286
-[; ;main.c: 286:                             localAddress += 512;
-[e =+ _localAddress -> -> -> 512 `i `l `ul ]
+[e :U 896 ]
+"284
+[; ;main.c: 284:                         if(redFull == 1){
+[e $ ! == -> _redFull `i -> 1 `i 897  ]
+{
+"285
+[; ;main.c: 285:                             SDCARD_WriteBlock(localAddress, redBuffer);
+[e ( _SDCARD_WriteBlock (2 , _localAddress &U _redBuffer ]
 "287
-[; ;main.c: 287:                             redFull = 0;
+[; ;main.c: 287:                             localAddress += 512;
+[e =+ _localAddress -> -> -> 512 `i `l `ul ]
+"288
+[; ;main.c: 288:                             redFull = 0;
 [e = _redFull -> -> 0 `i `uc ]
 "289
-[; ;main.c: 289:                         }
-}
-[e :U 915 ]
-"290
-[; ;main.c: 290:                     }
-}
-[e :U 902 ]
-"271
-[; ;main.c: 271:                     while(!(EUSART1_is_rx_ready())){
-[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 903  ]
-[e :U 904 ]
+[; ;main.c: 289:                             timerState = MIC_ACQUIRE_BLUE;
+[e = _timerState . `E6193 1 ]
 "291
-[; ;main.c: 291:                     (void) EUSART1_Read();
-[e ( _EUSART1_Read ..  ]
+[; ;main.c: 291:                         }
+}
+[e :U 897 ]
 "292
-[; ;main.c: 292:                     beginSampling = 0;
+[; ;main.c: 292:                     }
+}
+[e :U 893 ]
+"270
+[; ;main.c: 270:                     while(!(EUSART1_is_rx_ready())){
+[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 894  ]
+[e :U 895 ]
+"293
+[; ;main.c: 293:                     (void) EUSART1_Read();
+[e ( _EUSART1_Read ..  ]
+"294
+[; ;main.c: 294:                     beginSampling = 0;
 [e = _beginSampling -> -> 0 `i `uc ]
-"298
-[; ;main.c: 298:                     break;
-[e $U 844  ]
-"299
-[; ;main.c: 299:                 case 's':
-[e :U 925 ]
-"301
-[; ;main.c: 301:                     printf("\r\nYou may terminate spooling at anytime with a keypress.\r\nTo spool terminal contents into a file follow these instructions:\r\n\r\nRight mouse click on the upper left of the PuTTY window\r\nSelect:     Change settings...\r\nSelect:     Logging\r\nSelect:     Session logging: All session output\r\nLog file name:  Browse and provide a .csv extension to your file name\r\nSelect:     Apply\r\nPress any key to start");
-[e ( _printf :s 57C ]
+"295
+[; ;main.c: 295:                     timerState = MIC_IDLE;
+[e = _timerState . `E6193 0 ]
+"296
+[; ;main.c: 296:                     printf("Mic sampling complete\r\n");
+[e ( _printf :s 51C ]
+"302
+[; ;main.c: 302:                     break;
+[e $U 848  ]
+"303
+[; ;main.c: 303:                 case 's':
+[e :U 898 ]
 "305
-[; ;main.c: 305:                     localAddress = sdCardAddress;
+[; ;main.c: 305:                     printf("\r\nYou may terminate spooling at anytime with a keypress.\r\nTo spool terminal contents into a file follow these instructions:\r\n\r\nRight mouse click on the upper left of the PuTTY window\r\nSelect:     Change settings...\r\nSelect:     Logging\r\nSelect:     Session logging: All session output\r\nLog file name:  Browse and provide a .csv extension to your file name\r\nSelect:     Apply\r\nPress any key to start");
+[e ( _printf :s 52C ]
+"309
+[; ;main.c: 309:                     localAddress = sdCardAddress;
 [e = _localAddress _sdCardAddress ]
-"306
-[; ;main.c: 306:                     while(!(EUSART1_is_rx_ready())){
-[e $U 926  ]
-[e :U 927 ]
+"310
+[; ;main.c: 310:                     while(!(EUSART1_is_rx_ready())){
+[e $U 899  ]
+[e :U 900 ]
 {
-"307
-[; ;main.c: 307:                     SDCARD_ReadBlock(localAddress, blueBuffer);
+"311
+[; ;main.c: 311:                     SDCARD_ReadBlock(localAddress, blueBuffer);
 [e ( _SDCARD_ReadBlock (2 , _localAddress &U _blueBuffer ]
-"308
-[; ;main.c: 308:                     for(int i = 0;i<512;i++){
+"312
+[; ;main.c: 312:                     for(int i = 0;i<512;i++){
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 512 `i 929  ]
-[e $U 930  ]
-[e :U 929 ]
+[e $ < _i -> 512 `i 902  ]
+[e $U 903  ]
+[e :U 902 ]
 {
-"309
-[; ;main.c: 309:                         printf("%d\r\n", blueBuffer[i]);
-[e ( _printf , (. :s 58C -> *U + &U _blueBuffer * -> -> _i `ui `ux -> -> # *U &U _blueBuffer `ui `ux `i ]
-"310
-[; ;main.c: 310:                         if((EUSART1_is_rx_ready())){
-[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 932  ]
-{
-"312
-[; ;main.c: 312:                             break;
-[e $U 930  ]
 "313
-[; ;main.c: 313:                         }
-}
-[e :U 932 ]
+[; ;main.c: 313:                         printf("%d\r\n", blueBuffer[i]);
+[e ( _printf , (. :s 53C -> *U + &U _blueBuffer * -> -> _i `ui `ux -> -> # *U &U _blueBuffer `ui `ux `i ]
 "314
-[; ;main.c: 314:                     }
+[; ;main.c: 314:                         if((EUSART1_is_rx_ready())){
+[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 905  ]
+{
+"316
+[; ;main.c: 316:                             break;
+[e $U 903  ]
+"317
+[; ;main.c: 317:                         }
+}
+[e :U 905 ]
+"318
+[; ;main.c: 318:                     }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 512 `i 929  ]
-[e :U 930 ]
+[e $ < _i -> 512 `i 902  ]
+[e :U 903 ]
 }
-"315
-[; ;main.c: 315:                     localAddress += 512;
+"319
+[; ;main.c: 319:                     localAddress += 512;
 [e =+ _localAddress -> -> -> 512 `i `l `ul ]
-"317
-[; ;main.c: 317:                     }
-}
-[e :U 926 ]
-"306
-[; ;main.c: 306:                     while(!(EUSART1_is_rx_ready())){
-[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 927  ]
-[e :U 928 ]
-"318
-[; ;main.c: 318:                     (void) EUSART1_Read();
-[e ( _EUSART1_Read ..  ]
-"320
-[; ;main.c: 320:                     printf("Spooled 512 out of the 512 blocks. \r\nTo close the file follow these instructions: \r\n \r\nRight mouse click on the upper left of the PuTTY window \r\nSelect:     Change settings... \r\nSelect:     Logging \r\nSelect:     Session  logging: None \r\nSelect:     Apply");
-[e ( _printf :s 59C ]
 "321
-[; ;main.c: 321:                     break;
-[e $U 844  ]
+[; ;main.c: 321:                     }
+}
+[e :U 899 ]
+"310
+[; ;main.c: 310:                     while(!(EUSART1_is_rx_ready())){
+[e $ ! != -> ( _EUSART1_is_rx_ready ..  `i -> 0 `i 900  ]
+[e :U 901 ]
+"322
+[; ;main.c: 322:                     (void) EUSART1_Read();
+[e ( _EUSART1_Read ..  ]
+"324
+[; ;main.c: 324:                     printf("Spooled 512 out of the 512 blocks. \r\nTo close the file follow these instructions: \r\n \r\nRight mouse click on the upper left of the PuTTY window \r\nSelect:     Change settings... \r\nSelect:     Logging \r\nSelect:     Session  logging: None \r\nSelect:     Apply");
+[e ( _printf :s 54C ]
 "325
-[; ;main.c: 325:                 default:
-[e :U 933 ]
-"326
-[; ;main.c: 326:                     printf("Unknown key %c\r\n", cmd);
-[e ( _printf , (. :s 60C -> _cmd `i ]
-"327
-[; ;main.c: 327:                     break;
-[e $U 844  ]
-"328
-[; ;main.c: 328:             }
+[; ;main.c: 325:                     break;
+[e $U 848  ]
+"329
+[; ;main.c: 329:                 default:
+[e :U 906 ]
+"330
+[; ;main.c: 330:                     printf("Unknown key %c\r\n", cmd);
+[e ( _printf , (. :s 55C -> _cmd `i ]
+"331
+[; ;main.c: 331:                     break;
+[e $U 848  ]
+"332
+[; ;main.c: 332:             }
+}
+[e $U 848  ]
+[e :U 849 ]
+[e [\ -> _cmd `i , $ -> -> 63 `ui `i 850
+ , $ -> -> 111 `ui `i 851
+ , $ -> -> 90 `ui `i 852
+ , $ -> -> 122 `ui `i 856
+ , $ -> -> 105 `ui `i 860
+ , $ -> -> 65 `ui `i 861
+ , $ -> -> 97 `ui `i 862
+ , $ -> -> 114 `ui `i 869
+ , $ -> -> 49 `ui `i 876
+ , $ -> -> 43 `ui `i 886
+ , $ -> -> 45 `ui `i 887
+ , $ -> -> 87 `ui `i 889
+ , $ -> -> 115 `ui `i 898
+ 906 ]
+[e :U 848 ]
+"334
+[; ;main.c: 334:         }
+}
+[e :U 847 ]
+"335
+[; ;main.c: 335:     }
 }
 [e $U 844  ]
 [e :U 845 ]
-[e [\ -> _cmd `i , $ -> -> 63 `ui `i 846
- , $ -> -> 111 `ui `i 847
- , $ -> -> 90 `ui `i 848
- , $ -> -> 122 `ui `i 852
- , $ -> -> 105 `ui `i 856
- , $ -> -> 65 `ui `i 857
- , $ -> -> 97 `ui `i 858
- , $ -> -> 119 `ui `i 865
- , $ -> -> 114 `ui `i 878
- , $ -> -> 49 `ui `i 885
- , $ -> -> 43 `ui `i 895
- , $ -> -> 45 `ui `i 896
- , $ -> -> 87 `ui `i 898
- , $ -> -> 115 `ui `i 925
- 933 ]
-[e :U 844 ]
-"330
-[; ;main.c: 330:         }
 }
-[e :U 843 ]
-"331
-[; ;main.c: 331:     }
+"336
+[; ;main.c: 336: }
+[e :UE 834 ]
 }
-[e $U 840  ]
-[e :U 841 ]
-}
-"332
-[; ;main.c: 332: }
-[e :UE 833 ]
-}
-"348
-[; ;main.c: 348: myTMR0states_t timerState = MIC_IDLE;
-[v _timerState `E6182 ~T0 @X0 1 e ]
-[i _timerState
-. `E6182 0
-]
-"350
-[; ;main.c: 350: uint16_t bufferIdx = 0;
-[v _bufferIdx `us ~T0 @X0 1 e ]
-[i _bufferIdx
--> -> 0 `i `us
-]
-"351
-[; ;main.c: 351: void myTMR0ISR(void) {
+"354
+[; ;main.c: 354: void myTMR0ISR(void) {
 [v _myTMR0ISR `(v ~T0 @X0 1 ef ]
 {
 [e :U _myTMR0ISR ]
 [f ]
-"354
-[; ;main.c: 354:     uint8_t micReading = ADRESH;
+"357
+[; ;main.c: 357:     uint8_t micReading = ADRESH;
 [v _micReading `uc ~T0 @X0 1 a ]
 [e = _micReading _ADRESH ]
-"359
-[; ;main.c: 359:     ADCON0bits.GO_NOT_DONE = 1;
+"362
+[; ;main.c: 362:     ADCON0bits.GO_NOT_DONE = 1;
 [e = . . _ADCON0bits 0 1 -> -> 1 `i `uc ]
-"363
-[; ;main.c: 363:     switch(timerState){
-[e $U 936  ]
-{
 "366
-[; ;main.c: 366:         case MIC_IDLE:
-[e :U 937 ]
-"367
-[; ;main.c: 367:             if(beginSampling == 1){
-[e $ ! == -> _beginSampling `i -> 1 `i 938  ]
+[; ;main.c: 366:     switch(timerState){
+[e $U 909  ]
 {
-"368
-[; ;main.c: 368:                 timerState = MIC_ACQUIRE_BLUE;
-[e = _timerState . `E6182 1 ]
 "369
-[; ;main.c: 369:                 bufferIdx = 0;
-[e = _bufferIdx -> -> 0 `i `us ]
-"370
-[; ;main.c: 370:             }
-}
-[e :U 938 ]
+[; ;main.c: 369:         case MIC_IDLE:
+[e :U 910 ]
 "371
 [; ;main.c: 371:             break;
-[e $U 935  ]
-"373
-[; ;main.c: 373:         case MIC_ACQUIRE_BLUE:
-[e :U 939 ]
-"374
-[; ;main.c: 374:             blueBuffer[bufferIdx] = micReading;
-[e = *U + &U _blueBuffer * -> _bufferIdx `ux -> -> # *U &U _blueBuffer `ui `ux _micReading ]
-"375
-[; ;main.c: 375:             bufferIdx += 1;
-[e =+ _bufferIdx -> -> 1 `i `us ]
-"376
-[; ;main.c: 376:             if(bufferIdx >= 512){
-[e $ ! >= -> _bufferIdx `ui -> -> 512 `i `ui 940  ]
-{
-"377
-[; ;main.c: 377:                 blueFull = 1;
-[e = _blueFull -> -> 1 `i `uc ]
+[e $U 908  ]
 "378
-[; ;main.c: 378:                 timerState = MIC_ACQUIRE_RED;
-[e = _timerState . `E6182 2 ]
-"379
-[; ;main.c: 379:                 bufferIdx = 0;
-[e = _bufferIdx -> -> 0 `i `us ]
+[; ;main.c: 378:         case MIC_ACQUIRE_BLUE:
+[e :U 911 ]
 "380
-[; ;main.c: 380:             }
-}
-[e :U 940 ]
+[; ;main.c: 380:             blueBuffer[bufferIdx] = micReading;
+[e = *U + &U _blueBuffer * -> _bufferIdx `ux -> -> # *U &U _blueBuffer `ui `ux _micReading ]
 "381
-[; ;main.c: 381:             if(beginSampling == 0){
-[e $ ! == -> _beginSampling `i -> 0 `i 941  ]
-{
-"382
-[; ;main.c: 382:                 timerState = MIC_IDLE;
-[e = _timerState . `E6182 0 ]
-"383
-[; ;main.c: 383:             }
-}
-[e :U 941 ]
-"384
-[; ;main.c: 384:             break;
-[e $U 935  ]
-"386
-[; ;main.c: 386:         case MIC_ACQUIRE_RED:
-[e :U 942 ]
-"387
-[; ;main.c: 387:             redBuffer[bufferIdx] = micReading;
-[e = *U + &U _redBuffer * -> _bufferIdx `ux -> -> # *U &U _redBuffer `ui `ux _micReading ]
-"388
-[; ;main.c: 388:             bufferIdx += 1;
+[; ;main.c: 381:             bufferIdx += 1;
 [e =+ _bufferIdx -> -> 1 `i `us ]
-"389
-[; ;main.c: 389:             if(bufferIdx >= 512){
-[e $ ! >= -> _bufferIdx `ui -> -> 512 `i `ui 943  ]
+"383
+[; ;main.c: 383:             if(bufferIdx >= 512){
+[e $ ! >= -> _bufferIdx `ui -> -> 512 `i `ui 912  ]
 {
-"390
-[; ;main.c: 390:                 redFull = 1;
-[e = _redFull -> -> 1 `i `uc ]
-"391
-[; ;main.c: 391:                 timerState = MIC_ACQUIRE_BLUE;
-[e = _timerState . `E6182 1 ]
-"392
-[; ;main.c: 392:                 bufferIdx = 0;
+"384
+[; ;main.c: 384:                 blueFull = 1;
+[e = _blueFull -> -> 1 `i `uc ]
+"385
+[; ;main.c: 385:                 bufferIdx = 0;
 [e = _bufferIdx -> -> 0 `i `us ]
+"386
+[; ;main.c: 386:                 timerState = MIC_IDLE;
+[e = _timerState . `E6193 0 ]
+"387
+[; ;main.c: 387:             }
+}
+[e :U 912 ]
+"389
+[; ;main.c: 389:             break;
+[e $U 908  ]
+"391
+[; ;main.c: 391:         case MIC_ACQUIRE_RED:
+[e :U 913 ]
 "393
-[; ;main.c: 393:             }
-}
-[e :U 943 ]
+[; ;main.c: 393:                 redBuffer[bufferIdx] = micReading;
+[e = *U + &U _redBuffer * -> _bufferIdx `ux -> -> # *U &U _redBuffer `ui `ux _micReading ]
 "394
-[; ;main.c: 394:             if(beginSampling == 0){
-[e $ ! == -> _beginSampling `i -> 0 `i 944  ]
-{
-"395
-[; ;main.c: 395:                 timerState = MIC_IDLE;
-[e = _timerState . `E6182 0 ]
+[; ;main.c: 394:             bufferIdx += 1;
+[e =+ _bufferIdx -> -> 1 `i `us ]
 "396
-[; ;main.c: 396:             }
-}
-[e :U 944 ]
+[; ;main.c: 396:             if(bufferIdx >= 512){
+[e $ ! >= -> _bufferIdx `ui -> -> 512 `i `ui 914  ]
+{
 "397
-[; ;main.c: 397:             break;
-[e $U 935  ]
+[; ;main.c: 397:                 redFull = 1;
+[e = _redFull -> -> 1 `i `uc ]
+"398
+[; ;main.c: 398:                 bufferIdx = 0;
+[e = _bufferIdx -> -> 0 `i `us ]
 "399
-[; ;main.c: 399:     }
+[; ;main.c: 399:                 timerState = MIC_IDLE;
+[e = _timerState . `E6193 0 ]
+"400
+[; ;main.c: 400:             }
 }
-[e $U 935  ]
-[e :U 936 ]
-[e [\ -> _timerState `ui , $ -> . `E6182 0 `ui 937
- , $ -> . `E6182 1 `ui 939
- , $ -> . `E6182 2 `ui 942
- 935 ]
-[e :U 935 ]
-"405
-[; ;main.c: 405:         TMR0_WriteTimer(TMR0_ReadTimer() + (0x10000 - sampleRate));
-[e ( _TMR0_WriteTimer (1 -> + -> ( _TMR0_ReadTimer ..  `l - -> 65536 `l -> _sampleRate `l `us ]
-"406
-[; ;main.c: 406:         INTCONbits.TMR0IF = 0;
-[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+[e :U 914 ]
+"401
+[; ;main.c: 401:             break;
+[e $U 908  ]
+"403
+[; ;main.c: 403:     }
+}
+[e $U 908  ]
+[e :U 909 ]
+[e [\ -> _timerState `ui , $ -> . `E6193 0 `ui 910
+ , $ -> . `E6193 1 `ui 911
+ , $ -> . `E6193 2 `ui 913
+ 908 ]
+[e :U 908 ]
+"408
+[; ;main.c: 408:         TMR0_WriteTimer(0x10000 - (sampleRate - TMR0_ReadTimer()));
+[e ( _TMR0_WriteTimer (1 -> - -> 65536 `l -> - -> _sampleRate `ui -> ( _TMR0_ReadTimer ..  `ui `l `us ]
 "409
-[; ;main.c: 409: }
-[e :UE 934 ]
+[; ;main.c: 409:         INTCONbits.TMR0IF = 0;
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+"412
+[; ;main.c: 412: }
+[e :UE 907 ]
 }
 [p f _printf 13141124 ]
-[a 59C 83 112 111 111 108 101 100 32 53 49 50 32 111 117 116 32 111 102 32 116 104 101 32 53 49 50 32 98 108 111 99 107 115 46 32 13 10 84 111 32 99 108 111 115 101 32 116 104 101 32 102 105 108 101 32 102 111 108 108 111 119 32 116 104 101 115 101 32 105 110 115 116 114 117 99 116 105 111 110 115 58 32 13 10 32 13 10 82 105 103 104 116 32 109 111 117 115 101 32 99 108 105 99 107 32 111 110 32 116 104 101 32 117 112 112 101 114 32 108 101 102 116 32 111 102 32 116 104 101 32 80 117 84 84 89 32 119 105 110 100 111 119 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 67 104 97 110 103 101 32 115 101 116 116 105 110 103 115 46 46 46 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 76 111 103 103 105 110 103 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 83 101 115 115 105 111 110 32 32 108 111 103 103 105 110 103 58 32 78 111 110 101 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 65 112 112 108 121 0 ]
+[a 54C 83 112 111 111 108 101 100 32 53 49 50 32 111 117 116 32 111 102 32 116 104 101 32 53 49 50 32 98 108 111 99 107 115 46 32 13 10 84 111 32 99 108 111 115 101 32 116 104 101 32 102 105 108 101 32 102 111 108 108 111 119 32 116 104 101 115 101 32 105 110 115 116 114 117 99 116 105 111 110 115 58 32 13 10 32 13 10 82 105 103 104 116 32 109 111 117 115 101 32 99 108 105 99 107 32 111 110 32 116 104 101 32 117 112 112 101 114 32 108 101 102 116 32 111 102 32 116 104 101 32 80 117 84 84 89 32 119 105 110 100 111 119 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 67 104 97 110 103 101 32 115 101 116 116 105 110 103 115 46 46 46 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 76 111 103 103 105 110 103 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 83 101 115 115 105 111 110 32 32 108 111 103 103 105 110 103 58 32 78 111 110 101 32 13 10 83 101 108 101 99 116 58 32 32 32 32 32 65 112 112 108 121 0 ]
 [a 7C 37 48 52 120 0 ]
 [a 9C 37 48 52 120 0 ]
 [a 35C 37 48 52 120 0 ]
 [a 37C 37 48 52 120 0 ]
 [a 41C 37 48 52 120 0 ]
 [a 43C 37 48 52 120 0 ]
-[a 48C 37 48 52 120 0 ]
-[a 50C 37 48 52 120 0 ]
-[a 57C 13 10 89 111 117 32 109 97 121 32 116 101 114 109 105 110 97 116 101 32 115 112 111 111 108 105 110 103 32 97 116 32 97 110 121 116 105 109 101 32 119 105 116 104 32 97 32 107 101 121 112 114 101 115 115 46 13 10 84 111 32 115 112 111 111 108 32 116 101 114 109 105 110 97 108 32 99 111 110 116 101 110 116 115 32 105 110 116 111 32 97 32 102 105 108 101 32 102 111 108 108 111 119 32 116 104 101 115 101 32 105 110 115 116 114 117 99 116 105 111 110 115 58 13 10 13 10 82 105 103 104 116 32 109 111 117 115 101 32 99 108 105 99 107 32 111 110 32 116 104 101 32 117 112 112 101 114 32 108 101 102 116 32 111 102 32 116 104 101 32 80 117 84 84 89 32 119 105 110 100 111 119 13 10 83 101 108 101 99 116 58 32 32 32 32 32 67 104 97 110 103 101 32 115 101 116 116 105 110 103 115 46 46 46 13 10 83 101 108 101 99 116 58 32 32 32 32 32 76 111 103 103 105 110 103 13 10 83 101 108 101 99 116 58 32 32 32 32 32 83 101 115 115 105 111 110 32 108 111 103 103 105 110 103 58 32 65 108 108 32 115 101 115 115 105 111 110 32 111 117 116 112 117 116 13 10 76 111 103 32 102 105 108 101 32 110 97 109 101 58 32 32 66 114 111 119 115 101 32 97 110 100 32 112 114 111 118 105 100 101 32 97 32 46 99 115 118 32 101 120 116 101 110 115 105 111 110 32 116 111 32 121 111 117 114 32 102 105 108 101 32 110 97 109 101 13 10 83 101 108 101 99 116 58 32 32 32 32 32 65 112 112 108 121 13 10 80 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 97 114 116 0 ]
+[a 52C 13 10 89 111 117 32 109 97 121 32 116 101 114 109 105 110 97 116 101 32 115 112 111 111 108 105 110 103 32 97 116 32 97 110 121 116 105 109 101 32 119 105 116 104 32 97 32 107 101 121 112 114 101 115 115 46 13 10 84 111 32 115 112 111 111 108 32 116 101 114 109 105 110 97 108 32 99 111 110 116 101 110 116 115 32 105 110 116 111 32 97 32 102 105 108 101 32 102 111 108 108 111 119 32 116 104 101 115 101 32 105 110 115 116 114 117 99 116 105 111 110 115 58 13 10 13 10 82 105 103 104 116 32 109 111 117 115 101 32 99 108 105 99 107 32 111 110 32 116 104 101 32 117 112 112 101 114 32 108 101 102 116 32 111 102 32 116 104 101 32 80 117 84 84 89 32 119 105 110 100 111 119 13 10 83 101 108 101 99 116 58 32 32 32 32 32 67 104 97 110 103 101 32 115 101 116 116 105 110 103 115 46 46 46 13 10 83 101 108 101 99 116 58 32 32 32 32 32 76 111 103 103 105 110 103 13 10 83 101 108 101 99 116 58 32 32 32 32 32 83 101 115 115 105 111 110 32 108 111 103 103 105 110 103 58 32 65 108 108 32 115 101 115 115 105 111 110 32 111 117 116 112 117 116 13 10 76 111 103 32 102 105 108 101 32 110 97 109 101 58 32 32 66 114 111 119 115 101 32 97 110 100 32 112 114 111 118 105 100 101 32 97 32 46 99 115 118 32 101 120 116 101 110 115 105 111 110 32 116 111 32 121 111 117 114 32 102 105 108 101 32 110 97 109 101 13 10 83 101 108 101 99 116 58 32 32 32 32 32 65 112 112 108 121 13 10 80 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 97 114 116 0 ]
+[a 50C 82 101 99 111 114 100 105 110 103 32 115 116 97 114 116 101 100 0 ]
 [a 8C 58 0 ]
 [a 36C 58 0 ]
 [a 42C 58 0 ]
-[a 49C 58 0 ]
 [a 4C 78 111 32 99 111 110 102 105 103 117 114 97 116 105 111 110 32 111 102 32 100 101 118 101 108 111 112 109 101 110 116 32 98 111 97 114 100 13 10 62 32 0 ]
 [a 6C 83 68 32 99 97 114 100 32 97 100 100 114 101 115 115 58 32 32 0 ]
 [a 34C 83 68 32 99 97 114 100 32 97 100 100 114 101 115 115 58 32 32 0 ]
 [a 40C 32 32 32 32 65 100 100 114 101 115 115 58 32 32 32 32 0 ]
-[a 47C 32 32 32 32 65 100 100 114 101 115 115 58 32 32 32 32 0 ]
-[a 45C 32 32 32 32 83 116 97 116 117 115 58 32 32 32 32 32 37 48 50 120 13 10 0 ]
 [a 12C 63 58 32 104 101 108 112 32 109 101 110 117 13 10 0 ]
-[a 54C 84 104 101 32 115 97 109 112 108 105 110 103 32 114 97 116 101 32 105 115 32 37 117 32 117 115 13 10 0 ]
-[a 55C 84 104 101 32 115 97 109 112 108 105 110 103 32 114 97 116 101 32 105 115 32 37 117 32 117 115 13 10 0 ]
+[a 47C 84 104 101 32 115 97 109 112 108 105 110 103 32 114 97 116 101 32 105 115 32 37 117 32 117 115 13 10 0 ]
+[a 48C 84 104 101 32 115 97 109 112 108 105 110 103 32 114 97 116 101 32 105 115 32 37 117 32 117 115 13 10 0 ]
 [a 23C 43 47 45 58 32 73 110 99 114 101 97 115 101 47 68 101 99 114 101 97 115 101 32 116 104 101 32 115 97 109 112 108 101 32 114 97 116 101 32 98 121 32 49 48 32 117 115 13 10 0 ]
 [a 24C 87 58 32 87 114 105 116 101 32 109 105 99 114 111 112 104 111 110 101 32 61 62 32 83 68 32 99 97 114 100 32 97 116 32 49 54 48 48 32 117 115 13 10 0 ]
 [a 32C 79 118 101 114 102 108 111 119 101 100 32 116 111 32 108 111 119 32 97 100 100 114 101 115 115 13 10 0 ]
@@ -1878,28 +1766,27 @@ Version 4.0 HI-TECH Software Intermediate Code
 [a 27C 111 58 9 111 107 13 10 0 ]
 [a 13C 111 58 32 107 13 10 0 ]
 [a 2C 83 68 32 99 97 114 100 32 116 101 115 116 105 110 103 13 10 0 ]
-[a 56C 80 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 97 114 116 32 114 101 99 111 114 100 105 110 103 32 97 117 100 105 111 32 97 110 100 32 112 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 111 112 32 114 101 99 111 114 100 105 110 103 13 10 0 ]
+[a 49C 80 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 97 114 116 32 114 101 99 111 114 100 105 110 103 32 97 117 100 105 111 32 97 110 100 32 112 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 111 112 32 114 101 99 111 114 100 105 110 103 13 10 0 ]
+[a 51C 77 105 99 32 115 97 109 112 108 105 110 103 32 99 111 109 112 108 101 116 101 13 10 0 ]
 [a 25C 115 58 32 115 112 111 111 108 32 109 101 109 111 114 121 32 116 111 32 97 32 99 115 118 32 102 105 108 101 13 10 0 ]
 [a 20C 114 58 32 114 101 97 100 32 97 32 98 108 111 99 107 32 111 102 32 37 100 32 98 121 116 101 115 32 102 114 111 109 32 83 68 32 99 97 114 100 13 10 0 ]
 [a 17C 105 58 32 73 110 105 116 105 97 108 105 122 101 32 83 68 32 99 97 114 100 13 10 0 ]
 [a 21C 49 58 32 119 114 105 116 101 32 97 32 112 101 114 102 101 99 116 32 50 54 32 118 97 108 117 101 32 115 105 110 101 32 119 97 118 101 32 116 111 32 116 104 101 32 83 68 32 99 97 114 100 13 10 0 ]
-[a 53C 87 114 105 116 101 32 115 116 111 112 112 101 100 13 10 0 ]
-[a 58C 37 100 13 10 0 ]
-[a 60C 85 110 107 110 111 119 110 32 107 101 121 32 37 99 13 10 0 ]
-[a 39C 87 114 105 116 101 32 98 108 111 99 107 32 111 102 32 100 101 99 114 101 109 101 110 116 101 100 32 56 45 98 105 116 32 118 97 108 117 101 115 58 13 10 0 ]
+[a 46C 87 114 105 116 101 32 115 116 111 112 112 101 100 13 10 0 ]
+[a 53C 37 100 13 10 0 ]
+[a 55C 85 110 107 110 111 119 110 32 107 101 121 32 37 99 13 10 0 ]
 [a 1C 105 110 76 97 98 32 48 57 13 10 0 ]
 [a 3C 68 101 118 39 50 49 13 10 0 ]
-[a 52C 87 114 105 116 105 110 103 32 115 105 110 101 32 119 97 118 101 32 116 111 32 109 101 109 111 114 121 44 32 115 116 97 114 116 105 110 103 32 119 105 116 104 32 116 104 101 32 99 117 114 114 101 110 116 32 97 100 100 114 101 115 115 46 32 80 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 111 112 46 13 10 0 ]
+[a 45C 87 114 105 116 105 110 103 32 115 105 110 101 32 119 97 118 101 32 116 111 32 109 101 109 111 114 121 44 32 115 116 97 114 116 105 110 103 32 119 105 116 104 32 116 104 101 32 99 117 114 114 101 110 116 32 97 100 100 114 101 115 115 46 32 80 114 101 115 115 32 97 110 121 32 107 101 121 32 116 111 32 115 116 111 112 46 13 10 0 ]
 [a 5C 13 10 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 0 ]
 [a 11C 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 0 ]
 [a 16C 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 0 ]
 [a 18C 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 0 ]
 [a 22C 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 0 ]
 [a 26C 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 0 ]
-[a 46C 82 101 97 100 32 98 108 111 99 107 58 32 13 10 0 ]
+[a 39C 82 101 97 100 32 98 108 111 99 107 58 32 13 10 0 ]
 [a 10C 13 10 0 ]
 [a 38C 13 10 0 ]
 [a 44C 13 10 0 ]
-[a 51C 13 10 0 ]
 [a 28C 10 0 ]
 [a 29C 10 0 ]

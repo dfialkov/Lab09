@@ -9136,9 +9136,9 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 190 "./mcc_generated_files/pin_manager.h"
+# 218 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 202 "./mcc_generated_files/pin_manager.h"
+# 230 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -9454,6 +9454,43 @@ extern void (*TMR0_InterruptHandler)(void);
 void TMR0_DefaultInterruptHandler(void);
 # 57 "./mcc_generated_files/mcc.h" 2
 
+# 1 "./mcc_generated_files/adc.h" 1
+# 72 "./mcc_generated_files/adc.h"
+typedef uint16_t adc_result_t;
+
+
+
+
+typedef struct
+{
+    adc_result_t adcResult1;
+    adc_result_t adcResult2;
+} adc_sync_double_result_t;
+# 95 "./mcc_generated_files/adc.h"
+typedef enum
+{
+    channel_AN0 = 0x0,
+    MIC_PIN = 0x4,
+    channel_CTMU = 0x1D,
+    channel_DAC = 0x1E,
+    channel_FVRBuf2 = 0x1F
+} adc_channel_t;
+# 137 "./mcc_generated_files/adc.h"
+void ADC_Initialize(void);
+# 167 "./mcc_generated_files/adc.h"
+void ADC_SelectChannel(adc_channel_t channel);
+# 194 "./mcc_generated_files/adc.h"
+void ADC_StartConversion(void);
+# 226 "./mcc_generated_files/adc.h"
+_Bool ADC_IsConversionDone(void);
+# 259 "./mcc_generated_files/adc.h"
+adc_result_t ADC_GetConversionResult(void);
+# 289 "./mcc_generated_files/adc.h"
+adc_result_t ADC_GetConversion(adc_channel_t channel);
+# 317 "./mcc_generated_files/adc.h"
+void ADC_TemperatureAcquisitionDelay(void);
+# 58 "./mcc_generated_files/mcc.h" 2
+
 # 1 "./mcc_generated_files/eusart1.h" 1
 # 76 "./mcc_generated_files/eusart1.h"
 typedef union {
@@ -9485,10 +9522,10 @@ void EUSART1_SetFramingErrorHandler(void (* interruptHandler)(void));
 void EUSART1_SetOverrunErrorHandler(void (* interruptHandler)(void));
 # 398 "./mcc_generated_files/eusart1.h"
 void EUSART1_SetErrorHandler(void (* interruptHandler)(void));
-# 58 "./mcc_generated_files/mcc.h" 2
-# 73 "./mcc_generated_files/mcc.h"
+# 59 "./mcc_generated_files/mcc.h" 2
+# 74 "./mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
-# 86 "./mcc_generated_files/mcc.h"
+# 87 "./mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
 # 20 "main.c" 2
 
@@ -9519,6 +9556,7 @@ uint16_t sampleRate = 1600;
 uint8_t beginSampling = 0;
 uint8_t blueFull = 0;
 uint8_t redFull = 0;
+uint16_t bufferIdx = 0;
 
 
 
@@ -9528,8 +9566,14 @@ const uint8_t sin[26] = {128, 159, 187, 213, 233, 248, 255, 255, 248, 233, 213, 
 
 
 
+typedef enum {MIC_IDLE, MIC_ACQUIRE_BLUE, MIC_ACQUIRE_RED} myTMR0states_t;
+myTMR0states_t timerState = MIC_IDLE;
 
 void main(void) {
+
+
+
+
 
     uint8_t status;
     uint16_t i;
@@ -9561,6 +9605,11 @@ void main(void) {
 
     SPI2_Close();
     SPI2_Open(SPI2_DEFAULT);
+
+
+
+    ADCON0bits.GO_NOT_DONE = 1;
+    while(ADCON0bits.GO_NOT_DONE == 1);
 
     for (;;) {
 
@@ -9620,7 +9669,7 @@ void main(void) {
                 case 'z':
                     for (i = 0; i < 40; i++) printf("\n");
                     break;
-# 161 "main.c"
+# 173 "main.c"
                 case 'i':
                     SPI2_Close();
                     SPI2_Open(SPI2_DEFAULT);
@@ -9661,23 +9710,6 @@ void main(void) {
 
 
 
-                case 'w':
-                    for (i = 0; i < 512; i++) blueBuffer[i] = 255 - i;
-                    do { LATCbits.LATC4 = 1; } while(0);
-                    SDCARD_WriteBlock(sdCardAddress, blueBuffer);
-                    while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-                    do { LATCbits.LATC4 = 0; } while(0);
-
-                    printf("Write block of decremented 8-bit values:\r\n");
-                    printf("    Address:    ");
-                    printf("%04x", sdCardAddress >> 16);
-                    printf(":");
-                    printf("%04x", sdCardAddress & 0X0000FFFF);
-                    printf("\r\n");
-                    printf("    Status:     %02x\r\n", status);
-                    break;
-
-
 
 
                 case 'r':
@@ -9700,13 +9732,13 @@ void main(void) {
                     printf("Writing sine wave to memory, starting with the current address. Press any key to stop.\r\n");
                     while (!(EUSART1_is_rx_ready())){
 
-
                     for(bufIdx = 0;bufIdx < 512;waveIdx = (waveIdx + 1) % 26, bufIdx++){
                         blueBuffer[bufIdx] = sin[waveIdx];
                     }
 
                     SDCARD_WriteBlock(localAddress, blueBuffer);
                     while ((status = SDCARD_PollWriteComplete()) == 0xFF);
+                    __asm("nop");
                     localAddress += 512;
 
                     }
@@ -9727,32 +9759,41 @@ void main(void) {
                     printf("Press any key to start recording audio and press any key to stop recording\r\n");
 
                     localAddress = sdCardAddress;
+                    bufferIdx = 0;
                     while(!(EUSART1_is_rx_ready()));
+                    printf("Recording started");
+
                     (void) EUSART1_Read();
                     beginSampling = 1;
+                    timerState = MIC_ACQUIRE_BLUE;
 
                     while(!(EUSART1_is_rx_ready())){
+
+
+
+
+
                         if(blueFull == 1){
-                            do { LATCbits.LATC4 = 1; } while(0);
                             SDCARD_WriteBlock(localAddress, blueBuffer);
-                            while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-                            do { LATCbits.LATC4 = 0; } while(0);
+
                             localAddress += 512;
                             blueFull = 0;
+                            timerState = MIC_ACQUIRE_RED;
 
                         }
                         if(redFull == 1){
-                            do { LATCbits.LATC4 = 1; } while(0);
                             SDCARD_WriteBlock(localAddress, redBuffer);
-                            while ((status = SDCARD_PollWriteComplete()) == 0xFF);
-                            do { LATCbits.LATC4 = 0; } while(0);
+
                             localAddress += 512;
                             redFull = 0;
+                            timerState = MIC_ACQUIRE_BLUE;
 
                         }
                     }
                     (void) EUSART1_Read();
                     beginSampling = 0;
+                    timerState = MIC_IDLE;
+                    printf("Mic sampling complete\r\n");
 
 
 
@@ -9793,11 +9834,7 @@ void main(void) {
         }
     }
 }
-# 347 "main.c"
-typedef enum {MIC_IDLE, MIC_ACQUIRE_BLUE, MIC_ACQUIRE_RED} myTMR0states_t;
-myTMR0states_t timerState = MIC_IDLE;
-
-uint16_t bufferIdx = 0;
+# 354 "main.c"
 void myTMR0ISR(void) {
 
 
@@ -9814,34 +9851,35 @@ void myTMR0ISR(void) {
 
 
         case MIC_IDLE:
-            if(beginSampling == 1){
-                timerState = MIC_ACQUIRE_BLUE;
-                bufferIdx = 0;
-            }
+
             break;
 
+
+
+
+
+
         case MIC_ACQUIRE_BLUE:
+
             blueBuffer[bufferIdx] = micReading;
             bufferIdx += 1;
+
             if(bufferIdx >= 512){
                 blueFull = 1;
-                timerState = MIC_ACQUIRE_RED;
                 bufferIdx = 0;
-            }
-            if(beginSampling == 0){
                 timerState = MIC_IDLE;
             }
+
             break;
 
         case MIC_ACQUIRE_RED:
-            redBuffer[bufferIdx] = micReading;
+
+                redBuffer[bufferIdx] = micReading;
             bufferIdx += 1;
+
             if(bufferIdx >= 512){
                 redFull = 1;
-                timerState = MIC_ACQUIRE_BLUE;
                 bufferIdx = 0;
-            }
-            if(beginSampling == 0){
                 timerState = MIC_IDLE;
             }
             break;
@@ -9851,8 +9889,7 @@ void myTMR0ISR(void) {
 
 
 
-
-        TMR0_WriteTimer(TMR0_ReadTimer() + (0x10000 - sampleRate));
+        TMR0_WriteTimer(0x10000 - (sampleRate - TMR0_ReadTimer()));
         INTCONbits.TMR0IF = 0;
 
 
